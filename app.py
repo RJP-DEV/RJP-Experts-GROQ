@@ -204,11 +204,9 @@ def main():
 
     # If the user has asked a question, process it
     if user_question:
-        # Generate the full prompt for the AI
-        full_prompt = base_prompt.format(user_question=user_question)
-        
+       
         # Get the AI's response
-        llm_response = chat_with_groq(client,full_prompt,model)
+        llm_response = chat_with_groq(client,user_question,model)
 
         # Try to process the AI's response
         valid_response = False
