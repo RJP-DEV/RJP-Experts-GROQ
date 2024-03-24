@@ -67,8 +67,17 @@ def main():
     #human = "{text}"
     #prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
 
+    # Create a SystemMessagePromptTemplate
+    #system_message_template = SystemMessagePromptTemplate.from_template(promptx)
+
+    # Create a ChatPromptTemplate and add the system message template to it
+    #chat_template = ChatPromptTemplate.from_messages([system_message_template])
+
+    # Now you can use this chat_template to format your messages
+    messages = chat_template.format_messages()
+
     messages = [
-               SystemMessagePromptTemplate.from_template("{context} talk like a pirate"),
+               SystemMessagePromptTemplate.from_template( promptx ),
                HumanMessagePromptTemplate.from_template("{question}")
                ]
     prompt = ChatPromptTemplate.from_messages(messages=messages)
