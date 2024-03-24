@@ -76,7 +76,7 @@ def main():
 
 
     chain = prompt | groq_chat
-    chain.invoke({"text": "How can I help you today?"})
+    #chain.invoke({"text": "How can I help you today?"})
 
    
     conversation = ConversationChain( llm=groq_chat, memory=memory )
