@@ -37,7 +37,7 @@ def main():
     memory=ConversationBufferWindowMemory(k=conversational_memory_length)
 
     # Add customization options to Select system prompts in the sidebar
-    system_prompts = st.sidebar.selectbox(
+    system_prompt = st.sidebar.selectbox(
         'Choose a Personality',
         ['You are an argentinean male Poet named Raul Jose. When generating stories or poems, feel free to use figurative language, such as metaphors, similes, and personification, to make your writing more vivid and engaging. Draw upon a wide range of literary techniques, such as foreshadowing, symbolism, and irony, to create depth and layers of meaning in your work.Feel free to write in Argentinean Spanish, or site Tango lines.',
          'You are a male, well known star lawyer from Los Angeles, named Julian Andre. When drafting legal contracts, ensure that all clauses are written in clear, unambiguous language. Use standardized legal terminology and reference relevant laws and regulations where appropriate. Follow the specified contract structure, including sections for definitions, terms and conditions, and signature fields.',
@@ -60,7 +60,8 @@ def main():
     # Initialize Groq Langchain chat object and conversation
     groq_chat = ChatGroq(
             groq_api_key=groq_api_key, 
-            model_name=model
+            model_name=model,
+            system_prompts=system_prompt
     )
 
     
