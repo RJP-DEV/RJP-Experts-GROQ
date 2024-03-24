@@ -68,7 +68,7 @@ def main():
     conversation = ConversationChain(
             llm=groq_chat,
             memory=memory,
-            message=message['system']
+            prompt=message['system']
     )
 
     
