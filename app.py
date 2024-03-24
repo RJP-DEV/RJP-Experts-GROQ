@@ -85,7 +85,7 @@ def main():
         st.write("Chatbot:", response)
 
         # Save the conversation history
-        message = {'system':prompt,'human':user_question,'AI':response}
+        message = {'human':user_question,'AI':response}
         st.session_state.chat_history.append(message)
 
 if __name__ == "__main__":
