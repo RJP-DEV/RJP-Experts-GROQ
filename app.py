@@ -63,12 +63,12 @@ def main():
     groq_chat = ChatGroq( groq_api_key=groq_api_key, model_name=model  )
 
 
-    system = "You are a helpful assistant."
+    system = promptx
     human = "{text}"
     prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
 
     chain = prompt | groq_chat
-    chain.invoke({"text": "Explain the importance of low latency LLMs."})
+    chain.invoke({"text": "How can I help you today?"})
 
 
     conversation = ConversationChain( llm=groq_chat, memory=memory )
