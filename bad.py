@@ -62,19 +62,6 @@ def main():
     # Initialize Groq Langchain chat object and conversation
     groq_chat = ChatGroq(
             groq_api_key=groq_api_key, 
-            messages=[
-            # Set an optional system message. This sets the behavior of the
-            # assistant and can be used to provide specific instructions for
-            # how it should behave throughout the conversation.
-            {
-            "role": "system",
-            "content": "you are a famous and chaty pirate."
-            },
-            # Set a user message for the assistant to respond to.
-            {
-            "role": "user",
-            "content": "where is the treasure?",
-            }],
             model_name=model
     )
 
@@ -100,5 +87,29 @@ if __name__ == "__main__":
     main()
 
 
-
-
+#
+#
+#def chat_with_groq(client,prompt,model):
+#    """
+#    This function sends a prompt to the Groq API and retrieves the AI's response.
+#
+#    Parameters:
+#    client (Groq): The Groq API client.
+#    prompt (str): The prompt to send to the AI.
+#    model (str): The AI model to use for the response.
+#
+#    Returns:
+#    str: The content of the AI's response.
+#    """
+#
+#    completion = client.chat.completions.create(
+#    model=model,
+#    messages=[
+#      {
+#            "role": "user",
+#            "content": prompt
+#        }
+#        ]
+#    )
+#  
+#    return completion.choices[0].message.content
