@@ -67,7 +67,8 @@ def main():
    
     # messages=[{ "role": "system","content": "you are a famous and chaty pirate." }],
 
-    conversation = ConversationChain( messages=[{ "role": "system","content": "you are a famous and chaty pirate." }],
+    conversation = ConversationChain( 
+            message=[{ "role": "system","content": "you are a famous and chaty pirate." }],
             llm=groq_chat,
             memory=memory
     )
