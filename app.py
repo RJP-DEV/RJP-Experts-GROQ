@@ -53,10 +53,12 @@ def main():
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
+
     model = st.sidebar.selectbox(
         'Choose a model',
         ['mixtral-8x7b-32768', 'llama2-70b-4096']
     )
+    
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value=5)
     memory = ConversationBufferWindowMemory(k=conversational_memory_length)
 
