@@ -6,7 +6,7 @@ import random
 from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_groq import ChatGroq
-from langchain.prompts import PromptTemplate
+from langchain.prompts import SystemMessagePromptTemplate, PromptTemplate, HumanMessagePromptTemplate
 from langchain_core.prompts import ChatPromptTemplate 
 
 
@@ -67,16 +67,13 @@ def main():
     #human = "{text}"
     #prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
 
-    messages = [ ChatPromptTemplate.from_messages("{context} talk like a pirate") ]
+    messages = [
+               SystemMessagePromptTemplate.from_template("{context} talk like a pirate"),
+               HumanMessagePromptTemplate.from_template("{question}")
+               ]
     prompt = ChatPromptTemplate.from_messages(messages=messages)
 
-    #qa = ConversationalRetrievalChain.from_llm(
-    #     llm=ChatGroq(), 
-    #     retriever=vector_store.as_retriever(), 
-    #     combine_docs_chain_kwargs={"prompt": prompt}
-    #    )
 
-    # result = qa({"question": question, "chat_history": chat_history})
 
     chain = prompt | groq_chat
     chain.invoke({"text": "How can I help you today?"})
