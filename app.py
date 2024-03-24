@@ -70,9 +70,9 @@ def main():
 
     system = "You are a helpful pirate."
     human = "{text}"
-    prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
+    prompt = PromptTemplate.from_messages([("system", system), ("human", human)])
 
-    chain = prompt | chat
+    chain = prompt | groq_chat
     chain.invoke({"text": "Explain the importance of low latency LLMs."})
 
 
