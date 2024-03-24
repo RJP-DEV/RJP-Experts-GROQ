@@ -17,14 +17,9 @@ model = st.sidebar.selectbox(
 conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value=5)
 memory = ConversationBufferWindowMemory(k=conversational_memory_length)
 
-# Add customization options to Select system prompts in the sidebar
-prompt = "I want you to act as a Linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. "
-   
-
 def conversation(input_text, prompt=None):
-    # ...
     response = groq_chat(input_text, prompt=prompt)
-    # ...
+   
 
 def main():
     """
