@@ -36,6 +36,19 @@ def main():
 
     memory=ConversationBufferWindowMemory(k=conversational_memory_length)
 
+    # Define a dictionary of system prompts
+    system_prompts = {
+     "1": "You are a helpful assistant.",
+     "2": "You are a knowledgeable guide.",
+     "3": "You are a creative storyteller.",
+     "4": "You are a reliable assistant."
+}
+
+    # Get the user's selection
+    selection = input("Please select a system prompt: 1, 2, 3, or 4 ")
+
+
+
     user_question = st.text_input("Ask a question:")
 
     # session state variable
