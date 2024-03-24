@@ -198,10 +198,7 @@ def main():
     )
     max_num_reflections = st.sidebar.slider('Max reflections:', 0, 10, value=5)
 
-    # Load the base prompt
-    with open('prompts/base_prompt.txt', 'r') as file:
-        base_prompt = file.read()
-
+    
     # Get the user's question
     user_question = st.text_input("Ask a question:")
 
