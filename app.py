@@ -80,7 +80,7 @@ def main():
         message = {'system':prompt,'human':user_question,'AI':response['response']}
         st.session_state.chat_history.append(message)
         st.write("Chatbot:", response['response'])
-      #  st.write("Chatbot:", message)
+        st.write("system:", message['system'])
 
 if __name__ == "__main__":
     main()
