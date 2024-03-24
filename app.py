@@ -39,7 +39,7 @@ def main():
     memory=ConversationBufferWindowMemory(k=conversational_memory_length)
 
     # Add customization options to Select system prompts in the sidebar
-    prompt = st.sidebar.selectbox(
+    promptx = st.sidebar.selectbox(
     'Choose a Personality',
     [
         'You are an argentinean male Poet named Raul Jose. When generating stories or poems, feel free to use figurative language, such as metaphors, similes, and personification, to make your writing more vivid and engaging. Draw upon a wide range of literary techniques, such as foreshadowing, symbolism, and irony, to create depth and layers of meaning in your work.Feel free to write in Argentinean Spanish, or site Tango lines.',
@@ -60,21 +60,18 @@ def main():
 
 
     # Initialize Groq Langchain chat object and conversation
-    groq_chat = Groq(
-            groq_api_key=groq_api_key, 
-            chat_completion = ChatGroq.chat.completions.create( messages=[{"role": "user", "content": "Explain the importance of low latency LLMs", }] ),
-            model_name=model,
-
-    )
+    groq_chat = ChatGroq( groq_api_key=groq_api_key, model_name=model  )
 
 
-    conversation = ConversationChain(
-            llm=groq_chat,
-            memory=memory
-            
-    )
+    system = "You are a helpful assistant."
+    human = "{text}"
+    prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
 
-    
+    chain = prompt | groq_chat
+    chain.invoke({"text": "Explain the importance of low latency LLMs."})
+
+
+    conversation = ConversationChain( llm=groq_chat, memory=memory )
 
     # If the user has asked a question,
     if user_question:
