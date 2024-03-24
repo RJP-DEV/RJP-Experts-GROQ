@@ -74,7 +74,7 @@ def main():
     #chat_template = ChatPromptTemplate.from_messages([system_message_template])
 
     # Now you can use this chat_template to format your messages
-    messages = chat_template.format_messages()
+    #messages = chat_template.format_messages()
 
     messages = [
                SystemMessagePromptTemplate.from_template( promptx ),
