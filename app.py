@@ -63,7 +63,7 @@ def main():
             model_name=model
     )
 
-    llm=Langchain(system_prompt=system_prompts) 
+    
 
     conversation = ConversationChain(
             llm=groq_chat,
