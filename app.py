@@ -47,9 +47,6 @@ def main():
     )
     
 
-   
-
-
     user_question = st.text_input("Ask a question:")
 
     # session state variable
@@ -65,6 +62,8 @@ def main():
             groq_api_key=groq_api_key, 
             model_name=model
     )
+
+    llm=Langchain(system_prompt=system_prompts) 
 
     conversation = ConversationChain(
             llm=groq_chat,
@@ -84,25 +83,3 @@ if __name__ == "__main__":
     main()
 
 
-
-
-# Define a dictionary of system prompts
-#system_prompts = {
-#    "1": "You are a helpful assistant.",
-#    "2": "You are a knowledgeable guide.",
-#    "3": "You are a creative storyteller.",
-#    "4": "You are a reliable assistant."
-#}
-
-# Get the user's selection
-#selection = input("Please select a system prompt: 1, 2, 3, or 4 ")
-
-# Check if the selection is valid
-#if selection in system_prompts:
-    # Create a new Langchain object with the selected system prompt
-#    llm = Langchain(system_prompt=system_prompts[selection])
-    # Use the LLM object to generate a response
-#    response = llm("What's the weather like today?")
-#    print(response)
-#else:
-#    print("Invalid selection. Please choose a number from the list.")
