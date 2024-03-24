@@ -63,14 +63,25 @@ def main():
     groq_chat = ChatGroq( groq_api_key=groq_api_key, model_name=model  )
 
 
-    system = promptx
-    human = "{text}"
-    prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
+    #system = promptx
+    #human = "{text}"
+    #prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
+
+    messages = [ ChatPromptTemplate.from_messages("{context} talk like a pirate") ]
+    prompt = ChatPromptTemplate.from_messages(messages=messages)
+
+    #qa = ConversationalRetrievalChain.from_llm(
+    #     llm=ChatGroq(), 
+    #     retriever=vector_store.as_retriever(), 
+    #     combine_docs_chain_kwargs={"prompt": prompt}
+    #    )
+
+    # result = qa({"question": question, "chat_history": chat_history})
 
     chain = prompt | groq_chat
     chain.invoke({"text": "How can I help you today?"})
 
-
+   
     conversation = ConversationChain( llm=groq_chat, memory=memory )
 
     # If the user has asked a question,
