@@ -7,18 +7,14 @@ from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
-#from langchain.core.prompts import ChatPromptTemplate 
+from langchain.core.prompts import ChatPromptTemplate 
 
 
 def main():
-    
+         
     """
-    You be Captain and Pirate named Raul. All responses must be extremely verbose and in pirate dialect. Sometimes ye can answer in argentinean spanish slang.
+    This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
     """
-    
-    #"""
-    #This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
-    #"""
     
     # Get Groq API key
     groq_api_key = "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"
@@ -43,7 +39,7 @@ def main():
     memory=ConversationBufferWindowMemory(k=conversational_memory_length)
 
     # Add customization options to Select system prompts in the sidebar
-    prompt22 = st.sidebar.selectbox(
+    prompt = st.sidebar.selectbox(
     'Choose a Personality',
     [
         'You are an argentinean male Poet named Raul Jose. When generating stories or poems, feel free to use figurative language, such as metaphors, similes, and personification, to make your writing more vivid and engaging. Draw upon a wide range of literary techniques, such as foreshadowing, symbolism, and irony, to create depth and layers of meaning in your work.Feel free to write in Argentinean Spanish, or site Tango lines.',
@@ -71,7 +67,8 @@ def main():
 
     conversation = ConversationChain(
             llm=groq_chat,
-            memory=memory
+            memory=memory,
+            ChatPromptTemplate=prompt
     )
 
     
