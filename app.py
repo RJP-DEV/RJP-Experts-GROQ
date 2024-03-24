@@ -175,7 +175,7 @@ def main():
     """
     
     # Get the Groq API key and create a Groq client
-    groq_api_key = st.secrets["GROQ_API_KEY"]
+    groq_api_key = "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"
     client = Groq(
         api_key=groq_api_key,
         base_url=st.secrets["GROQ_BASE_URL"]
