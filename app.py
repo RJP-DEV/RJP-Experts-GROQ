@@ -1,86 +1,255 @@
 import streamlit as st
 import os
 from groq import Groq
-import random
+import json
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
+import duckdb
+import sqlparse
 
-from langchain.chains import ConversationChain
-from langchain.chains.conversation.memory import ConversationBufferWindowMemory
-from langchain_groq import ChatGroq
-from langchain.prompts import PromptTemplate
+
+
+def chat_with_groq(client,prompt,model):
+    """
+    This function sends a prompt to the Groq API and retrieves the AI's response.
+
+    Parameters:
+    client (Groq): The Groq API client.
+    prompt (str): The prompt to send to the AI.
+    model (str): The AI model to use for the response.
+
+    Returns:
+    str: The content of the AI's response.
+    """
+
+    completion = client.chat.completions.create(
+    model=model,
+    messages=[
+      {
+            "role": "user",
+            "content": prompt
+        }
+        ]
+    )
+  
+    return completion.choices[0].message.content
+
+
+def execute_duckdb_query(query):
+    """
+    This function executes a SQL query on a DuckDB database and returns the result.
+
+    Parameters:
+    query (str): The SQL query to execute.
+
+    Returns:
+    DataFrame: The result of the query as a pandas DataFrame.
+    """
+    original_cwd = os.getcwd()
+    os.chdir('data')
+    
+    try:
+        conn = duckdb.connect(database=':memory:', read_only=False)
+        query_result = conn.execute(query).fetchdf().reset_index(drop=True)
+    finally:
+        os.chdir(original_cwd)
+
+
+    return query_result
+
+
+
+def get_json_output(llm_response):
+    """
+    This function cleans the AI's response, extracts the JSON content, and checks if it contains a SQL query or an error message.
+
+    Parameters:
+    llm_response (str): The AI's response.
+
+    Returns:
+    tuple: A tuple where the first element is a boolean indicating if the response contains a SQL query (True) or an error message (False), 
+           and the second element is the SQL query or the error message.
+    """
+
+    # remove bad characters and whitespace
+    llm_response_no_escape = llm_response.replace('\\n', ' ').replace('\n', ' ').replace('\\', '').replace('\\', '').strip() 
+    
+    # Just in case - gets only content between brackets
+    open_idx = llm_response_no_escape.find('{')
+    close_idx = llm_response_no_escape.rindex('}') + 1
+    cleaned_result = llm_response_no_escape[open_idx : close_idx]
+
+    json_result = json.loads(cleaned_result)
+    if 'sql' in json_result:
+        query = json_result['sql']
+        return True,sqlparse.format(query, reindent=True, keyword_case='upper')
+    elif 'error' in json_result:
+        return False,json_result['error']
+
+
+
+def get_reflection(client,full_prompt,llm_response,model):
+    """
+    This function generates a reflection prompt when there is an error with the AI's response. 
+    It then sends this reflection prompt to the Groq API and retrieves the AI's response.
+
+    Parameters:
+    client (Groq): The Groq API client.
+    full_prompt (str): The original prompt that was sent to the AI.
+    llm_response (str): The AI's response to the original prompt.
+    model (str): The AI model to use for the response.
+
+    Returns:
+    str: The content of the AI's response to the reflection prompt.
+    """
+
+    reflection_prompt = '''
+    You were giving the following prompt:
+
+    {full_prompt}
+
+    This was your response:
+
+    {llm_response}
+
+    There was an error with the response, either in the output format or the query itself.
+
+    Ensure that the following rules are satisfied when correcting your response:
+    1. SQL is valid DuckDB SQL, given the provided metadata and the DuckDB querying rules
+    2. The query SPECIFICALLY references the correct tables: employees.csv and purchases.csv, and those tables are properly aliased? (this is the most likely cause of failure)
+    3. Response is in the correct format ({{sql: <sql_here>}} or {{"error": <explanation here>}}) with no additional text?
+    4. All fields are appropriately named
+    5. There are no unnecessary sub-queries
+    6. ALL TABLES are aliased (extremely important)
+
+    Rewrite the response and respond ONLY with the valid output format with no additional commentary
+
+    '''.format(full_prompt = full_prompt, llm_response=llm_response)
+
+    return chat_with_groq(client,reflection_prompt,model)
+
+
+def get_summarization(client,user_question,df,model,additional_context):
+    """
+    This function generates a summarization prompt based on the user's question and the resulting data. 
+    It then sends this summarization prompt to the Groq API and retrieves the AI's response.
+
+    Parameters:
+    client (Groqcloud): The Groq API client.
+    user_question (str): The user's question.
+    df (DataFrame): The DataFrame resulting from the SQL query.
+    model (str): The AI model to use for the response.
+    additional_context (str): Any additional context provided by the user.
+
+    Returns:
+    str: The content of the AI's response to the summarization prompt.
+    """
+
+    prompt = '''
+    A user asked the following question pertaining to local database tables:
+    
+    {user_question}
+    
+    To answer the question, a dataframe was returned:
+
+    Dataframe:
+    {df}
+
+    In a few sentences, summarize the data in the table as it pertains to the original user question. Avoid qualifiers like "based on the data" and do not comment on the structure or metadata of the table itself
+    '''.format(user_question = user_question, df = df)
+
+    if additional_context != '':
+        prompt += '''\n
+        The user has provided this additional context:
+        {additional_context}
+        '''.format(additional_context=additional_context)
+
+    return chat_with_groq(client,prompt,model)
 
 
 def main():
     """
-    This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
+    The main function of the application. It handles user input, controls the flow of the application, 
+    and displays the results on the Streamlit interface.
     """
     
-    # Get Groq API key
-    groq_api_key = "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"
+    # Get the Groq API key and create a Groq client
+    groq_api_key = st.secrets["GROQ_API_KEY"]
+    client = Groq(
+        api_key=groq_api_key,
+        base_url=st.secrets["GROQ_BASE_URL"]
+    )
 
-    # Display the Groq logo
+    # Set up the Streamlit interface
     spacer, col = st.columns([5, 1])  
     with col:  
         st.image('groqcloud_darkmode.png')
 
-    # The title and greeting message of the Streamlit application
-    st.title("Chat with Groq!")
-    st.write("Hello! I'm your friendly Groq chatbot. I can help answer your questions, provide information, or just chat. I'm also super fast! Let's start our conversation!")
+    st.title("DuckDB Query Generator")
+    st.write('Welcome! Feel free to ask questions about the data contained in the `employees.csv` and `purchases.csv` files. You might ask about specific employee details or inquire about purchase records. For example, you could ask "Who are the employees?" or "What are the most recent purchases?". The application matches your question to SQL queries to provide accurate and relevant results. Enjoy exploring the data!')
 
-    # Add customization options to the sidebar
+    # Set up the customization options
     st.sidebar.title('Customization')
+    additional_context = st.sidebar.text_input('Enter additional summarization context for the LLM here (i.e. write it in spanish):')
     model = st.sidebar.selectbox(
         'Choose a model',
         ['mixtral-8x7b-32768', 'llama2-70b-4096']
     )
-    conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
+    max_num_reflections = st.sidebar.slider('Max reflections:', 0, 10, value=5)
 
-    memory=ConversationBufferWindowMemory(k=conversational_memory_length)
+    # Load the base prompt
+    with open('prompts/base_prompt.txt', 'r') as file:
+        base_prompt = file.read()
 
- # Add customization options to Select system prompts in the sidebar
-    persona = st.sidebar.selectbox(
-    'Choose a Personality',
-    [
-        'You are an argentinean male Poet named Raul Jose. When generating stories or poems, feel free to use figurative language, such as metaphors, similes, and personification, to make your writing more vivid and engaging. Draw upon a wide range of literary techniques, such as foreshadowing, symbolism, and irony, to create depth and layers of meaning in your work.Feel free to write in Argentinean Spanish, or site Tango lines.',
-        'You are a male, well known star lawyer from Los Angeles, named Julian Andre. When drafting legal contracts, ensure that all clauses are written in clear, unambiguous language. Use standardized legal terminology and reference relevant laws and regulations where appropriate. Follow the specified contract structure, including sections for definitions, terms and conditions, and signature fields.',
-        'You are a certified personal fitness coach named Sam. Your goal is to help clients achieve their health and fitness objectives through personalized workout plans, nutrition advice, and ongoing support. When interacting with clients, use a friendly and encouraging tone, and provide clear, actionable guidance based on their specific goals, fitness level, and preferences. Please respond to user inquiries in a friendly and empathetic manner. Use positive motivational language. Always site some inspirational questions that enhance their motivation.',
-        'I want you to act as a Linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. '
-    ]
-)
-
+    # Get the user's question
     user_question = st.text_input("Ask a question:")
 
-    # session state variable
-    if 'chat_history' not in st.session_state:
-        st.session_state.chat_history=[]
-    else:
-        for message in st.session_state.chat_history:
-            memory.save_context({'input':message['human']},{'output':message['AI']})
-
-
-    # Initialize Groq Langchain chat object and conversation
-    groq_chat = ChatGroq(
-            groq_api_key=groq_api_key, 
-            model_name=model
-    )
-
-    
-   
-    # messages=[{ "role": "system","content": "you are a famous and chaty pirate." }],
-
-    conversation = ConversationChain( 
-            message=[{ "role": "system","content": "you are a famous and chaty pirate." }],
-            llm=groq_chat,
-            memory=memory
-    )
-
-    # If the user has asked a question,
+    # If the user has asked a question, process it
     if user_question:
+        # Generate the full prompt for the AI
+        full_prompt = base_prompt.format(user_question=user_question)
         
-        # The chatbot's answer is generated by sending the full prompt to the Groq API.
-        response = conversation(user_question)
-        message = {'human':user_question,'AI':response['response']}
-        st.session_state.chat_history.append(message)
-        st.write("Chatbot:", response['response'])
+        # Get the AI's response
+        llm_response = chat_with_groq(client,full_prompt,model)
+
+        # Try to process the AI's response
+        valid_response = False
+        i=0
+        while valid_response is False and i < max_num_reflections:
+            try:
+                # Check if the AI's response contains a SQL query or an error message
+                is_sql,result = get_json_output(llm_response)
+                if is_sql:
+                    # If the response contains a SQL query, execute it
+                    results_df = execute_duckdb_query(result)
+                    valid_response = True
+                else:
+                    # If the response contains an error message, it's considered valid
+                    valid_response = True
+            except:
+                # If there was an error processing the AI's response, get a reflection
+                llm_response = get_reflection(client,full_prompt,llm_response,model)
+                i+=1
+
+        # Display the result
+        try:
+            if is_sql:
+                # If the result is a SQL query, display the query and the resulting data
+                st.markdown("```sql\n" + result + "\n```")
+                st.markdown(results_df.to_html(index=False), unsafe_allow_html=True)
+
+                # Get a summarization of the data and display it
+                summarization = get_summarization(client,user_question,results_df,model,additional_context)
+                st.write(summarization.replace('$','\\$'))
+            else:
+                # If the result is an error message, display it
+                st.write(result)
+        except:
+            # If there was an error displaying the result, display an error message
+            st.write("ERROR:", 'Could not generate valid SQL for this question')
+            st.write(llm_response)
+            
 
 if __name__ == "__main__":
     main()
