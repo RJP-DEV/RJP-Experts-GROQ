@@ -60,7 +60,7 @@ def main():
     # Initialize Groq Langchain chat object and conversation
     groq_chat = ChatGroq(
             groq_api_key=groq_api_key, 
-            messages=[ {"role": "system","content": "you are a famous and chaty pirate." }, {"role": "user", "content": "where is the treasure?" }],
+            messages=[ {"role": "system","content": "you are a famous and chaty pirate." }],
             model_name=model
     )
 
