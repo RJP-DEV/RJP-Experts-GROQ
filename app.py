@@ -68,6 +68,15 @@ def main():
             memory=memory
     )
 
+    system = "You are a helpful pirate."
+    human = "{text}"
+    prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
+
+    chain = prompt | chat
+    chain.invoke({"text": "Explain the importance of low latency LLMs."})
+
+
+
     # If the user has asked a question,
     if user_question:
         
