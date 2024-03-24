@@ -64,14 +64,10 @@ def main():
     )
 
     
-    messages=[{ "role": "system","content": "you are a famous and chaty pirate." }]
-    chain = messages | groq_chat
-    chain.invoke({"text": "Explain the importance of low latency LLMs."})
-
-
+   
     # messages=[{ "role": "system","content": "you are a famous and chaty pirate." }],
 
-    conversation = ConversationChain(
+    conversation = ConversationChain( messages=[{ "role": "system","content": "you are a famous and chaty pirate." }],
             llm=groq_chat,
             memory=memory
     )
