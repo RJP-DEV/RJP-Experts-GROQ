@@ -7,7 +7,7 @@ from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
-from langchain.core.prompts import ChatPromptTemplate 
+from langchain_core.prompts import ChatPromptTemplate 
 
 
 def main():
