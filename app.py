@@ -64,9 +64,8 @@ def main():
     )
 
     
-    prompt = PromptTemplate.from_messages([("system", persona)])
-
-    chain = prompt | groq_chat
+    messages=[{ "role": "system","content": "you are a famous and chaty pirate." }]
+    chain = messages | groq_chat
     chain.invoke({"text": "Explain the importance of low latency LLMs."})
 
 
