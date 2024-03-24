@@ -63,7 +63,7 @@ def main():
     groq_chat = ChatGroq(
             groq_api_key=groq_api_key, 
             model_name=model,
-            PromptTemplate=message['system']
+            message=message['system']
     )
 
     conversation = ConversationChain(
