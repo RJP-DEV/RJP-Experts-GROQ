@@ -39,19 +39,6 @@ def setup_chatbot():
     # Initialize Groq Langchain chat object and conversation
     groq_chat = ChatGroq(
             groq_api_key='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', 
-            messages=[
-            # Set an optional system message. This sets the behavior of the
-            # assistant and can be used to provide specific instructions for
-            # how it should behave throughout the conversation.
-            {
-            "role": "system",
-            "content": "you are a famous and chaty pirate."
-            },
-            # Set a user message for the assistant to respond to.
-            {
-            "role": "user",
-            "content": "where is the treasure?",
-            }],
             model_name=model
     )
 
