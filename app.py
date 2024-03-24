@@ -77,7 +77,7 @@ def main():
     #messages = chat_template.format_messages()
 
     messages = [
-               SystemMessagePromptTemplate.from_template( {context} promptx ),
+               SystemMessagePromptTemplate.from_template("{context}", promptx ),
                HumanMessagePromptTemplate.from_template("{question}")
                ]
     prompt = ChatPromptTemplate.from_messages(messages=messages)
