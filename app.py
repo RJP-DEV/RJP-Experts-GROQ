@@ -88,7 +88,7 @@ def main():
     #chain.invoke({"text": "How can I help you today?"})
 
    
-    conversation = ConversationChain( llm=groq_chat, memory=memory )
+    conversation = ConversationChain( llm=chain, memory=memory )
 
     # If the user has asked a question,
     if user_question:
