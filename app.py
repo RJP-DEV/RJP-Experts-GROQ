@@ -60,7 +60,7 @@ def main():
 
 
     # Initialize Groq Langchain chat object and conversation
-    groq_chat = ChatGroq(
+    groq_chat = Groq(
             groq_api_key=groq_api_key, 
             chat_completion = ChatGroq.chat.completions.create( messages=[{"role": "user", "content": "Explain the importance of low latency LLMs", }] ),
             model_name=model,
