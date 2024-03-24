@@ -62,13 +62,14 @@ def main():
     # Initialize Groq Langchain chat object and conversation
     groq_chat = ChatGroq(
             groq_api_key=groq_api_key, 
-            model_name=model
+            model_name=model,
+            ChatPromptTemplate=prompt
     )
 
     conversation = ConversationChain(
             llm=groq_chat,
-            memory=memory,
-            ChatPromptTemplate=prompt
+            memory=memory
+            
     )
 
     
