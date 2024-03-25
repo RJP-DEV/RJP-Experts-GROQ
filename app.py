@@ -77,7 +77,7 @@ def main():
     #messages = chat_template.format_messages()
 
     messages = [
-               SystemMessagePromptTemplate.from_template( Role="you are a chaty pirate" ),
+               SystemMessagePromptTemplate.from_template( role="poet", template=promptx ),
                HumanMessagePromptTemplate.from_template("{question}")
                ]
     prompt = ChatPromptTemplate.from_messages(messages=messages)
