@@ -12,12 +12,7 @@ def chat_with_groq(client,prompt,model):
     
     completion = client.chat.completions.create(
     model=model,
-    messages=[
-      {
-            "role": "user",
-            "content": prompt
-        }
-        ]
+    messages=[{"role": "system", "content": prompt } ]
     )
   
     return completion.choices[0].message.content
@@ -82,8 +77,8 @@ def main():
 
     client = Groq(
         # This is the default and can be omitted
-        api_key=groq_api_key
-       
+        api_key=groq_api_key,
+        prompt=additional_context
     )
 
     # Display the Groq logo
