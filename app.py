@@ -51,12 +51,15 @@ def main():
 
     user_question = st.text_input("Ask a question:")
 
+               
+
+
     # session state variable
     if 'chat_history' not in st.session_state:
         st.session_state.chat_history=[]
     else:
         for message in st.session_state.chat_history:
-            memory.save_context({'input':message['human']},{'output':message['AI']})
+            memory.save_context({'role':message['system']},{'input':message['human']},{'output':message['AI']})
 
     #personality = SystemMessagePromptTemplate=promptx
 
