@@ -82,7 +82,7 @@ def main():
 
     
     
-    conversation = ConversationChain( llm=groq_chat, SystemMessagePromptTemplate=messages )
+    conversation = ConversationChain( llm=groq_chat, memory=messages )
 
     # If the user has asked a question,
     if user_question:
