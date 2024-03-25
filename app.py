@@ -68,23 +68,23 @@ def main():
     #prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
 
     # Create a SystemMessagePromptTemplate
-    #system_message_template = SystemMessagePromptTemplate.from_template(promptx)
+    system_message_template = SystemMessagePromptTemplate.from_template(promptx)
 
     # Create a ChatPromptTemplate and add the system message template to it
-    #chat_template = ChatPromptTemplate.from_messages([system_message_template])
+    chat_template = ChatPromptTemplate.from_messages([system_message_template])
 
     # Now you can use this chat_template to format your messages
     #messages = chat_template.format_messages()
 
     messages = [
-               SystemMessagePromptTemplate.from_template( role="poet", template=promptx ),
+               SystemMessagePromptTemplate.from_template( role='system', template=promptx ),
                HumanMessagePromptTemplate.from_template("{question}")
                ]
     prompt = ChatPromptTemplate.from_messages(messages=messages)
 
 
 
-    chain = prompt | groq_chat
+    chain = groq_chat | prompt | chat_template
     #chain.invoke({"text": "How can I help you today?"})
 
    
