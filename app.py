@@ -60,7 +60,7 @@ def main():
 
 
     # Initialize Groq Langchain chat object and conversation
-    groq_chat = ChatGroq( groq_api_key=groq_api_key, model_name=model  )
+    groq_chat = ChatGroq( groq_api_key=groq_api_key, SystemMessagePromptTemplate=promptx, model_name=model  )
 
 
     
