@@ -10,16 +10,9 @@ from langchain.prompts import SystemMessagePromptTemplate, PromptTemplate, Human
 from langchain_core.prompts import ChatPromptTemplate 
 
 
-def main():
-         
-    """
-    This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
-    """
-    
-    # Get Groq API key
-    groq_api_key = "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"
 
-   
+         
+ 
 
 client = Groq(
     api_key= "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" )
@@ -37,10 +30,6 @@ chat_completion = client.chat.completions.create(
 
 print(chat_completion.choices[0].message.content)
 
-
-
-if __name__ == "__main__":
-    main()
 
 
 
