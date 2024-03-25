@@ -22,8 +22,8 @@ def main():
    
 
 client = Groq(
-    api_key= "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" ),
-)
+    api_key= "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" )
+
 
 chat_completion = client.chat.completions.create(
     messages=[
