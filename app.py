@@ -141,5 +141,5 @@ if __name__ == "__main__":
 
 
 
-random_prompt = get_random_prompt('starter_prompt.txt')
-print(random_prompt)
+##random_prompt = get_random_prompt('starter_prompt.txt')
+##print(random_prompt)
