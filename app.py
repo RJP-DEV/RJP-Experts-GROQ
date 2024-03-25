@@ -81,7 +81,7 @@ def main():
 
 
     chain = groq_chat | prompt 
-    chain.invoke(chain)
+    #chain.invoke(chain)
 
    
     conversation = ConversationChain( llm=groq_chat, memory=memory )
