@@ -58,9 +58,27 @@ def main():
         for message in st.session_state.chat_history:
             memory.save_context({'input':message['human']},{'output':message['AI']})
 
+    #personality = SystemMessagePromptTemplate=promptx
+
+    messages=[
+        # Set an optional system message. This sets the behavior of the
+        # assistant and can be used to provide specific instructions for
+        # how it should behave throughout the conversation.
+        {
+            "role": "system",
+            "content": promptx,
+        },
+        # Set a user message for the assistant to respond to.
+        {
+            "role": "user",
+            "content": "Explain the importance of low latency LLMs",
+        }
+            ],
+
+
 
     # Initialize Groq Langchain chat object and conversation
-    groq_chat = ChatGroq( groq_api_key=groq_api_key, SystemMessagePromptTemplate=promptx, model_name=model  )
+    groq_chat = ChatGroq( groq_api_key=groq_api_key, message=messages , model_name=model  )
 
 
     
