@@ -77,7 +77,7 @@ def main():
     #messages = chat_template.format_messages()
 
     messages = [
-               SystemMessagePromptTemplate.from_template( Role=promptx, template=promptx ),
+               SystemMessagePromptTemplate.from_template( Role="system", template=promptx ),
                HumanMessagePromptTemplate.from_template("{question}")
                ]
     prompt = ChatPromptTemplate.from_messages(messages=messages)
@@ -88,7 +88,7 @@ def main():
     #chain.invoke({"text": "How can I help you today?"})
 
    
-    conversation = ConversationChain( llm=chain, memory=memory )
+    conversation = ConversationChain( llm=groq_chat, memory=memory )
 
     # If the user has asked a question,
     if user_question:
