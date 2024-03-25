@@ -59,7 +59,7 @@ def main():
         st.session_state.chat_history=[]
     else:
         for message in st.session_state.chat_history:
-            memory.save_context({'input':message['system']},{'input':message['human']},{'output':message['AI']})
+            memory.save_context({'input':message['human']},{'output':message['AI']})
 
     
 
