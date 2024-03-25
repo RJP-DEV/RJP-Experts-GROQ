@@ -1,23 +1,30 @@
-CrewAI Machine Learning Assistant
-Overview
-The CrewAI Machine Learning Assistant is a Streamlit application designed to kickstart your machine learning projects. It leverages a team of AI agents to guide you through the initial steps of defining, assessing, and solving machine learning problems.
+Groq Conversational Chatbot
+This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the Groq API. The application uses a list of starter prompts to initiate the conversation and maintains a history of the conversation to provide context for the chatbot's responses.
 
 Features
-Problem Definition: Clarify the machine learning problem you want to solve, identifying the type of problem (e.g., classification, regression) and any specific requirements.
+Conversational Interface: The application provides a conversational interface where users can ask questions or make statements, and the chatbot responds accordingly.
 
-Data Assessment: Evaluate the data provided by the user, assessing its quality, suitability for the problem, and suggesting preprocessing steps if necessary.
+Contextual Responses: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
 
-Model Recommendation: Suggest the most suitable machine learning models based on the problem definition and data assessment, providing reasons for each recommendation.
+Customization: Users can customize the Groq model used for generating responses and the length of the conversational memory.
 
-Starter Code Generation: Generate starter Python code for the project, including data loading, model definition, and a basic training loop, based on findings from the problem definitions, data assessment, and model recommendation.
+Starter Prompts
+The starter prompts are stored in a text file located in the root directory:
+
+starter_prompts.txt: Contains a list of prompts that users can use to start the conversation with the chatbot.
+Functions
+chat_with_groq(client, prompt, model): Sends a chat message to the Groq API and returns the content of the response.
+
+get_conversational_history(user_question_history, chatbot_answer_history, conversational_memory_length): Generates a full prompt for the chatbot based on the history of the conversation.
+
+get_random_prompt(file_path): Reads a file of prompts and returns a random prompt.
+
+main(): The main function of the application, which initializes the Groq client, sets up the Streamlit interface, and handles the chat interaction.
 
 Usage
-Run the Streamlit app.
+To use this application, you need to have Streamlit and the other required Python libraries installed. You also need to have a Groq API key, which you can obtain by signing up on the Groq website.
 
-Use the sidebar to customize the model.
+Once you have the necessary requirements, you can run the application by executing the script with Streamlit:
 
-Describe your machine learning problem in the provided text input.\
-
-Optionally, upload a sample .csv of your data.
-
-The app will provide a clear problem definition, data assessment, model recommendations, and starter Python code.
+streamlit run app.py
+This will start the Streamlit server and open the application in your web browser. You can then interact with the chatbot, and the application will generate responses based on the history of the conversation.
