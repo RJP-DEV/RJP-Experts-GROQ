@@ -64,11 +64,11 @@ def main():
     
 
     # Initialize Groq Langchain chat object and conversation
-    groq_chat = ChatGroq ( PromptTemplate=promptx, groq_api_key=groq_api_key, model_name=model  )
+    groq_chat = ChatGroq ( groq_api_key=groq_api_key, model_name=model  )
 
     
     
-    conversation = ConversationChain( llm=groq_chat , memory=memory)
+    conversation = ConversationChain( PromptTemplate=promptx, llm=groq_chat , memory=memory)
 
     # If the user has asked a question,
     if user_question:
