@@ -63,29 +63,25 @@ def main():
     groq_chat = ChatGroq( groq_api_key=groq_api_key, model_name=model  )
 
 
-    #system = promptx
-    #human = "{text}"
-    #prompt = ChatPromptTemplate.from_messages([("system", system), ("human", human)])
-
     # Create a SystemMessagePromptTemplate
-    system_message_template = SystemMessagePromptTemplate.from_template(promptx)
+    #system_message_template = SystemMessagePromptTemplate.from_template(promptx)
 
     # Create a ChatPromptTemplate and add the system message template to it
-    chat_template = ChatPromptTemplate.from_messages([system_message_template])
+    #chat_template = ChatPromptTemplate.from_messages([system_message_template])
 
     # Now you can use this chat_template to format your messages
     #messages = chat_template.format_messages()
 
     messages = [
-               SystemMessagePromptTemplate.from_template( role='system', template=promptx ),
-               HumanMessagePromptTemplate.from_template("{question}")
+               SystemMessagePromptTemplate.from_template( promptx ),
+               HumanMessagePromptTemplate.from_template('como te puedo ayudar?')
                ]
     prompt = ChatPromptTemplate.from_messages(messages=messages)
 
 
 
-    chain = groq_chat | prompt | chat_template
-    #chain.invoke({"text": "How can I help you today?"})
+    chain = groq_chat | prompt 
+    chain.invoke(chain)
 
    
     conversation = ConversationChain( llm=groq_chat, memory=memory )
