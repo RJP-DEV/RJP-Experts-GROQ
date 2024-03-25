@@ -1,23 +1,23 @@
-# Groq LangChain Conversational Chatbot
+CrewAI Machine Learning Assistant
+Overview
+The CrewAI Machine Learning Assistant is a Streamlit application designed to kickstart your machine learning projects. It leverages a team of AI agents to guide you through the initial steps of defining, assessing, and solving machine learning problems.
 
-This repository contains a Streamlit application that allows users to interact with a conversational chatbot powered by the LangChain API. The application uses the Groq API to generate responses and maintains a history of the conversation to provide context for the chatbot's responses.
+Features
+Problem Definition: Clarify the machine learning problem you want to solve, identifying the type of problem (e.g., classification, regression) and any specific requirements.
 
-## Features
+Data Assessment: Evaluate the data provided by the user, assessing its quality, suitability for the problem, and suggesting preprocessing steps if necessary.
 
-- **Conversational Interface**: The application provides a conversational interface where users can ask questions or make statements, and the chatbot responds accordingly.
+Model Recommendation: Suggest the most suitable machine learning models based on the problem definition and data assessment, providing reasons for each recommendation.
 
-- **Contextual Responses**: The application maintains a history of the conversation, which is used to provide context for the chatbot's responses.
+Starter Code Generation: Generate starter Python code for the project, including data loading, model definition, and a basic training loop, based on findings from the problem definitions, data assessment, and model recommendation.
 
-- **LangChain Integration**: The chatbot is powered by the LangChain API, which uses advanced natural language processing techniques to generate human-like responses.
+Usage
+Run the Streamlit app.
 
-## Usage
+Use the sidebar to customize the model.
 
-To use this application, you need to have Streamlit and the other required Python libraries installed. You also need to have a Groq API key, which you can obtain by signing up on the Groq website.
+Describe your machine learning problem in the provided text input.\
 
-Once you have the necessary requirements, you can run the application by executing the script with Streamlit:
+Optionally, upload a sample .csv of your data.
 
-```shell
-streamlit run app.py
-```
-
-This will start the Streamlit server and open the application in your web browser. You can then interact with the chatbot, and the application will generate responses based on the history of the conversation.
+The app will provide a clear problem definition, data assessment, model recommendations, and starter Python code.
