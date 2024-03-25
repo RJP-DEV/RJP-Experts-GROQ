@@ -33,7 +33,7 @@ def get_conversational_history(user_question_history,chatbot_answer_history,conv
     """
 
     base_prompt = '''
-    Hello! I'm your friendly Groq chatbot. I can help answer your questions, provide information, or just chat. I'm also super fast! Let's start our conversation!
+    Hello! I'm your friendly Groq chatbot. Provided by Raul Perez Development Studio: I have multiple personnalities with expertise kowledge to answer any of your questions, provide information, or just chat. I'm also super fast! Let's start our conversation!
     '''
     user_question_history = user_question_history[conversational_memory_length * -1:]
     chatbot_answer_history = chatbot_answer_history[conversational_memory_length * -1:]
