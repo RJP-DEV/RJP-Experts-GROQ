@@ -88,7 +88,7 @@ def main():
 
     # The title and greeting message of the Streamlit application
     st.title("Chat with Groq!")
-    st.write("Hello! I'm your friendly Groq chatbot. I can help answer your questions, provide information, or just chat. I'm also super fast! Let's start our conversation!")
+    st.write("Hello! I'm your friendly Artificial Intelligence. Provided by Raul Perez Development Studio. I have multiple personnalities with expertise kowledge to answer any of your questions, provide information, or just chat. I'm also super fast! Let's start our conversation!")
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
@@ -98,7 +98,7 @@ def main():
     additional_context = st.sidebar.text_input('Enter additional summarization context for the LLM here (i.e. write it in spanish):')
     model = st.sidebar.selectbox(
         'Choose a model',
-        ['mixtral-8x7b-32768', 'llama2-70b-4096']
+        ['mixtral-8x7b-32768', 'llama2-70b-4096', 'gemma-7b-it' ]
     )
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
 
