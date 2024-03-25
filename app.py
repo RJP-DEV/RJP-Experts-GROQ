@@ -82,8 +82,8 @@ def main():
 
     client = Groq(
         # This is the default and can be omitted
-        api_key=groq_api_key,
-        base_url="https://api.groqcloud.com"
+        api_key=groq_api_key
+       
     )
 
     # Display the Groq logo
