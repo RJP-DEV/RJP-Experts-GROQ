@@ -106,7 +106,7 @@ def main():
     clicked = st.sidebar.button("Generate Random Question", key="generate_btn")
     
     # The chatbot'reset and clear memory.   
-    Resetclicked = st.button("Reset", key="reset_btn")
+    Resetclicked = st.sidebar.button("Reset", key="reset_btn")
         
     
     # Add customization options conversational memory length in the sidebar
