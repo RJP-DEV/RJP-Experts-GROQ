@@ -161,7 +161,7 @@ def main():
 
     # clicked = ui.button("Click", key="clk_btn")
     ui.button("Reset", key="reset_btn")
-    st.cache
+    
    
     # st.write("UI Button Clicked:", clicked)
 
