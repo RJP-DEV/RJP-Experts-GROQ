@@ -95,7 +95,7 @@ def main():
     # Display the RJP-DEV logo
     #spacer, col = st.columns([1, 1])  
     #with col:  
-    st.sidebar.image('logo.png')
+    st.sidebar.image('logo.png',width (100))
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
