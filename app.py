@@ -95,9 +95,9 @@ def main():
     #with col: 
     #st.subheader(":blue[The Experts!]")  
     
-    spacer, col = st.columns([1, 0])  
-    with col:  
-         st.latex(r''' a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) ''')
+    #spacer, col = st.columns([1, 1])  
+    #with col:  
+    st.latex(r''' a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) ''')
 
     
     
