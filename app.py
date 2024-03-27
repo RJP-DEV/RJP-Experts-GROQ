@@ -130,7 +130,7 @@ def main():
     ]
     )
 
-    clicked = ui.button.sidebar("Generate Random Question", key="generate_btn")
+    clicked = st.sidebar.button("Generate Random Question", key="generate_btn")
     
     
     if clicked:
