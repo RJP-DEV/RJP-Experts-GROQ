@@ -31,3 +31,16 @@ What's a fun science experiment I can do at home?
 Tell me a tongue twister.
 What are some good jokes for kids?
 Hello Groq! How are you today?
+What are the key considerations for managing large datasets in C++ AI applications?
+Can you guide me through implementing real-time data processing using C++ and AI?
+How do I use C++ to optimize neural network performance?
+What are the best practices for writing efficient C++ code for AI algorithms?
+How can I integrate a TensorFlow model into a C++ application?
+Find the largest number among the three numbers.
+Write a Program to check whether a number is prime or not.
+Write a Program in C to Swap the values of two variables without using any extra variable.
+Write a Program to Replace all 0’s with 1’s in a Number
+Write a Program to check if the year is a leap year or not.
+Write a Program to create a pyramid pattern using C.
+Write a Program to print the Maximum and Minimum elements in an array.
+Make a python app to upload a file and save the file name to a SQLite database. You will need to create the database and tables if it doesn’t exist.
