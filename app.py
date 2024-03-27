@@ -2,6 +2,8 @@ import streamlit as st
 import os
 from groq import Groq
 import random
+import streamlit_shadcn_ui as ui
+
 
 
 def chat_with_groq(client,promptx,prompt,model):
@@ -155,6 +157,11 @@ def main():
         
         # The chatbot's answer is displayed.
         st.write("Chatbot:", llm_answer)
+
+
+    clicked = ui.button("Click", key="clk_btn")
+    ui.button("Reset", key="reset_btn")
+    st.write("UI Button Clicked:", clicked)
 
 if __name__ == "__main__":
     main()
