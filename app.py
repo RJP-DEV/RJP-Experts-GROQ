@@ -87,8 +87,11 @@ def main():
         st.image('groqcloud_darkmode.png')
 
     # The title and greeting message of the Streamlit application
-    st.title("RJP Development Present: The Experts!")
-    st.write("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio. Select one of the provided Expert/Fun. Personalities to answer any of your questions, or just chat. Because i am power by Groq chips I am super fast! Let's start our conversation!")
+    st.title("RJP Development Present:       The Experts!")
+    st.write("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
+    st.write("First select one of the provided Expert or Fun Personalities at the left Customization area.")
+    
+    st.write("I am power by Groq chips, with a super fast performance! Let's start our conversation!")
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
@@ -127,9 +130,11 @@ def main():
     ]
     )
 
+    clicked = ui.sidebar.button("Generate Random Question", key="generate_btn")
+    if clicked:
+       user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
 
     # The user is prompted to ask a question. The default value is a random prompt from the 'starter_prompt.txt' file.
-    # user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
     user_question = st.text_input("Ask a question:")
     
     # If there is no user question history in the session state, an empty list is initialized.
@@ -158,11 +163,18 @@ def main():
         st.write("Chatbot:", llm_answer)
 
 
-    # clicked = ui.button("Click", key="clk_btn")
-    ui.button("Reset", key="reset_btn")
-    
+    # The chatbot'reset and clear memory.   
+    Resetclicked = ui.button("Reset", key="reset_btn")
    
-    # st.write("UI Button Clicked:", clicked)
+    if Resetclicked:
+       llm_answer = []
+       user_question = st.text_input("I am ready you can ask a question:")
+       st.session_state['user_question_history'] = []
+       st.session_state['chatbot_answer_history'] = []
+       
+       
+
+    
 
 if __name__ == "__main__":
     main()
