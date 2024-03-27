@@ -87,7 +87,7 @@ def main():
         st.image('groqcloud_darkmode.png')
 
     # The title and greeting message of the Streamlit application
-    st.subheader("RJP Development Present : ") 
+    st.subheader("RJP Development Presents : ") 
     
     spacer, col = st.columns([5, 1])  
     with col:  
@@ -97,8 +97,8 @@ def main():
     st.title(":blue[The Experts!]")
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
-    st.caption("First select one of the provided Expert or Fun Personalities at the left Customization area.")
-    st.caption("I am power by Groq chips, with a super fast performance! Let's start our conversation!")
+    st.caption("First select, one of the provided Expert or Fun Personalities. In the Sidebar area.")
+    st.caption("This application is power by Groq Language Processing Unit, with a super fast performance! Let's start our conversation!")
 
     # Display the RJP-DEV logo
     #spacer, col = st.columns([1, 1])  
