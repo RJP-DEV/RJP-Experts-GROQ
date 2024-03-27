@@ -138,10 +138,10 @@ def main():
     
 
     # The user is prompted to ask a question. The default value is a random prompt from the 'starter_prompt.txt' file.
-    if clicked:True
-    user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
-    if clicked: False
-    user_question = st.text_input("Ask a question:")
+    if clicked:
+       user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
+    else:
+       user_question = st.text_input("Ask a question:")
     
     # If there is no user question history in the session state, an empty list is initialized.
     if 'user_question_history' not in st.session_state:
