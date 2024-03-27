@@ -94,7 +94,7 @@ def main():
     ''')
 
     st.divider()
-    st.title(:blue["The Experts!"])
+    st.title(":blue[The Experts!]")
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
     st.caption("First select one of the provided Expert or Fun Personalities at the left Customization area.")
