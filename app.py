@@ -105,9 +105,7 @@ def main():
     # Add customization options Generate Random Question in the sidebar
     clicked = st.sidebar.button("Generate Random Question", key="generate_btn")
         
-    if clicked:
-       user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
-
+    
     # Add customization options conversational memory length in the sidebar
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
 
@@ -149,6 +147,10 @@ def main():
     # If there is no chatbot answer history in the session state, an empty list is initialized.
     if 'chatbot_answer_history' not in st.session_state:
         st.session_state['chatbot_answer_history'] = []
+
+    if clicked:
+       user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
+    
 
     # If the user has asked a question,
     if user_question:
