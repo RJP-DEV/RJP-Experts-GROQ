@@ -130,7 +130,9 @@ def main():
     ]
     )
 
-    clicked = ui.sidebar.button("Generate Random Question", key="generate_btn")
+    clicked = ui.button.sidebar("Generate Random Question", key="generate_btn")
+    
+    
     if clicked:
        user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
 
