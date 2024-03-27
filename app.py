@@ -85,20 +85,22 @@ def main():
     spacer, col = st.columns([5, 1])  
     with col:  
         st.image('groqcloud_darkmode.png')
-        
-    spacer, col = st.columns([5, 1])  
-    with col: 
-        st.title(":blue[The Experts!]")  
+
+    
 
     # The title and greeting message of the Streamlit application
     st.subheader("RJP Development Presents : ") 
+
+    spacer, col = st.columns([5, 2])  
+    with col: 
+        st.title(":blue[The Experts!]")  
     
     spacer, col = st.columns([5, 1])  
     with col:  
          st.latex(r''' a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) ''')
 
     
-    st.title(":blue[The Experts!]")
+    
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
     st.caption("First select, one of the provided Expert or Fun Personalities. In the Sidebar area.")
