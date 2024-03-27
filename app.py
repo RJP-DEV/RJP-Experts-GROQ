@@ -159,9 +159,9 @@ def main():
         st.write("Chatbot:", llm_answer)
 
 
-    clicked = ui.button("Click", key="clk_btn")
+    # clicked = ui.button("Click", key="clk_btn")
     ui.button("Reset", key="reset_btn")
-    st.write("UI Button Clicked:", clicked)
+    # st.write("UI Button Clicked:", clicked)
 
 if __name__ == "__main__":
     main()
