@@ -138,6 +138,9 @@ def main():
     
 
     # The user is prompted to ask a question. The default value is a random prompt from the 'starter_prompt.txt' file.
+    if clicked:True
+    user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
+    if clicked: False
     user_question = st.text_input("Ask a question:")
     
     # If there is no user question history in the session state, an empty list is initialized.
@@ -148,9 +151,7 @@ def main():
     if 'chatbot_answer_history' not in st.session_state:
         st.session_state['chatbot_answer_history'] = []
 
-    if clicked:
-       user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
-    
+        
 
     # If the user has asked a question,
     if user_question:
