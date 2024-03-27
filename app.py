@@ -104,6 +104,9 @@ def main():
     )
     # Add customization options Generate Random Question in the sidebar
     clicked = st.sidebar.button("Generate Random Question", key="generate_btn")
+    
+    # The chatbot'reset and clear memory.   
+    Resetclicked = st.button("Reset", key="reset_btn")
         
     
     # Add customization options conversational memory length in the sidebar
@@ -135,7 +138,11 @@ def main():
     ]
     )
 
-    
+    if Resetclicked:
+       llm_answer = []
+       user_question = []
+       st.session_state['user_question_history'] = []
+       st.session_state['chatbot_answer_history'] = []
 
     # The user is prompted to ask a question. The default value is a random prompt from the 'starter_prompt.txt' file.
     if clicked:
@@ -171,12 +178,10 @@ def main():
         st.write("Chatbot:", llm_answer)
 
 
-    # The chatbot'reset and clear memory.   
-    Resetclicked = ui.button("Reset", key="reset_btn")
    
     if Resetclicked:
        llm_answer = []
-       user_question = st.text_input("I am ready you can ask a question:")
+       user_question = []
        st.session_state['user_question_history'] = []
        st.session_state['chatbot_answer_history'] = []
        
@@ -191,8 +196,6 @@ if __name__ == "__main__":
 
 
 
-#
-    #  @st.cache, @st.cache_data, and @st.cache_resource.
-#
-##random_prompt = get_random_prompt('starter_prompt.txt')
-##print(random_prompt)
+
+random_prompt = get_random_prompt('starter_prompt.txt')
+print(random_prompt)
