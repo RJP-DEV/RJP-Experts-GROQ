@@ -96,12 +96,19 @@ def main():
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
 
-    # additional_context = st.sidebar.text_input('Enter additional summarization context for the LLM here (i.e. write it in spanish):')
+    # not used -- additional_context = st.sidebar.text_input('Enter additional summarization context for the LLM here (i.e. write it in spanish):')
     
     model = st.sidebar.selectbox(
         'Choose an LLM model',
         ['mixtral-8x7b-32768', 'llama2-70b-4096', 'gemma-7b-it' ]
     )
+    # Add customization options Generate Random Question in the sidebar
+    clicked = st.sidebar.button("Generate Random Question", key="generate_btn")
+        
+    if clicked:
+       user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
+
+    # Add customization options conversational memory length in the sidebar
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
 
 
@@ -130,11 +137,7 @@ def main():
     ]
     )
 
-    clicked = st.sidebar.button("Generate Random Question", key="generate_btn")
     
-    
-    if clicked:
-       user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
 
     # The user is prompted to ask a question. The default value is a random prompt from the 'starter_prompt.txt' file.
     user_question = st.text_input("Ask a question:")
