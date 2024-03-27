@@ -91,7 +91,7 @@ def main():
     # The title and greeting message of the Streamlit application
     st.subheader("RJP Development Presents : ") 
 
-    spacer, col = st.columns([5, 2])  
+    spacer, col = st.columns([6, 1])  
     with col: 
         st.title(":blue[The Experts!]")  
     
