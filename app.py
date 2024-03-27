@@ -90,8 +90,12 @@ def main():
     st.title("RJP Development Present:       The Experts!")
     st.write("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
     st.write("First select one of the provided Expert or Fun Personalities at the left Customization area.")
-    
     st.write("I am power by Groq chips, with a super fast performance! Let's start our conversation!")
+
+    # Display the RJP-DEV logo
+    #spacer, col = st.columns([1, 1])  
+    #with col:  
+    st.sidebar.image('logo.png')
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
