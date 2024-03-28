@@ -92,16 +92,8 @@ def main():
 
     # The title and greeting message of the Streamlit application
     st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:') 
-
-    #spacer, col = st.columns([5, 1])  
-    #with col: 
-    #st.subheader(":blue[The Experts!]")  
-    
-    #spacer, col = st.columns([1, 1])  
-    #with col:  
+   
     st.latex(r''' a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) ''')
-
-    
     
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
@@ -111,7 +103,9 @@ def main():
     # Display the RJP-DEV logo
     #spacer, col = st.columns([1, 1])  
     #with col:  
-    st.sidebar.image('logo.webp', width=10, use_column_width="always")
+    image = Image.open('logo.webp')
+    new_image = image.resize((300, 100))
+    st.sidebar.image(new_image )
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
