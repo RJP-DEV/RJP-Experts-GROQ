@@ -75,7 +75,7 @@ def main():
     
     
     # Get Groq API key
-    groq_api_key = "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"
+    groq_api_key = ""
     # Initialize Groq client
     client = Groq(       
         api_key=groq_api_key
