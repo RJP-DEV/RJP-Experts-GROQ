@@ -86,7 +86,7 @@ def main():
     spacer, col = st.columns([2, 1])  
     with col:  
         image = Image.open('groqcloud_darkmode.png')
-        g_image = image.resize((200, 75))
+        g_image = image.resize((230, 50))
         st.image(g_image)
 
     
