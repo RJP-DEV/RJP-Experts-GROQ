@@ -2,8 +2,7 @@ import streamlit as st
 import os
 from groq import Groq
 import random
-import streamlit_shadcn_ui as ui
-
+from PIL import Image
 
 
 def chat_with_groq(client,promptx,prompt,model):
