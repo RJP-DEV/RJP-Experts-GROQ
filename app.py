@@ -85,7 +85,9 @@ def main():
     # Display the Groq logo
     spacer, col = st.columns([2, 1])  
     with col:  
-        st.image('groqcloud_darkmode.png')
+        image = Image.open('groqcloud_darkmode.png')
+        g_image = image.resize((200, 100))
+        st.image(g_image)
 
     
 
@@ -100,11 +102,9 @@ def main():
     st.caption("This application is power by Groq Language Processing Unit, with a super fast performance! Let's start our conversation!")
 
     # Display the RJP-DEV logo
-    #spacer, col = st.columns([1, 1])  
-    #with col:  
     image = Image.open('logo.webp')
-    new_image = image.resize((300, 100))
-    st.sidebar.image(new_image )
+    l_image = image.resize((200, 100))
+    st.sidebar.image(l_image )
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
