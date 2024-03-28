@@ -83,9 +83,11 @@ def main():
     )
 
     # Display the RJP-DEV logo
-    image = Image.open('logo.webp')
-    l_image = image.resize((200, 75))
-    st.image(l_image )
+    spacer, col = st.columns([1, 1])  
+    with col: 
+       image = Image.open('logo.webp')
+       l_image = image.resize((200, 75))
+       st.image(l_image )
 
     # Display the Groq logo
     spacer, col = st.columns([2, 1])  
