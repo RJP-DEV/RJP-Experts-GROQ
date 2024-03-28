@@ -74,8 +74,8 @@ def main():
     """
     
     # And the root-level secrets are also accessible as environment variables:
-    st.write( "Has environment variables been set:", os.environ['GROQ_API_KEY'] ==  st.secrets['GROQ']['GROQ_API_KEY']
-)
+    os.environ['GROQ_API_KEY'] ==  st.secrets['GROQ']['GROQ_API_KEY']
+
     # Get Groq API key
     groq_api_key = os.environ['GROQ_API_KEY']
 
