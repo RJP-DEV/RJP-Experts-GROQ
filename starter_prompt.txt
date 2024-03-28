@@ -2,35 +2,55 @@ Tell me a joke.
 What's the weather like today?
 Can you recommend a good book?
 What's the capital of Australia?
-Translate 'Hello' to Spanish.
+Translate 'Hello my friend' and 'Good bye.' to 5 languages of your choise?
 What's the distance between New York and Los Angeles?
 Find a recipe for spaghetti bolognese.
 Who is the president of the United States?
+Can you show me a CNC code for a cilinder part.
 What is the tallest mountain in the world?
 Tell me a fun fact about space.
 How do I make a margarita?
 Who wrote 'To Kill a Mockingbird'?
+Summary sherlock holmes the norwood mystery.
+Summary Alex Rider series show a link to Youtube latest release.
+List 5 famous 'Sherlock Holmes and Dr. Watson' Quotes. 
 How do I tie a tie?
 What's the formula for the area of a circle?
+Provide me with a complex G-code of a Horse shape.
 What are the ingredients in a Caesar salad?
+Factor completely 16t2+24t+9 .
 How do I convert Fahrenheit to Celsius?
 What's the Pythagorean theorem?
+Can you explaing me the meaning of messaging and narrative?
+Expand the following expression: $7(3y+2)$
 How do I make a paper airplane?
 What are the steps to solve a Rubik's cube?
 How do I bake a chocolate cake?
+You are an expert programmer that writes simple, concise code and explanations. Write a python function to generate the nth fibonacci number.
 What's the process for photosynthesis?
+A right square pyramid has a base with edges each measuring 3 cm and a height twice the perimeter of its base. What is the volume of the pyramid?
 How do I calculate compound interest?
-Tell me a riddle.
-What's a good recipe for homemade pizza?
+Tell me a riddle or two.
+What are you feeling?
+Create a YAML configuration for a sophisticated scene that adjusts lighting, temperature, and multimedia based on time of day and occupancy, enhancing comfort and energy efficiency.
+Explain the latest advances in large language models to me. Always cite your sources. Never cite sources older than 2020. # Gives more specific advances and only cites sources from 2020.
+What are you thinking?
+How does your body feel right now?
+What is the best recipe for homemade argentinean pizza?
+What are your symptoms?
+What brought you to therapy?
+What do you feel is wrong in your life?
+Some questions about your history, including your childhood, education, relationships (family, romantic, friends), your current living situation, and your career.
 How do I do a magic trick with cards?
 What are some fun facts about dinosaurs?
-Can you tell me a story?
+Can you tell me an interesting detective story?
 What are some popular board games?
 How do I draw a cartoon character?
 What's a fun science experiment I can do at home?
 Tell me a tongue twister.
 What are some good jokes for kids?
 Hello Groq! How are you today?
+What are the key considerations for managing in a startup biomedical company a large number of milenial employees, that work mostly remotly and lack interpersonal skills?
 What are the key considerations for managing large datasets in C++ AI applications?
 Can you guide me through implementing real-time data processing using C++ and AI?
 How do I use C++ to optimize neural network performance?
@@ -44,3 +64,53 @@ Write a Program to check if the year is a leap year or not.
 Write a Program to create a pyramid pattern using C.
 Write a Program to print the Maximum and Minimum elements in an array.
 Make a python app to upload a file and save the file name to a SQLite database. You will need to create the database and tables if it doesn’t exist.
+How can I read and understand a company's financial statement for investment purposes?
+What are the best practices for maintaining accurate financial records throughout the year?
+What are the key tax considerations for a small business owner?
+Can you explain the different types of accounting methods and when to use each?
+Can you provide an overview of the latest changes in tax laws affecting individual taxpayers?
+Create a list of [10] frequently asked questions about [keyword] and provide answers for each one of them considering the SERP and rich result guidelines.
+What are the key tax considerations for individual taxpayers?
+Provide a comprehensive overview of [medical condition], including symptoms, causes, and treatment options.
+Create a bullet point list of [10] frequently asked questions about [CAR-T] and provide answers for each one considering the SERP and rich result guidelines.
+What do you see as the future of healthcare?
+Which cells fight foreign organisms in the body?
+Can you explain your understanding of ISO 15189?
+If a biomedical mistake happened in the lab, what would you do?
+What command would show me the disk usage of all user home directories under /home, sorted by size in human-readable format, and excluding directories smaller than 1GB?
+How can I list all installed packages along with their versions on my system and save this information in a CSV file named 'installed_packages.csv', with 'Package Name' and 'Version' as headers?
+Can you give me a Bash command to list the top 5 largest installed packages on my system, displaying their names and sizes, sorted from largest to smallest?
+I need a command to generate a list of all systemd services currently enabled on my system, including their active status (active/inactive), and save this list to a text file named 'services_status.txt'.
+I need to automate [task] with a script in [language]. Can you help with a basic script structure?
+Create a list of [10] frequently asked questions about [keyword] and provide answers for each one of them considering the SERP and rich result guidelines.
+Please guide me to artificial Intelligence llm Model books
+What can you tell me about Harry Potter?
+Write an article about [topic]  include relevant statistics (add the links of the sources you use) and consider diverse perspectives. Write it in a [X_tone] and mention the source links in the end.
+=LEFT(Cell name, number of characters)
+=TEXT(“10/2/2022″,”mmmm dd, yyyy”)
+What is an Excel array formula? 
+Define conditional formatting?
+What is VLOOKUP? 
+What are wildcards in Excel?
+Please expand about Chart in Excel?
+=MIN(context['rows'][settlementCurr = 'USD']['SettleAmt'])
+Where is the bug in this code?
+write a unit test for this function: $(cat fib.py)
+# A simple python function to remove whitespace from a string:
+<PRE> def compute_gcd(x, y): <SUF>return result <MID>
+# django view for rendering the current day and time without a template def current_datetime(request):
+Propose and develop a WEB accounting system written in PHP and javascript. 
+Here's my code: ```[code snippet]```. It works, but it's slow/inefficient. How can I optimize it for better performance?
+How do i run a command in mac at the start of the machine?
+=ARRAYTOTEXT(A2:B4,0)
+Can you recommend a service plan for my [ Vehicle year and Model ]?
+
+
+
+
+
+
+
+
+
+
