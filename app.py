@@ -77,7 +77,7 @@ def main():
     # os.environ['GROQ_API_KEY'] ==  st.secrets['GROQ']['GROQ_API_KEY']
 
     # Get Groq API key
-    groq_api_key = os.environ['GRKEY']
+    groq_api_key = os.environ["GRKEY"]
 
     # Initialize Groq client
     client = Groq(       
