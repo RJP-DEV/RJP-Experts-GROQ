@@ -73,9 +73,11 @@ def main():
     This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
     """
     
-    
+    # And the root-level secrets are also accessible as environment variables:
+    st.write( "Has environment variables been set:", os.environ['GROQ_API_KEY'] ==  st.secrets['GROQ']['GROQ_API_KEY']
+)
     # Get Groq API key
-    groq_api_key = st.secrets['GROQ']['GROQ_API_KEY']
+    groq_api_key = os.environ['GROQ_API_KEY']
 
     # Initialize Groq client
     client = Groq(       
