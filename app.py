@@ -74,8 +74,8 @@ def main():
     """
     
     # And the root-level secrets are also accessible as environment variables:
-    os.environ["GRKEY"] ==  st.secrets["GRKEY"]
-
+    os.environ["GRKEY"] ==  st.secrets.key
+    
     # Get Groq API key
     groq_api_key = os.environ["GRKEY"]
 
