@@ -86,7 +86,7 @@ def main():
     spacer, col = st.columns([2, 1])  
     with col:  
         image = Image.open('groqcloud_darkmode.png')
-        g_image = image.resize((200, 100))
+        g_image = image.resize((200, 75))
         st.image(g_image)
 
     
@@ -103,7 +103,7 @@ def main():
 
     # Display the RJP-DEV logo
     image = Image.open('logo.webp')
-    l_image = image.resize((200, 100))
+    l_image = image.resize((200, 75))
     st.sidebar.image(l_image )
 
     # Add customization options to the sidebar
