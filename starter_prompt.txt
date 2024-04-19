@@ -5,36 +5,100 @@ What's the capital of Australia?
 Translate 'Hello my friend' and 'Good bye.' to 5 languages of your choise?
 What's the distance between New York and Los Angeles?
 Find a recipe for spaghetti bolognese.
+When I was reading about 74HC595 Shift Register I found a term very commonly used: "Daisy Chain" What is that?
 Who is the president of the United States?
+The day before yesterday I was 25. The next year I will be 28. This is true only one day in a year. What day is my Birthday? 
 Can you show me a CNC code for a cilinder part.
 What is the tallest mountain in the world?
 Tell me a fun fact about space.
+Las Meninas', or the Ladies in Waiting, depicts court life in which city?
 How do I make a margarita?
+Look at this series: 36, 34, 30, 28, 24, … What number should come next?
 Who wrote 'To Kill a Mockingbird'?
+What is the name of the island famous for its huge sculpted heads?
+How petrol engine is different than diesel engine?
 Summary sherlock holmes the norwood mystery.
+Old Woman Frying Eggs' was a 17th century painting by which Spanish artist?
 Summary Alex Rider series show a link to Youtube latest release.
 List 5 famous 'Sherlock Holmes and Dr. Watson' Quotes. 
+What is ADC and DAC on a Microcontroller? Also What are bits in those pins (for e.g. 8 bit ADC, 10 bit ADC etc)
+Recipe of Vietnamese Fresh Spring Rolls
+Which 20th century Mexican artist contracted polio as a child?
 How do I tie a tie?
+What countries influence Argentina cooking ?
+Italy and Spain
+How should medication be stored?
+What is the 120 rule in scuba diving?
+What are scuba certification limits?
+What are the common faults in BJT?
+When you test a good diode with a multimeter, it shows.
+What color is the pigment called ochre, extensively used in Australian aboriginal art?
+Which Spanish painter's works include 'The Tilled Field' and 'The Farm'?
+What may cause  engine overheat?
+What are the two most important things that make a movie great?
+What is GSM and what is GPRS in simple words (Wikipedia is complex) ? What is the difference between them and GPS?
+What are operational-amplifiers? How do they work and can you give me examples of a few common ones?
+To produce P-type semiconductors, you need to add?
+If the Zener Diode is connected in wrong polarity, the voltage across the load is?
+What are the seven wonders of the ancient world?
+What is RTC IC and how to use it with my Arduino?
+Who sent Christopher Columbus to explore the New World?
+When did the construction of the Great Wall of China begin?
+Make a python app that plays snake game
+3 Friends went to a shop and purchased 3 toys. Each person paid Rs.10 which is the cost of one toy. So, they paid Rs.30 i.e. total amount. The shop owner gave a discount of Rs.5 on the total purchase of 3 toys for Rs.30. Then, among Rs.5, Each person has taken Rs.1 and remaining Rs.2 given to the beggar beside the shop. Now, the effective amount paid by each person is Rs.9 and the amount given to the beggar is Rs.2. So, the total effective amount paid is 9*3 = 27 and the amount given to beggar is Rs.2, thus the total is Rs.29. Where has the other Rs.1 gone from the original Rs.30?
 What's the formula for the area of a circle?
 Provide me with a complex G-code of a Horse shape.
+Finish the line President Franklin D. Roosevelt said during his speech addressing the attack on Pearl Harbor: “Yesterday, December 7, 1941…”
 What are the ingredients in a Caesar salad?
 Factor completely 16t2+24t+9 .
+What boy's name is also the name of Michaelangelo's most famous sculpture?
+Recipe of Rendang, Indonesia.
 How do I convert Fahrenheit to Celsius?
+A man has 53 socks in his drawer: 21 identical blue, 15 identical black and 17 identical red. The lights are out and he is completely in the dark. How many socks must he take out to make 100 percent certain he has at least one pair of black socks?
 What's the Pythagorean theorem?
 Can you explaing me the meaning of messaging and narrative?
+How many electrons does pentavalent atoms have?
 Expand the following expression: $7(3y+2)$
+Explain what do you mean by independent suspension?
+Which 16th century Italian artist painted 'St George and the Dragon'?
 How do I make a paper airplane?
+Who painted famous British work 'The Hay Wain'?
+What is automotive charging system is made up of?
+One of Salvador Dali's most famous paintings was 'The Burning' what?
+Explain how timing belt works?
+Who was the last Tsar of Russia?
+There is a basket containing 5 apples, how do you divide the apples among 5 children so that each child has 1 apple while 1 apple remains in the basket?
+In which country was the Battle of Culloden fought in 1746?
+What Is pI?
+What are the important components of Engine lubrication system?
+Explain what is the difference between Crankshaft and Camshaft?
+Who is the king of the Olympian gods in Greek mythology?
+Which Greek goddess was the Parthenon dedicated to?
+When did the Mexican Revolution start?
+The United States bought Alaska from which country?
+When was the Declaration of Independence signed?
+Where is the Pyramid of the Sun located?
+Steps to Draw a Lewis Structure
 What are the steps to solve a Rubik's cube?
+Who fought in the Hundred Years’ War?
 How do I bake a chocolate cake?
+What event is commonly believed to have sparked World War I?
 You are an expert programmer that writes simple, concise code and explanations. Write a python function to generate the nth fibonacci number.
 What's the process for photosynthesis?
 A right square pyramid has a base with edges each measuring 3 cm and a height twice the perimeter of its base. What is the volume of the pyramid?
 How do I calculate compound interest?
 Tell me a riddle or two.
+Who was president during the Cuban Missile Crisis?
+Provide the Table of Vapor Pressure Values.
+A block slides along a frictionless surface with a constant acceleration of 2 m/s2. At time t = 0 s the block is at x = 5m and travelling with a velocity of 3 m/s  a- Where is the block at t = 2 seconds? b- What is the block’s velocity at 2 seconds? c- Where is the block when it’s velocity is 10 m/s? d- How long did it take to get to this point?
+A girl meets a lion and unicorn in the forest. The lion lies every Monday, Tuesday and Wednesday and the other days he speaks the truth. The unicorn lies on Thursdays, Fridays and Saturdays, and the other days of the week he speaks the truth. “Yesterday I was lying,” the lion told the girl. “So was I,” said the unicorn. What day is it?
 What are you feeling?
+The day before two days after the day before tomorrow is Saturday. What day is it today?
 Create a YAML configuration for a sophisticated scene that adjusts lighting, temperature, and multimedia based on time of day and occupancy, enhancing comfort and energy efficiency.
+This one could also fall in the lying/truth category. A man is caught on the king's property. He is brought before the king to be punished. The king says, "You must give me a statement. If it is true, you will be killed by lions. If it is false, you will be killed by trampling of wild buffalo. If I can’t figure it out, I’ll have to let you go.” Sure enough, the man was released. What was the man's statement?
 Explain the latest advances in large language models to me. Always cite your sources. Never cite sources older than 2020. # Gives more specific advances and only cites sources from 2020.
 What are you thinking?
+An airplane accelerates down a runway at 3.20 m/s2 for 32.8 s until is finally lifts off the ground. Determine the distance traveled before takeoff?.
 How does your body feel right now?
 What is the best recipe for homemade argentinean pizza?
 What are your symptoms?
