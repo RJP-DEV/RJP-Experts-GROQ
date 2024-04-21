@@ -14,10 +14,7 @@ def chat_with_groq(client,promptx,prompt,model,temperaturex):
     completion = client.chat.completions.create(
     model=model,
     messages=[{"role": "system", "content": promptx }, {"role": "user", "content": prompt } ],
-    temperature=temperaturex,
-    top_p=1,
-    stream=True,
-    stop=None,
+    temperature=temperaturex
     )
   
     return completion.choices[0].message.content
@@ -130,7 +127,7 @@ def main():
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
 
      # Add customization options temperature in the sidebar
-    temperaturex = st.sidebar.slider('Temperature:', 0, 2, value = 1)
+    temperaturex = st.sidebar.slider('Temperature:', 0.00, 2.00, value = 0.50)
 
     # Add customization options to Select system prompts in the sidebar
     promptx = st.sidebar.selectbox(
