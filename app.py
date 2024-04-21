@@ -127,7 +127,7 @@ def main():
     Resetclicked = st.sidebar.button("Reset", key="reset_btn")
         
     # Add customization options temperature in the sidebar
-    temperaturex = st.sidebar.slider('Temperature:', 0, 2, value = 0.5)
+    temperaturex = st.sidebar.slider('Temperature:', 0.0, 2.0, value = 0.5)
      
     # Add customization options conversational memory length in the sidebar
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
