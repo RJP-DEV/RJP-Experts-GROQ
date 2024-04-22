@@ -149,10 +149,11 @@ def main():
     Prompt2 = st.session_state.Prompt2
 
     args = (info.name for info in Prompt2)
+    args = (info.title for info in Prompt2)
    
     promptx = st.sidebar.selectbox(
               label="First Choose an Expert:",
-              options=Prompt1.name,
+              options=Prompt2.name,
               format_func=lambda Prompt1: Prompt1.title
               )
 
