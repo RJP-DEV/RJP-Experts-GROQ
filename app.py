@@ -156,7 +156,7 @@ def main():
               options=Prompt2,
               format_func=lambda Prompt1: Prompt1.title
               )
-
+    st.header(f'Selected: {promptx}')
 
 
     #prompt_options = {
