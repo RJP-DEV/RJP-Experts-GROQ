@@ -151,12 +151,12 @@ def main():
     args = (info.name for info in Prompt2)
     args = (info.title for info in Prompt2)
    
-    promptx = st.sidebar.selectbox(
+    Prompt3 = st.sidebar.selectbox(
               label="First Choose an Expert:",
               options=Prompt2,
               format_func=lambda Prompt1: Prompt1.title
               )
-    st.header(f'Selected: {promptx.name}')
+    promptx = Prompt3.name
 
 
     #prompt_options = {
