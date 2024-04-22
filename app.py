@@ -153,7 +153,7 @@ def main():
    
     promptx = st.sidebar.selectbox(
               label="First Choose an Expert:",
-              options=Prompt2.name,
+              options=Prompt1.name,
               format_func=lambda Prompt1: Prompt1.title
               )
 
