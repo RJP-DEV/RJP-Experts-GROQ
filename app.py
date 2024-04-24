@@ -6,6 +6,7 @@ import random
 from PIL import Image
 from dataclasses import dataclass
 from translator import detect_source_language, translate
+from languages import supported_languages
 
 
 @dataclass
