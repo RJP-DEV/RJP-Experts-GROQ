@@ -103,7 +103,7 @@ def main():
          
 
     
-    st.set_page_config(page_title="The Experts.ai", page_icon=":classical_building::busts_in_silhouette:")
+    st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
     
     # The title and greeting message of the Streamlit application
     st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:') 
