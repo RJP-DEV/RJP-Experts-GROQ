@@ -5,6 +5,7 @@ from groq import Groq
 import random
 from PIL import Image
 from dataclasses import dataclass
+from translator import detect_source_language, translate
 
 
 @dataclass
@@ -231,6 +232,11 @@ def main():
         # The chatbot's answer is displayed.
         st.write("Chatbot:", llm_answer)
 
+    main_container = st.container()
+    _, center_column, _ = main_container.columns([1, 5, 1])
+
+    center_column.button("Translate", on_click=translate, type="primary", use_container_width=True)
+ 
 
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
