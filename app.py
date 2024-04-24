@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import os
 from groq import Groq
 import random
@@ -102,7 +103,8 @@ def main():
          
 
     
-
+    st.set_page_config(page_title="The Experts.ai", page_icon=":classical_building::busts_in_silhouette:")
+    
     # The title and greeting message of the Streamlit application
     st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:') 
    
@@ -111,7 +113,7 @@ def main():
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
     st.caption("First select, one of the provided Expert or Fun Personalities. In the Sidebar area.")
-    st.caption("This application is power by Groq Language Processing Unit, with a super fast performance! Let's start our conversation!")
+    st.caption("This application is power by Groq Language Processing Unit, for ultra fast performance! Let's start our conversation!")
 
     # Display the RJP-DEV logo
     image = Image.open('logo.webp')
@@ -124,7 +126,7 @@ def main():
     # not used -- additional_context = st.sidebar.text_input('Enter additional summarization context for the LLM here (i.e. write it in spanish):')
     
     model = st.sidebar.selectbox(
-        'Choose an LLM model',
+        'Select a Model',
         ['mixtral-8x7b-32768', 'llama3-70b-8192', 'llama2-70b-4096', 'llama3-8b-8192', 'gemma-7b-it' ]
     )
     # Add customization options Generate Random Question in the sidebar
@@ -183,7 +185,7 @@ def main():
     args = (info.title for info in Prompt2)
    
     Prompt3 = st.sidebar.selectbox(
-              label="First Choose an Expert:",
+              label="Select an Expert:",
               options=Prompt2,
               format_func=lambda Prompt1: Prompt1.title
               )
@@ -229,6 +231,19 @@ def main():
         # The chatbot's answer is displayed.
         st.write("Chatbot:", llm_answer)
 
+
+    result_container = st.container()
+    _, col2, _ = result_container.columns([1, 5, 1])
+
+
+
+    if "translation" not in st.session_state:
+           st.session_state.translation = ""
+
+    col2.markdown(f"**{st.session_state.translation}**")
+
+    if st.session_state.translation:
+           col2.audio("translation.mp3", format="audio/mp3")
 
    
     if Resetclicked:
