@@ -6,7 +6,7 @@ import random
 from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
-from gtts import gTTS
+from gtts import gTTS 
 
 
 
@@ -33,7 +33,7 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
         tts.write_to_fp(mp3_file)
 
 
-def detect_source_language(text: str) -> str:
+def detect_source_language(client,text: str) -> str:
     """Detect the language of source text
 
     :type text: str
@@ -60,13 +60,12 @@ def detect_source_language(text: str) -> str:
         st.error(f"Detected source language '{source_language}' is not supported!")
         st.stop()
 
-    logger.debug(f"Detected source language: {source_language}")
-
+   
     return source_language
 
 
 
-def translate(client,) -> None:
+def translate(client) -> None:
     """Translate text and write result to translation session state variable"""
 
     text = st.session_state.source_text
