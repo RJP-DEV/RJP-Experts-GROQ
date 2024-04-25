@@ -317,7 +317,7 @@ def main():
     _, center_column, _ = main_container.columns([1, 5, 1])
 
     #st.session_state.source_lang = detect_source_language(llm_answer)
-    st.session_state.source_text = llm_answer
+    st.session_state.source_text = "Esto es un test"
     st.session_state.source_lang = "en"
     st.session_state.target_lang = "en"
 
