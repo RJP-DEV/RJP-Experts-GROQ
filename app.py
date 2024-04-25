@@ -45,10 +45,10 @@ def detect_source_language(client,text: str) -> str:
     response = client.chat.completions.create(
         model="mixtral-8x7b-32768",
         messages=[
-            {"role": "system", "content": "You are a multi-language translator."},
+            {"role": "system", "content": "You are a multi-language translator that only translate to english. and you answer with 1 word only and without punctuation."},
             {
                 "role": "user",
-                "content": f"Which language is '{text}' written in? Explain in 1 word without punctuation the answer is only an english word.",
+                "content": f"Which language is '{text}' written in? answer with 1 word only without punctuation.",
             },
         ],
         temperature=0,
