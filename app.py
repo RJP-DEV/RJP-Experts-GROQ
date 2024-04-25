@@ -302,15 +302,15 @@ def main():
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
 
-    result_container = st.container()
-    _, col2, _ = result_container.columns([1, 5, 1])
+    #result_container = st.container()
+    #_, col2, _ = result_container.columns([1, 5, 1])
 
 
 
     if "translation" not in st.session_state:
            st.session_state.translation = ""
 
-    col2.markdown(f"**{st.session_state.translation}**")
+   # col2.markdown(f"**{st.session_state.translation}**")
 
     if st.session_state.translation:
            col2.audio("translation.mp3", format="audio/mp3")
