@@ -301,9 +301,9 @@ def main():
            st.session_state.translation = ""
 
     if st.session_state.translation:
-           col2.audio("translation.mp3", format="audio/mp3")
+           col2.audio("translation.mp3", format="audio/mpeg")
 
-   
+  
     if Resetclicked:
        llm_answer = []
        user_question = []
