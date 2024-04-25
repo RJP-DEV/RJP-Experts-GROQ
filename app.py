@@ -302,8 +302,8 @@ def main():
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
 
-    #result_container = st.container()
-    #_, col2, _ = result_container.columns([1, 5, 1])
+    result_container = st.container()
+    _, col2, _ = result_container.columns([1, 5, 1])
 
 
 
