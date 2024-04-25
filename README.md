@@ -28,3 +28,12 @@ Once you have the necessary requirements, you can run the application by executi
 
 streamlit run app.py
 This will start the Streamlit server and open the application in your web browser. You can then interact with the chatbot, and the application will generate responses based on the history of the conversation.
+
+
+Multi-language translator using .
+
+
+* `python -m venv env`
+* `source env/bin/activate`
+* `python -m pip install -r requirements.txt`
+

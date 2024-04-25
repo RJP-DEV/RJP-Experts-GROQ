@@ -9,8 +9,8 @@
 # def main():
  ##   """Entry point"""
  
-main_container = st.container()
-_, center_column, _ = main_container.columns([1, 5, 1])
+#main_container = st.container()
+#_, center_column, _ = main_container.columns([1, 5, 1])
 
 #source_text = llm_answer
 

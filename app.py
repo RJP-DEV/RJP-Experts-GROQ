@@ -5,6 +5,7 @@ from groq import Groq
 import random
 from PIL import Image
 from dataclasses import dataclass
+
 from languages import supported_languages
 from gtts import gTTS
 from text_to_speech import convert_text_to_mp3
@@ -315,7 +316,10 @@ def main():
     main_container = st.container()
     _, center_column, _ = main_container.columns([1, 5, 1])
 
-    st.session_state.source_lang = detect_source_language(llm_answer)
+    #st.session_state.source_lang = detect_source_language(llm_answer)
+    st.session_state.source_text = llm_answer
+    st.session_state.source_lang = "en"
+    st.session_state.target_lang = "en"
 
     center_column.button("Translate", on_click=translate, type="primary", use_container_width=True)
  
