@@ -163,9 +163,9 @@ def main():
     """
     This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
     """
-    
     # And the root-level secrets are also accessible as environment variables:
-   
+    llm_answer = []
+    
     # Get Groq API key
     groq_api_key = st.secrets["key"]
 
@@ -311,12 +311,12 @@ def main():
         # The chatbot's answer is displayed.
         st.write("Chatbot:", llm_answer)
    
-    chat = llm_answer
+    
     #main_container = st.container()
     #_, center_column, _ = main_container.columns([1, 5, 1])
 
     #st.session_state.source_lang = detect_source_language(llm_answer)
-    st.session_state.translation = chat
+    st.session_state.translation = llm_answer
     st.session_state.source_text = "Esto es solo un test."
     st.session_state.source_lang = "Spanish"
     st.session_state.target_lang = "English"
