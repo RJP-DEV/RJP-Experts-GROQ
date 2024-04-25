@@ -40,7 +40,7 @@ def detect_source_language(client,text: str) -> str:
     """
 
     response = client.chat.completions.create(
-        model="mixtral-8x7b-32768",
+        model="gemma-7b-it",
         messages=[
             {"role": "system", "content": "You are a multi-language translator that only translate to english. and you answer with 1 word only and without punctuation."},
             {
@@ -91,9 +91,9 @@ def get_conversational_history(user_question_history,chatbot_answer_history,conv
     str: The full prompt for the chatbot.
     """
 
-    base_prompt = '''
+    base_prompt = """
     Hello! I'm your friendly Groq chatbot. Provided by Raul Perez Development Studio. I have multiple personnalities with expertise knowledge to answer any of your questions, or just chat. I'm also super fast! Let's start our conversation!
-    '''
+    """
     user_question_history = user_question_history[conversational_memory_length * -1:]
     chatbot_answer_history = chatbot_answer_history[conversational_memory_length * -1:]
     if len(chatbot_answer_history) > 0:
@@ -129,7 +129,6 @@ def get_random_prompt(file_path):
 
 
 def main():
-    
     """
     This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
     
@@ -172,9 +171,7 @@ def main():
 
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
-
-    # not used -- additional_context = st.sidebar.text_input('Enter additional summarization context for the LLM here (i.e. write it in spanish):')
-    
+        
     model = st.sidebar.selectbox(
         'Select a Model',
         ['mixtral-8x7b-32768', 'llama3-70b-8192', 'llama2-70b-4096', 'llama3-8b-8192', 'gemma-7b-it' ]
@@ -287,28 +284,23 @@ def main():
 
     #st.session_state.source_lang = detect_source_language(llm_answer)
     st.session_state.translation = llm_answer
-    st.session_state.source_text = llm_answer
-    st.session_state.source_lang = detect_source_language(client,llm_answer)
+   # st.session_state.source_text = llm_answer
+   # st.session_state.source_lang = detect_source_language(client,llm_answer)
     st.session_state.target_lang = detect_source_language(client,llm_answer)
 
     # center_column.button("Translate", on_click=translate(client), type="primary", use_container_width=True)
     
-    text = st.session_state.source_text
-    source_language = st.session_state.source_lang
+    # text = st.session_state.source_text
+    # source_language = st.session_state.source_lang
     target_language = st.session_state.target_lang
     if st.session_state.translation: 
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
-
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
 
-
-
     if "translation" not in st.session_state:
            st.session_state.translation = ""
-
-   # col2.markdown(f"**{st.session_state.translation}**")
 
     if st.session_state.translation:
            col2.audio("translation.mp3", format="audio/mp3")
