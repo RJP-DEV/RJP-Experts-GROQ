@@ -129,6 +129,7 @@ def get_random_prompt(file_path):
 
 
 def main():
+    st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
     """
     This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
     """
@@ -150,10 +151,7 @@ def main():
         g_image = image.resize((150, 45))
         st.image(g_image)
          
-
-    
-    st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
-    
+        
     # The title and greeting message of the Streamlit application
     st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:') 
    
