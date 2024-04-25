@@ -6,6 +6,7 @@ import random
 from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
+from gtts import gTTS
 from text_to_speech import convert_text_to_mp3
 
 
@@ -14,6 +15,21 @@ class Prompt1:
     id: str
     title: str
     name: str
+
+
+def convert_text_to_mp3(text: str, target_language_code: str) -> None:
+    """Convert the given text to mp3 formatted audio
+
+    :type text: str
+    :param text: Text to convert to audio
+    :type target_language_code: str
+    :param target_language_code: Language code
+    """
+
+    tts = gTTS(text, lang=target_language_code, lang_check=True)
+
+    with open("translation.mp3", "wb") as mp3_file:
+        tts.write_to_fp(mp3_file)
 
 
 def detect_source_language(text: str) -> str:
