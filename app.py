@@ -318,8 +318,8 @@ def main():
     #st.session_state.source_lang = detect_source_language(llm_answer)
     st.session_state.translation = "This is just a test."
     st.session_state.source_text = "Esto es solo un test."
-    st.session_state.source_lang = "es"
-    st.session_state.target_lang = "en"
+    st.session_state.source_lang = "Spanish"
+    st.session_state.target_lang = "English"
 
     # center_column.button("Translate", on_click=translate(client), type="primary", use_container_width=True)
     
