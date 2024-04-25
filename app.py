@@ -9,8 +9,6 @@ from languages import supported_languages
 from gtts import gTTS 
 
 
-
-
 @dataclass
 class Prompt1:
     id: str
@@ -20,7 +18,6 @@ class Prompt1:
 
 def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     """Convert the given text to mp3 formatted audio
-
     :type text: str
     :param text: Text to convert to audio
     :type target_language_code: str
@@ -33,9 +30,9 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
         tts.write_to_fp(mp3_file)
 
 
+
 def detect_source_language(client,text: str) -> str:
     """Detect the language of source text
-
     :type text: str
     :param text: Source text to detect language
     :rtype: str
@@ -57,13 +54,9 @@ def detect_source_language(client,text: str) -> str:
     source_language = response.choices[0].message.content.strip()
 
     if source_language.capitalize() not in list(supported_languages.keys())[1:]:
-        st.error(f"Detected source language '{source_language}' is not supported!")
-        st.stop()
-
-   
+        source_language = "English"
+       
     return source_language
-
-
 
 
 
@@ -81,6 +74,7 @@ def chat_with_groq(client,promptx,prompt,model,temperaturex):
     )
   
     return completion.choices[0].message.content
+
 
 
 def get_conversational_history(user_question_history,chatbot_answer_history,conversational_memory_length):
@@ -121,6 +115,8 @@ def get_conversational_history(user_question_history,chatbot_answer_history,conv
     return full_prompt
 
 
+
+
 def get_random_prompt(file_path):
     """
     This function reads a file of prompts and returns a random prompt.
@@ -129,6 +125,7 @@ def get_random_prompt(file_path):
     with open(file_path, 'r') as f:
         prompts = f.readlines()
     return random.choice(prompts).strip()
+
 
 
 def main():
@@ -155,7 +152,7 @@ def main():
          
 
     
-    #st.set_page_config(page_title="The Experts.ai", page_icon=":classical_building::busts_in_silhouette:")
+    st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
     
     # The title and greeting message of the Streamlit application
     st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:') 
