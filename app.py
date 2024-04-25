@@ -282,17 +282,14 @@ def main():
     main_container = st.container()
     _, center_column, _ = main_container.columns([1, 5, 1])
 
-    #st.session_state.source_lang = detect_source_language(llm_answer)
+   
     st.session_state.translation = llm_answer
-   # st.session_state.source_text = llm_answer
-   # st.session_state.source_lang = detect_source_language(client,llm_answer)
     st.session_state.target_lang = detect_source_language(client,llm_answer)
 
-    # center_column.button("Translate", on_click=translate(client), type="primary", use_container_width=True)
-    
-    # text = st.session_state.source_text
-    # source_language = st.session_state.source_lang
+      
     target_language = st.session_state.target_lang
+
+    st.session_state.translation = st.session_state.translation.strip('*')
     if st.session_state.translation: 
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
