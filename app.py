@@ -66,7 +66,7 @@ def detect_source_language(text: str) -> str:
 
 
 
-def translate() -> None:
+def translate(client,) -> None:
     """Translate text and write result to translation session state variable"""
 
     text = st.session_state.source_text
