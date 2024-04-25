@@ -285,12 +285,12 @@ def main():
    
     st.session_state.translation = llm_answer
     st.session_state.target_lang = detect_source_language(client,llm_answer)
-
-      
+   
     target_language = st.session_state.target_lang
     
-    st.session_state.translation = st.session_state.translation.replace('**', '  ')
+        
     if st.session_state.translation: 
+        st.session_state.translation = st.session_state.translation.replace('**', '  ')
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
     result_container = st.container()
