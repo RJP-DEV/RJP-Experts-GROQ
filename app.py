@@ -310,13 +310,13 @@ def main():
         
         # The chatbot's answer is displayed.
         st.write("Chatbot:", llm_answer)
-
-    
-    main_container = st.container()
-    _, center_column, _ = main_container.columns([1, 5, 1])
+   
+    chat = llm_answer
+    #main_container = st.container()
+    #_, center_column, _ = main_container.columns([1, 5, 1])
 
     #st.session_state.source_lang = detect_source_language(llm_answer)
-    st.session_state.translation = llm_answer
+    st.session_state.translation = chat
     st.session_state.source_text = "Esto es solo un test."
     st.session_state.source_lang = "Spanish"
     st.session_state.target_lang = "English"
