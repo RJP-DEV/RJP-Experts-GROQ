@@ -288,8 +288,8 @@ def main():
 
       
     target_language = st.session_state.target_lang
-
-    st.session_state.translation = st.session_state.translation.strip(':')
+    
+    st.session_state.translation = st.session_state.translation.replace('*:', '')
     if st.session_state.translation: 
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
