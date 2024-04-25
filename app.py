@@ -289,9 +289,9 @@ def main():
 
     #st.session_state.source_lang = detect_source_language(llm_answer)
     st.session_state.translation = llm_answer
-    st.session_state.source_text = "Esto es solo un test."
-    st.session_state.source_lang = "Spanish"
-    st.session_state.target_lang = "English"
+    st.session_state.source_text = llm_answer
+    st.session_state.source_lang = detect_source_language(client,llm_answer)
+    st.session_state.target_lang = detect_source_language(client,llm_answer)
 
     # center_column.button("Translate", on_click=translate(client), type="primary", use_container_width=True)
     
