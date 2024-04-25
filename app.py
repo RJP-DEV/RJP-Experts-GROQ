@@ -65,34 +65,6 @@ def detect_source_language(client,text: str) -> str:
 
 
 
-def translate(client) -> None:
-    """Translate text and write result to translation session state variable"""
-
-    text = st.session_state.source_text
-    source_language = st.session_state.source_lang
-    target_language = st.session_state.target_lang
-
-        
-    response = client.chat.completions.create(
-        model="mixtral-8x7b-32768",
-        messages=[
-            {
-                "role": "system",
-                "content": "You are a multi-language translator.",
-            },
-            {
-                "role": "user",
-                "content": f"Translate the following {source_language} text to {target_language} without quotes: '{text}'",
-            },
-        ],
-        temperature=0,
-    )
-
-    st.session_state.translation = (
-        response.choices[0].message.content.strip().replace("'", "").replace('"', "")
-    )
-
-    convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
 
 
@@ -326,7 +298,8 @@ def main():
     text = st.session_state.source_text
     source_language = st.session_state.source_lang
     target_language = st.session_state.target_lang
-    convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+    if st.session_state.translation: 
+        convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
 
     result_container = st.container()
