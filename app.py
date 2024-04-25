@@ -320,8 +320,13 @@ def main():
     st.session_state.source_lang = "en"
     st.session_state.target_lang = "en"
 
-    center_column.button("Translate", on_click=translate(client), type="primary", use_container_width=True)
- 
+    # center_column.button("Translate", on_click=translate(client), type="primary", use_container_width=True)
+    
+    text = st.session_state.source_text
+    source_language = st.session_state.source_lang
+    target_language = st.session_state.target_lang
+    convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+
 
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
