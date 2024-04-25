@@ -165,7 +165,7 @@ def main():
     """
     # And the root-level secrets are also accessible as environment variables:
     llm_answer = []
-    
+
     # Get Groq API key
     groq_api_key = st.secrets["key"]
 
@@ -312,8 +312,8 @@ def main():
         st.write("Chatbot:", llm_answer)
    
     
-    #main_container = st.container()
-    #_, center_column, _ = main_container.columns([1, 5, 1])
+    main_container = st.container()
+    _, center_column, _ = main_container.columns([1, 5, 1])
 
     #st.session_state.source_lang = detect_source_language(llm_answer)
     st.session_state.translation = llm_answer
