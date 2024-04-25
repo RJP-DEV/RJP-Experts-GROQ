@@ -48,7 +48,7 @@ def detect_source_language(client,text: str) -> str:
             {"role": "system", "content": "You are a multi-language translator."},
             {
                 "role": "user",
-                "content": f"Which language is '{text}' written in? Explain in 1 word without punctuation.",
+                "content": f"Which language is '{text}' written in? Explain in 1 word without punctuation the answer is only an english word.",
             },
         ],
         temperature=0,
