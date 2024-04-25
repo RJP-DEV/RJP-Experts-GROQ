@@ -129,11 +129,14 @@ def get_random_prompt(file_path):
 
 
 def main():
-    st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
+    
     """
     This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
+    
     """
+    
     # And the root-level secrets are also accessible as environment variables:
+    st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
     llm_answer = []
 
     # Get Groq API key
