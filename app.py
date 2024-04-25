@@ -5,8 +5,6 @@ from groq import Groq
 import random
 from PIL import Image
 from dataclasses import dataclass
-from translator import detect_source_language, translate
-from logger import logger
 from languages import supported_languages
 from text_to_speech import convert_text_to_mp3
 
@@ -16,7 +14,40 @@ class Prompt1:
     id: str
     title: str
     name: str
-    
+
+
+def detect_source_language(text: str) -> str:
+    """Detect the language of source text
+
+    :type text: str
+    :param text: Source text to detect language
+    :rtype: str
+    :returns: Detected language of source text
+    """
+
+    response = client.chat.completions.create(
+        model="mixtral-8x7b-32768",
+        messages=[
+            {"role": "system", "content": "You are a multi-language translator."},
+            {
+                "role": "user",
+                "content": f"Which language is '{text}' written in? Explain in 1 word without punctuation.",
+            },
+        ],
+        temperature=0,
+    )
+
+    source_language = response.choices[0].message.content.strip()
+
+    if source_language.capitalize() not in list(supported_languages.keys())[1:]:
+        st.error(f"Detected source language '{source_language}' is not supported!")
+        st.stop()
+
+    logger.debug(f"Detected source language: {source_language}")
+
+    return source_language
+
+
 
 def translate() -> None:
     """Translate text and write result to translation session state variable"""
@@ -25,10 +56,7 @@ def translate() -> None:
     source_language = st.session_state.source_lang
     target_language = st.session_state.target_lang
 
-    logger.debug(f"Source text: {text}")
-    logger.debug(f"Source language: {source_language}")
-    logger.debug(f"Target language: {target_language}")
-
+        
     response = client.chat.completions.create(
         model="mixtral-8x7b-32768",
         messages=[
@@ -47,8 +75,6 @@ def translate() -> None:
     st.session_state.translation = (
         response.choices[0].message.content.strip().replace("'", "").replace('"', "")
     )
-
-    logger.debug(f"Translation: {st.session_state.translation}")
 
     convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
@@ -269,8 +295,11 @@ def main():
         # The chatbot's answer is displayed.
         st.write("Chatbot:", llm_answer)
 
+    
     main_container = st.container()
     _, center_column, _ = main_container.columns([1, 5, 1])
+
+    st.session_state.source_lang = detect_source_language(llm_answer)
 
     center_column.button("Translate", on_click=translate, type="primary", use_container_width=True)
  

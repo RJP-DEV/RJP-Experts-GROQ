@@ -12,7 +12,7 @@
 main_container = st.container()
 _, center_column, _ = main_container.columns([1, 5, 1])
 
-#source_text = "Hola"
+#source_text = llm_answer
 
    # source_text = center_column.text_area(
    #     "Text",
@@ -22,7 +22,7 @@ _, center_column, _ = main_container.columns([1, 5, 1])
    #     label_visibility="hidden",
    # )
 
-#st.session_state.source_lang = detect_source_language(source_text)
+#st.session_state.source_lang = detect_source_language(llm_answer)
 
     
 #destination_language = "en"
