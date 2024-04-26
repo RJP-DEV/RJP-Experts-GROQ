@@ -7,7 +7,6 @@ from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
 from gtts import gTTS 
-import pyperclip
 
 @dataclass
 class Prompt1:
@@ -276,7 +275,8 @@ def main():
         st.session_state['chatbot_answer_history'].append(llm_answer)
         
         # The chatbot's answer is displayed.
-        st.write("Chatbot:", llm_answer)
+        #st.write("Chatbot:", llm_answer)
+        st.code(llm_answer, language="latex", line_numbers=False)
    
     
     main_container = st.container()
@@ -306,11 +306,7 @@ def main():
 
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
-
-    if st.button('Copy'):
-       pyperclip.copy(st.session_state.translation)
-       st.success('Response copied to clipboard!') 
-
+    
   
     if Resetclicked:
        llm_answer = []
