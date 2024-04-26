@@ -307,9 +307,14 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        
-       st.code(st.empty():st.session_state.translation)
+       # st.code(st.session_state.translation)
 
+       text_input_container = st.empty()
+       text_input_container.text_input(st.code(st.session_state.translation), key="text_input")
 
+       if st.session_state.text_input != "":
+          text_input_container.empty()
+          st.info(st.session_state.text_input)
             
     if Resetclicked:
        llm_answer = []
