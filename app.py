@@ -150,7 +150,7 @@ def main():
     spacer, col = st.columns([2, 1])  
     with col:  
         image = Image.open('groqcloud_darkmode.png')
-        g_image = image.resize((150, 45))
+        g_image = image.resize((120, 35))
         st.image(g_image)
          
         
@@ -295,7 +295,7 @@ def main():
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         # Render copy to clipboard button
-        st_copy_to_clipboard(st.session_state.translation)
+        st.markdown(st_copy_to_clipboard(st.session_state.translation))
  
 
     result_container = st.container()
