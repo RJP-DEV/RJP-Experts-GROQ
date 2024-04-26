@@ -2,7 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 import os
 import random
-import SessionState
 from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
@@ -286,39 +285,28 @@ def main():
    
     st.session_state.translation = llm_answer
     st.session_state.target_lang = detect_source_language(client,llm_answer)
-   
     target_language = st.session_state.target_lang
     
         
     if  st.session_state.translation: 
+        string_val = '.   \n ' 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        string_val = '.   \n ' 
-        st.session_state.translation = string_val + st.session_state.translation
-        
+        st.session_state.translation = string_val + string_val + st.session_state.translation
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
     result_container = st.container()
-    _, col2, _ = result_container.columns([1, 8, 1])
+    _, col2, _ = result_container.columns([1, 5, 1])
 
    
     if "translation" not in st.session_state:
         st.session_state.translation = ""
 
     if st.session_state.translation:
-       st.audio("translation.mp3", format="audio/mpeg",)
-       
-       #st.code(st.session_state.translation, language='markdown')
+       col2 = st.audio("translation.mp3", format="audio/mpeg",)
+       col2 = st.code(st.write(st.session_state.translation), language='markdown')
 
-
-       session = SessionState.get(code='some c++ code')
-       a = st.radio("Edit or show", ['Edit', 'Show'], 1)
-       if a == 'Edit':
-           session.code = st.text_input('Edit code', session.code)
-       else:
-           st.write(session.code)
-
- 
+   
             
     if Resetclicked:
        llm_answer = []
