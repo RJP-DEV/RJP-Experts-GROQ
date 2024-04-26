@@ -1,8 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import os
-from groq import Groq
+import clipboard
 import random
+from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
@@ -276,9 +277,10 @@ def main():
         
         # The chatbot's answer is displayed.
         #st.write("Chatbot:", llm_answer)
-        formated = st.markdown(llm_answer)
-        st.code( llm_answer, language='markdown' )
-   
+        st.markdown(llm_answer)
+        with st.button("📋", key="copy"):
+             clipboard.copy(llm_answer)
+
     
     main_container = st.container()
     _, center_column, _ = main_container.columns([1, 5, 1])
