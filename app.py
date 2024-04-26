@@ -149,7 +149,7 @@ def main():
     spacer, col = st.columns([2, 1])  
     with col:  
         image = Image.open('groqcloud_darkmode.png')
-        g_image = image.resize((120, 35))
+        g_image = image.resize((100, 30))
         st.image(g_image)
          
         
@@ -280,7 +280,7 @@ def main():
         
     
     main_container = st.container()
-    _, center_column, _ = main_container.columns([1, 5, 1])
+    _, center_column, _ = main_container.columns([1, 8, 1])
 
    
     st.session_state.translation = llm_answer
@@ -298,7 +298,7 @@ def main():
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
     result_container = st.container()
-    _, col2, _ = result_container.columns([1, 6, 1])
+    _, col2, _ = result_container.columns([1, 8, 1])
 
    
     if "translation" not in st.session_state:
@@ -307,11 +307,9 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        
-       # st.code(st.session_state.translation)
-
        text_input_container = st.empty()
        text_input_container = st.session_state.translation
-       st.code(text_input_container)
+       st.code(text_input_container, language='markdown')
        
       
             
