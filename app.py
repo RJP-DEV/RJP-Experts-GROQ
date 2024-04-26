@@ -304,7 +304,8 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        
-       with st.container(height=30):
+       with st.container(height=50):
+            st.markdown(" ")
             st.markdown(st.session_state.translation)
 
 
