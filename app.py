@@ -295,7 +295,7 @@ def main():
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         # Render copy to clipboard button
-        st.latex(r'''st_copy_to_clipboard(st.session_state.translation)''')
+        st.write(st_copy_to_clipboard(st.session_state.translation))
  
 
     result_container = st.container()
