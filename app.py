@@ -294,13 +294,7 @@ def main():
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
-        # Render copy to clipboard button
-        if st.button('Copy'):
-           pyperclip.copy(st.session_state.translation)
-           st.success('Text copied successfully!')
-              
-              
-
+        
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
 
@@ -311,7 +305,12 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
     
-  
+    # Render copy to clipboard button
+    if st.button('Copy'):
+        pyperclip.copy(st.session_state.translation)
+        st.success('Answer copied to clipboard')
+
+
     if Resetclicked:
        llm_answer = []
        user_question = []
