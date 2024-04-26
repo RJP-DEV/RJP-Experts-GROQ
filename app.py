@@ -2,6 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import os
 import random
+import SessionState
 from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
@@ -307,15 +308,17 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        
-       text_input_container = st.empty()
-       text_input_container.text_input(st.session_state.translation, key="text_input") 
-       text_input_container.empty()
-       st.code(text_input_container, language='markdown')
+       #st.code(st.session_state.translation, language='markdown')
 
-      
 
-       
-      
+       session = SessionState.get(code='some c++ code')
+       a = st.radio("Edit or show", ['Edit', 'Show'], 1)
+       if a == 'Edit':
+           session.code = st.text_input('Edit code', session.code)
+       else:
+           st.write(session.code)
+
+ 
             
     if Resetclicked:
        llm_answer = []
