@@ -276,7 +276,8 @@ def main():
         
         # The chatbot's answer is displayed.
         #st.write("Chatbot:", llm_answer)
-        st.code(st.write("Chatbot:", llm_answer))
+        formated = st.markdown(llm_answer)
+        st.code(formated , language='markdown')
    
     
     main_container = st.container()
