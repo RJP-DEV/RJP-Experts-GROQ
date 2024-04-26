@@ -2,7 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 import os
 import random
-import clipboard
 from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
@@ -305,12 +304,14 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        code = st.session_state.translation
-       col3 = st.code(code, language='markdown')
        
-       # Render copy to clipboard button
-       clipboard.copy(st.session_state.translation)
-       
-        
+       row1 = st.columns(1)
+       for col in row1 :
+           tile = col.container(height=20)
+           tile.title(":copy:",st.code(code))
+
+
+            
     if Resetclicked:
        llm_answer = []
        user_question = []
