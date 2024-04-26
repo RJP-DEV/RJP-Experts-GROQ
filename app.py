@@ -305,7 +305,7 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        # Render copy to clipboard button
-       clipboard.copy(st.markdown(st.session_state.translation))
+       clipboard.copy(st.session_state.translation)
        
         
     if Resetclicked:
