@@ -304,7 +304,7 @@ def main():
 
     if st.session_state.translation:
        col2 = st.audio("translation.mp3", format="audio/mpeg",)
-       col2 = st.code(st.write(st.session_state.translation), language='markdown')
+       col2 = st.write(st.code(st.session_state.translation, language='markdown'))
 
    
             
