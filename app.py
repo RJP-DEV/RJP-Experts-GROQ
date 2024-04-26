@@ -308,7 +308,7 @@ def main():
        
        result_container = st.container()
        _, _, col3 = result_container.columns([0.1,0.7,0.1])
-       col1 = st.code(st.session_state.translation)
+       col1 = st.code(st.session_state.translation, language='markdown')
 
 
             
