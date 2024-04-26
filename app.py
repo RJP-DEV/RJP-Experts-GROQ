@@ -297,10 +297,9 @@ def main():
         # Render copy to clipboard button
         
         placeholder = st.empty()
-        placeholder.st_copy_to_clipboard(st.session_state.translation)
-
-             
- 
+                 
+        with placeholder.container():
+             st.write(st_copy_to_clipboard(st.session_state.translation))
 
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
