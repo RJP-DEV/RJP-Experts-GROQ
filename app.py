@@ -295,8 +295,17 @@ def main():
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         # Render copy to clipboard button
-        with st.echo():
-              st_copy_to_clipboard(st.session_state.translation)
+    code =  """
+        <style>
+            p {
+            color: red;
+               }
+         </style>
+            """
+    st.html(code)
+    st.markdown(st_copy_to_clipboard(st.session_state.translation))
+
+             
  
 
     result_container = st.container()
