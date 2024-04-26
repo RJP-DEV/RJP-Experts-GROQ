@@ -297,10 +297,7 @@ def main():
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
 
-    if st.button('Copy'):
-       pyperclip.copy(a)
-    st.success('Text copied successfully!') 
-
+   
     if "translation" not in st.session_state:
         st.session_state.translation = ""
 
