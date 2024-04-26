@@ -276,7 +276,7 @@ def main():
         
         # The chatbot's answer is displayed.
         #st.write("Chatbot:", llm_answer)
-        st.code(llm_answer, language='promql', line_numbers=False)
+        st.code(llm_answer, language='markdown', line_numbers=False)
    
     
     main_container = st.container()
