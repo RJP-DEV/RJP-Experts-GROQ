@@ -311,8 +311,8 @@ def main():
 
        text_input_container = st.empty()
        text_input_container = st.session_state.translation
-       text_input_container.empty()
        st.code(text_input_container)
+       text_input_container.empty()
        
       
             
