@@ -305,11 +305,8 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        # Render copy to clipboard button
-       if st.button('Copy'):
-          pyperclip.copy(st.session_state.translation)
-          st.success('Answer copied to clipboard')
-
-
+       pyperclip.copy(st.session_state.translation)
+        
     if Resetclicked:
        llm_answer = []
        user_question = []
