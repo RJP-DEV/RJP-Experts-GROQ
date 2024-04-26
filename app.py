@@ -291,7 +291,7 @@ def main():
     _, col2, _ = result_container.columns([1, 5, 1])
 
     if  st.session_state.translation: 
-        nl = '  \nResponse :' 
+        nl = '  \nResponse :  \n  \n  ' 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
         st.session_state.translation = nl + st.session_state.translation
