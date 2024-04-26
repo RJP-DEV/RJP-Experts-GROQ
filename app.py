@@ -292,8 +292,8 @@ def main():
     if  st.session_state.translation: 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        string_val = "\n"+"\n"+"\n"+"\n"
-        st.session_state.translation = string_val + st.session_state.translation
+        string_val = "<br> "+"<br> "+"<br> "+"<br> "
+        st.session_state.translation = st.markdown(string_val) + st.session_state.translation
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
     result_container = st.container()
