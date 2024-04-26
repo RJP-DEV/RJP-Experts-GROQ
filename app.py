@@ -291,10 +291,12 @@ def main():
     _, col2, _ = result_container.columns([1, 5, 1])
 
     if  st.session_state.translation: 
-        string_val = '   \n' 
+        nl = '  \n' 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        st.session_state.translation = string_val + string_val + st.session_state.translation
+        st.session_state.translation = nl + nl + st.session_state.translation
+        MyString += f"{nl}{nl}st.session_state.translation"
+  
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
        
@@ -303,7 +305,7 @@ def main():
 
     if st.session_state.translation:
        col2 = st.audio("translation.mp3", format="audio/mpeg",)
-       col2 = st.code(st.session_state.translation, language='markdown')
+       col2 = st.code(MyString, language='markdown')
 
    
             
