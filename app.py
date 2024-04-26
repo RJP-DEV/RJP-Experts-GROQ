@@ -287,24 +287,25 @@ def main():
     st.session_state.target_lang = detect_source_language(client,llm_answer)
     target_language = st.session_state.target_lang
     
-        
-    if  st.session_state.translation: 
-        string_val = '.   \n ' 
-        st.session_state.translation = st.session_state.translation.replace('**', '  ')
-        st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        st.session_state.translation = string_val + string_val + st.session_state.translation
-        convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
-        
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
 
-   
+    if  st.session_state.translation: 
+        string_val = '.  \n' 
+        st.session_state.translation = st.session_state.translation.replace('**', '  ')
+        st.session_state.translation = st.session_state.translation.replace('*', ' ')
+        st.session_state.translation = string_val + string_val + st.session_state.translation
+        st.session_state.translation = col2.st.session_state.translation
+        
+        convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+        
+       
     if "translation" not in st.session_state:
         st.session_state.translation = ""
 
     if st.session_state.translation:
        col2 = st.audio("translation.mp3", format="audio/mpeg",)
-       col2 = st.write(st.code(st.session_state.translation, language='markdown'))
+       col2 = st.code(st.session_state.translation, language='markdown')
 
    
             
