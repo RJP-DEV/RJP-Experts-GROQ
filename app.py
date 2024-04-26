@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import os
 import random
-import clipboard 
+import clipboard
 from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
@@ -305,7 +305,7 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        # Render copy to clipboard button
-       clipboard.copy(st.session_state.translation)
+       clipboard.copy(st.markdown(st.session_state.translation))
        
         
     if Resetclicked:
