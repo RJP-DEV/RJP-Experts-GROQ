@@ -311,7 +311,7 @@ def main():
 
        text_input_container = st.empty()
        text_input_container = st.code(st.session_state.translation)
-      # text_input_container.empty()
+       text_input_container.empty()
        st.info(st.session_state.translation)
             
     if Resetclicked:
