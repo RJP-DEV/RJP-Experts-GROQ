@@ -303,6 +303,7 @@ def main():
 
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
+       
        result_container = st.container()
        _, col2, _ = result_container.columns([1, 1, 1])
        with st.container(height=90):
@@ -310,7 +311,8 @@ def main():
             st.markdown(" ")
             st.markdown(" ")
             st.markdown(" ")
-            st.markdown(st.session_state.translation)
+            st.markdown(" ")
+            st.code(st.session_state.translation)
 
 
             
