@@ -303,12 +303,9 @@ def main():
 
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
-       code = st.session_state.translation
        
-       row1 = st.columns(1)
-       for col in row1 :
-           tile = col.container(height=20)
-           tile.title(":copy:",st.code(code))
+       with st.container(height=30):
+            st.markdown(st.session_state.translation)
 
 
             
