@@ -310,9 +310,9 @@ def main():
        # st.code(st.session_state.translation)
 
        text_input_container = st.empty()
-       text_input_container = st.code(st.session_state.translation)
-       text_input_container.empty()
-       st.info(st.code(st.session_state.translation))
+       text_input_container = st.code(st.session_state.translation.empty())
+       #text_input_container.empty()
+      
             
     if Resetclicked:
        llm_answer = []
