@@ -307,9 +307,9 @@ def main():
        st.audio("translation.mp3", format="audio/mpeg",)
        
        result_container = st.container()
-       _, _, col3 = result_container.columns([1, 1, 2])
-       with st.container(height=60):
-            st.code(st.session_state.translation)
+       _, _, col3 = result_container.columns([0.1,0.7,0.1])
+       with st.container(height=40):
+            col3 = st.code(st.session_state.translation)
 
 
             
