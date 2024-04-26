@@ -308,8 +308,16 @@ def main():
        st.audio("translation.mp3", format="audio/mpeg",)
        
        text_input_container = st.empty()
-       text_input_container = st.session_state.translation
-       st.code(text_input_container, language='markdown')
+       text_input_container.text_input(st.session_state.translation, key="text_input") 
+       if st.session_state.text_input != "":
+          text_input_container.empty()
+          st.info(st.session_state.text_input)
+
+       
+     #  st.code(text_input_container, language='markdown')
+
+      
+
        
       
             
