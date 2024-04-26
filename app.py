@@ -291,10 +291,10 @@ def main():
     _, col2, _ = result_container.columns([1, 5, 1])
 
     if  st.session_state.translation: 
-        nl = '  \nline' 
+        nl = '  \nResponse :' 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        st.session_state.translation = nl + nl + st.session_state.translation
+        st.session_state.translation = nl + st.session_state.translation
         
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
