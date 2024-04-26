@@ -292,7 +292,7 @@ def main():
     if  st.session_state.translation: 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        string_val = "#" * 1000 
+        string_val = "_" * 100 
         st.session_state.translation = string_val + st.session_state.translation
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
@@ -308,7 +308,7 @@ def main():
        
        result_container = st.container()
        _, _, col3 = result_container.columns([1, 1, 2])
-       with st.container(height=80):
+       with st.container(height=60):
             st.code(st.session_state.translation)
 
 
