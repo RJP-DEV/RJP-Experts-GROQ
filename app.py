@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import os
 import random
-from st_copy_to_clipboard import st_copy_to_clipboard
+import pyperclip
 from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
@@ -295,11 +295,11 @@ def main():
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         # Render copy to clipboard button
-        
-        st.code(st_copy_to_clipboard(st.session_state.translation))
-                 
-       
-            
+        if st.button('Copy'):
+           pyperclip.copy(st.session_state.translation)
+           st.success('Text copied successfully!')
+              
+              
 
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
