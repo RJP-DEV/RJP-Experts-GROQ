@@ -292,7 +292,7 @@ def main():
     if  st.session_state.translation: 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        string_val = "  " * 1000 
+        string_val = "#" * 1000 
         st.session_state.translation = string_val + st.session_state.translation
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
