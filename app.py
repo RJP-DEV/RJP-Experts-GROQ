@@ -305,10 +305,9 @@ def main():
        st.audio("translation.mp3", format="audio/mpeg",)
        
        result_container = st.container()
-       _, col2, _ = result_container.columns([1, 1, 1])
-       with st.container(height=90):
-            added = st.markdown(" ").append(st.markdown(" ")).append(st.session_state.translation)
-            st.code(added)
+       _, _, col3 = result_container.columns([1, 1, 2])
+       with st.container(height=80):
+            st.code(st.session_state.translation)
 
 
             
