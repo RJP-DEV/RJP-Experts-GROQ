@@ -18,6 +18,7 @@ certifi==2024.2.2
 cffi==1.15.1
 charset-normalizer==3.3.2
 click==8.1.7
+clipboard==0.0.4
 dataclasses-json==0.6.4
 debugpy==1.6.3
 decorator==5.1.1
@@ -128,7 +129,6 @@ sqlparse==0.4.4
 stack-data==0.5.1
 streamlit==1.31.0
 streamlit_shadcn_ui==0.1.18
-pyperclip==1.8.2
 sympy==1.12
 tenacity==8.2.3
 terminado==0.16.0
