@@ -279,8 +279,8 @@ def main():
         st.write("Chatbot:", llm_answer)
    
     
-    #main_container = st.container()
-    #_, center_column, _ = main_container.columns([1, 5, 1])
+    main_container = st.container()
+    _, center_column, _ = main_container.columns([1, 5, 1])
 
    
     st.session_state.translation = llm_answer
@@ -294,14 +294,14 @@ def main():
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
-    #result_container = st.container()
-    #_, col2, _ = result_container.columns([1, 5, 1])
+    result_container = st.container()
+    _, col2, _ = result_container.columns([1, 5, 1])
 
     if "translation" not in st.session_state:
            st.session_state.translation = ""
 
     if st.session_state.translation:
-           st.audio("translation.mp3", format="audio/mpeg", loop=False)
+        col2.st.audio("translation.mp3", format="audio/mpeg", loop=False)
 
   
     if Resetclicked:
