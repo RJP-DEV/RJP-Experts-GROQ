@@ -307,7 +307,7 @@ def main():
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
        
-       st.code(st.empty(st.session_state.translation))
+       st.code(st.empty():st.session_state.translation)
 
 
             
