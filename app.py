@@ -296,7 +296,7 @@ def main():
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
     result_container = st.container()
-    _, col2, _ = result_container.columns([1, 5, 1])
+    _, col2, _ = result_container.columns([1, 6, 1])
 
    
     if "translation" not in st.session_state:
@@ -304,6 +304,9 @@ def main():
 
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
+       code = st.session_state.translation
+       col3 = st.code(code, language='markdown')
+       
        # Render copy to clipboard button
        clipboard.copy(st.session_state.translation)
        
