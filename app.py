@@ -292,7 +292,7 @@ def main():
     if  st.session_state.translation: 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
         st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        string_val = "<br> "+"<br> "+"<br> "+"<br> "
+        string_val = '\n' * 10
         st.session_state.translation = string_val + st.session_state.translation
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         
@@ -307,7 +307,7 @@ def main():
        st.audio("translation.mp3", format="audio/mpeg",)
        
        result_container = st.container()
-       _, _, col3 = result_container.columns([0.1,0.7,0.1])
+       col1, col2_, col3 = result_container.columns([0.1,0.7,0.1])
        col1 = st.code(st.session_state.translation, language='html')
 
 
