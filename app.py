@@ -7,7 +7,7 @@ from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
 from gtts import gTTS 
-
+import pyperclip
 
 @dataclass
 class Prompt1:
@@ -297,11 +297,19 @@ def main():
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
 
+    if st.button('Copy'):
+       pyperclip.copy(a)
+    st.success('Text copied successfully!') 
+
     if "translation" not in st.session_state:
         st.session_state.translation = ""
 
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
+
+    if st.button('Copy'):
+       pyperclip.copy(st.session_state.translation)
+       st.success('Response copied to clipboard!') 
 
   
     if Resetclicked:
