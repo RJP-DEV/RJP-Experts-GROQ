@@ -296,10 +296,10 @@ def main():
         convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         # Render copy to clipboard button
         
-        placeholder = st.empty()
+        st.empty(st_copy_to_clipboard(st.session_state.translation))
                  
-        with placeholder.container():
-             st.write(st_copy_to_clipboard(st.session_state.translation))
+       
+            
 
     result_container = st.container()
     _, col2, _ = result_container.columns([1, 5, 1])
