@@ -287,7 +287,7 @@ def main():
             st.audio("translation.mp3", format="audio/mpeg",)
             container = st.container(border=True)
             
-            with st.container(height=300):
+            with st.container(height= 600):
                  st.write(llm_answer) 
                 
             
