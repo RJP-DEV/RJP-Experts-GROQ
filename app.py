@@ -274,21 +274,15 @@ def main():
         st.session_state['chatbot_answer_history'].append(llm_answer)
         
         # The chatbot's answer is displayed.
-        st.write(llm_answer)  
+        # st.write(llm_answer)  
         # st.markdown(llm_answer)
         
-    
-    #main_container = st.container()
-    #_, center_column, _ = main_container.columns([1, 8, 1])
-
-   
+       
     st.session_state.translation = llm_answer
     st.session_state.target_lang = detect_source_language(client,llm_answer)
     target_language = st.session_state.target_lang
     
-    #result_container = st.container()
-    #_, col2, _ = result_container.columns([1, 5, 1])
-
+   
     if  st.session_state.translation: 
         nl = '  \nResponse :  \n  \n  ' 
         st.session_state.translation = st.session_state.translation.replace('**', '  ')
@@ -306,6 +300,8 @@ def main():
        
     #  st.code(st.session_state.translation, language='markdown')
     #  st.write(st.session_state.translation)  
+       st.write(llm_answer)  
+        
 
    
             
