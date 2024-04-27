@@ -130,7 +130,6 @@ def get_random_prompt(file_path):
 def main():
     """
     This function is the main entry point of the application. It sets up the Groq client, the Streamlit interface, and handles the chat interaction.
-    
     """
     
     # And the root-level secrets are also accessible as environment variables:
@@ -275,20 +274,20 @@ def main():
         st.session_state['chatbot_answer_history'].append(llm_answer)
         
         # The chatbot's answer is displayed.
-        #st.write("Chatbot:", llm_answer) or 
+        # st.write("Chatbot:", llm_answer)  
         # st.markdown(llm_answer)
         
     
-    main_container = st.container()
-    _, center_column, _ = main_container.columns([1, 8, 1])
+    #main_container = st.container()
+    #_, center_column, _ = main_container.columns([1, 8, 1])
 
    
     st.session_state.translation = llm_answer
     st.session_state.target_lang = detect_source_language(client,llm_answer)
     target_language = st.session_state.target_lang
     
-    result_container = st.container()
-    _, col2, _ = result_container.columns([1, 5, 1])
+    #result_container = st.container()
+    #_, col2, _ = result_container.columns([1, 5, 1])
 
     if  st.session_state.translation: 
         nl = '  \nResponse :  \n  \n  ' 
@@ -304,9 +303,8 @@ def main():
 
     if st.session_state.translation:
        st.audio("translation.mp3", format="audio/mpeg",)
-       _, col2, _ = st.session_state.translation
-
-       st.code(col2, language='markdown')
+       
+       st.code(st.session_state.translation, language='markdown')
 
    
             
