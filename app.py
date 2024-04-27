@@ -276,15 +276,17 @@ def main():
             nl = '  \nResponse :  \n  \n  ' 
             st.session_state.translation = st.session_state.translation.replace('**', '  ')
             st.session_state.translation = st.session_state.translation.replace('*', ' ')
+            st.session_state.translation = st.session_state.translation.replace('`', '  ')
+            st.session_state.translation = st.session_state.translation.replace('"', '  ')
+            st.session_state.translation = st.session_state.translation.replace("'", "  ")            
             st.session_state.translation = nl + st.session_state.translation
             convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         if "translation" not in st.session_state:
             st.session_state.translation = ""
-        if st.session_state.translation:
-           st.audio("translation.mp3", format="audio/mpeg",)
-           #  st.code(st.session_state.translation, language='markdown')
-           #  st.write(st.session_state.translation)  
-           st.write(llm_answer)  
+        if  st.session_state.translation:
+            st.audio("translation.mp3", format="audio/mpeg",)
+            st.divider()
+            st.write(llm_answer)  
         
             
     if Resetclicked:
