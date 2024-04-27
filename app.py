@@ -274,7 +274,7 @@ def main():
         st.session_state['chatbot_answer_history'].append(llm_answer)
         
         # The chatbot's answer is displayed.
-        # st.write("Chatbot:", llm_answer)  
+        st.write_stream(llm_answer)  
         # st.markdown(llm_answer)
         
     
@@ -305,7 +305,7 @@ def main():
        st.audio("translation.mp3", format="audio/mpeg",)
        
     #  st.code(st.session_state.translation, language='markdown')
-       st.write(st.session_state.translation)  
+    #  st.write(st.session_state.translation)  
 
    
             
