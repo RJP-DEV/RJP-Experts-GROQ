@@ -286,8 +286,10 @@ def main():
         if  st.session_state.translation:
             st.audio("translation.mp3", format="audio/mpeg",)
             container = st.container(border=True)
-            container.st.write(llm_answer)  
             
+            with st.container(height=300):
+                 st.write(llm_answer) 
+                
             
     if Resetclicked:
        llm_answer = []
