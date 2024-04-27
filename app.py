@@ -274,7 +274,7 @@ def main():
         st.session_state['chatbot_answer_history'].append(llm_answer)
         
         # The chatbot's answer is displayed.
-        st.write_stream(llm_answer)  
+        st.write(llm_answer)  
         # st.markdown(llm_answer)
         
     
