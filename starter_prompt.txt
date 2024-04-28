@@ -168,13 +168,3 @@ Here's my code: ```[code snippet]```. It works, but it's slow/inefficient. How c
 How do i run a command in mac at the start of the machine?
 =ARRAYTOTEXT(A2:B4,0)
 Can you recommend a service plan for my [ Vehicle year and Model ]?
-
-
-
-
-
-
-
-
-
-
