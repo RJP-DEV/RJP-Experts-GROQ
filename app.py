@@ -125,6 +125,16 @@ def get_random_prompt(file_path):
         prompts = f.readlines()
     return random.choice(prompts).strip()
 
+def get_random_formula(file_path):
+    """
+    This function reads a file of latex formulas and returns a random formula.
+    """
+
+    with open(file_path, 'r') as f:
+        formula = f.readlines()
+    return random.choice(formula).strip()
+
+
 
 
 def main():
@@ -135,8 +145,7 @@ def main():
     # And the root-level secrets are also accessible as environment variables:
     st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
     llm_answer = []
-    counter = 1
-
+    
     # Get Groq API key
     groq_api_key = st.secrets["key"]
 
@@ -155,12 +164,9 @@ def main():
         
     # The title and greeting message of the Streamlit application
     st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:') 
-   
-    if counter % 2 == 0:
-       st.latex(r''' a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) ''')
-    else:
-       st.latex(r''' \lim_{x\to 0}{\frac{e^x-1}{2x}} \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}} \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}} ''')
 
+    st.latex(get_random_formula('formulas.txt')   )
+    
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
     st.caption("First select, one of the provided Expert or Fun Personalities. In the Sidebar area.")
@@ -248,7 +254,7 @@ def main():
        user_question = []
        st.session_state['user_question_history'] = []
        st.session_state['chatbot_answer_history'] = []
-       counter = 1
+       
 
     # The user is prompted to ask a question. The default value is a random prompt from the 'starter_prompt.txt' file.
     if clicked:
@@ -296,8 +302,7 @@ def main():
             
             with st.container(height= 600):
                  st.write(llm_answer) 
-                 counter = counter + 1
-                
+                 
             
     if Resetclicked:
        llm_answer = []
@@ -314,3 +319,6 @@ if __name__ == "__main__":
 
 random_prompt = get_random_prompt('starter_prompt.txt')
 print(random_prompt)
+
+
+

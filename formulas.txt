@@ -1,0 +1,8 @@
+r''' a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) '''
+r''' \lim_{x\to 0}{\frac{e^x-1}{2x}} \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}} \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}} '''
+r''' \begin{subequations} \label{eq:Maxwell} Maxwell's equations: \begin{align} B'&=-\nabla \times E, \label{eq:MaxB} \\ E'&=\nabla \times B - 4\pi j, \label{eq:MaxE} \end{align} \end{subequations} '''
+r''' \documentclass[12pt]{article} \usepackage{amsmath} \numberwithin{equation}{subsection} \begin{document} \section{First Section} \subsection{A subsection} \begin{equation} L' = {L}{\sqrt{1-\frac{v^2}{c^2}}} \end{equation} \end{document} '''
+r''' \begin{equation} f(x)=(x+a)(x+b) \end{equation} '''
+r''' y = a + f(\underbrace{b x}_{ \ge 0 \text{ by assumption}}) = a + f(\underbrace{b x}_{ \mathclap{\ge 0 \text{ by assumption}}}) '''
+r''' \begin{align*} f(x)  &= a x^2+b x +c   &   g(x)  &= d x^3 \\  f'(x) &= 2 a x +b   &   g'(x) &= 3 d x^2 \end{align*} '''
+r''' \begin{align*} \Aboxed{ f(x) & = \int h(x)\, dx} \\ & = g(x) \end{align*} '''
