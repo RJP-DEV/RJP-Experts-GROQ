@@ -1,7 +1,7 @@
- a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) 
+  a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} = \sum_{k=0}^{n-1} ar^k = a \left(\frac{1-r^{n}}{1-r}\right) 
  \lim_{x\to 0}{\frac{e^x-1}{2x}} \overset{\left[\frac{0}{0}\right]}{\underset{\mathrm{H}}{=}} \lim_{x\to 0}{\frac{e^x}{2}}={\frac{1}{2}} 
  \begin{equation} f(x)=(x+a)(x+b) \end{equation} 
- y = a + f(\underbrace{b x}_{ \ge 0 \text{ by assumption}}) = a + f(\underbrace{b x}_{ \mathclap{\ge 0 \text{ by assumption}}}) 
+  y = a + f(\underbrace{b x}_{ \ge 0 \text{ by assumption}}) = a + f(\underbrace{b x}_{ \mathclap{\ge 0 \text{ by assumption}}}) 
  \begin{align*} f(x)  &= a x^2+b x +c   &   g(x)  &= d x^3 \\  f'(x) &= 2 a x +b   &   g'(x) &= 3 d x^2 \end{align*} 
  \operatorname{arg\,max}_a f(a) = \operatorname*{arg\,max}_b f(b)
  \sum_{i = -N}^{i = N} \sum_{j \geq 0} \frac{1}{i^2 + j^3}
@@ -13,11 +13,11 @@
  \begin{equation} |x|=\begin{cases} -x, & \text{if $x < 0$}\\ x, & \text{if $x \geq 0$} \end{cases} \end{equation}
  \begin{equation} F(x)= A_0 + \sum_{n=1}^N\left[ A_n\cos{\left(\frac{2\pi nx}{P}\right)}+B_n\sin{\left(\frac{2\pi nx}{P}\right)}\right] \end{equation}
  \begin{align*} f(x)\quad &=\quad x^2 + 3x + 5x^2 +8 +6x\\ &=\quad 6x^2 +9x +8\\ &=\quad x(6x+9)+8 \end{align*} 
- $$ X=\frac{F_0}{k}\frac{1}{\sqrt{(1-r^2)^2+(2\zeta r)^2}} $$
+  X=\frac{F_0}{k}\frac{1}{\sqrt{(1-r^2)^2+(2\zeta r)^2}}
  \begin{equation} G_{\mu\nu} \equiv R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu} \end{equation}\\
  \begin{equation} \begin{pmatrix} a_{11}&a_{12}&\dots&a_{1n}\\ a_{21}&a_{22}&\dots&a_{2n}\\ \vdots&\vdots&\ddots&\vdots\\ a_{n1}&a_{n2}&\dots&a_{nn} \end{pmatrix} \begin{pmatrix} v_{1}\\ v_{2}\\ \vdots\\ v_{n} \end{pmatrix} = \begin{pmatrix} w_{1}\\ w_{2}\\ \vdots\\ w_{n} \end{pmatrix} \end{equation}
  \begin{equation} \frac{\partial{\bf{u}}}{\partial{t}}+(\bf{u}\cdot\nabla)\bf{u}-\nu\nabla^2\bf(u)=-\nabla h \end{equation}
  \[      % This is preferred to the $$ environment  \alpha A \beta B \gamma \Gamma \delta \Delta \pi \Pi \omega \Omega  \]
- \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \label{eq:ACL} \end{align}
- \vec{\nabla} \times \vec{E} \quad &=\hspace{10pt}-\frac{\partial{\vec{B}}}{\partial{t}} &&\text{Faraday's Law of Induction} \label{eq:FL} \end{align} 
+ \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law}
+ \vec{\nabla} \times \vec{E} \quad &=\hspace{10pt}-\frac{\partial{\vec{B}}}{\partial{t}} &&\text{Faraday's Law of Induction} 
  \begin{equation} \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 \end{equation}
