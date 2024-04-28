@@ -3,7 +3,6 @@
  \begin{equation} f(x)=(x+a)(x+b) \end{equation} 
  y = a + f(\underbrace{b x}_{ \ge 0 \text{ by assumption}}) = a + f(\underbrace{b x}_{ \mathclap{\ge 0 \text{ by assumption}}}) 
  \begin{align*} f(x)  &= a x^2+b x +c   &   g(x)  &= d x^3 \\  f'(x) &= 2 a x +b   &   g'(x) &= 3 d x^2 \end{align*} 
- \begin{align*} \Aboxed{ f(x) & = \int h(x)\, dx} \\ & = g(x) \end{align*}
  \operatorname{arg\,max}_a f(a) = \operatorname*{arg\,max}_b f(b)
  \sum_{i = -N}^{i = N} \sum_{j \geq 0} \frac{1}{i^2 + j^3}
  \bigcup_{k=3}^{n} \{1, 2, \ldots, k\} \lim_{n \to \infty} \frac{1}{n}
@@ -17,15 +16,8 @@
  $$ X=\frac{F_0}{k}\frac{1}{\sqrt{(1-r^2)^2+(2\zeta r)^2}} $$
  \begin{equation} G_{\mu\nu} \equiv R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu} \end{equation}\\
  \begin{equation} \begin{pmatrix} a_{11}&a_{12}&\dots&a_{1n}\\ a_{21}&a_{22}&\dots&a_{2n}\\ \vdots&\vdots&\ddots&\vdots\\ a_{n1}&a_{n2}&\dots&a_{nn} \end{pmatrix} \begin{pmatrix} v_{1}\\ v_{2}\\ \vdots\\ v_{n} \end{pmatrix} = \begin{pmatrix} w_{1}\\ w_{2}\\ \vdots\\ w_{n} \end{pmatrix} \end{equation}
-
-
-
-
-
-
-
-
-
-
-
-
+ \begin{equation} \frac{\partial{\bf{u}}}{\partial{t}}+(\bf{u}\cdot\nabla)\bf{u}-\nu\nabla^2\bf(u)=-\nabla h \end{equation}
+ \[      % This is preferred to the $$ environment  \alpha A \beta B \gamma \Gamma \delta \Delta \pi \Pi \omega \Omega  \]
+ \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \label{eq:ACL} \end{align}
+ \vec{\nabla} \times \vec{E} \quad &=\hspace{10pt}-\frac{\partial{\vec{B}}}{\partial{t}} &&\text{Faraday's Law of Induction} \label{eq:FL}\\ 
+ \begin{equation} \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 \end{equation}
