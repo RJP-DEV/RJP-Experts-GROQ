@@ -3,4 +3,4 @@ r''' \lim_{x\to 0}{\frac{e^x-1}{2x}} \overset{\left[\frac{0}{0}\right]}{\underse
 r''' \begin{equation} f(x)=(x+a)(x+b) \end{equation} '''
 r''' y = a + f(\underbrace{b x}_{ \ge 0 \text{ by assumption}}) = a + f(\underbrace{b x}_{ \mathclap{\ge 0 \text{ by assumption}}}) '''
 r''' \begin{align*} f(x)  &= a x^2+b x +c   &   g(x)  &= d x^3 \\  f'(x) &= 2 a x +b   &   g'(x) &= 3 d x^2 \end{align*} '''
-r''' \begin{align*} \Aboxed{ f(x) & = \int h(x)\, dx} \\ & = g(x) \end{align*} '''
+r'''  '''
