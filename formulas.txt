@@ -18,6 +18,9 @@
  \begin{equation} \begin{pmatrix} a_{11}&a_{12}&\dots&a_{1n}\\ a_{21}&a_{22}&\dots&a_{2n}\\ \vdots&\vdots&\ddots&\vdots\\ a_{n1}&a_{n2}&\dots&a_{nn} \end{pmatrix} \begin{pmatrix} v_{1}\\ v_{2}\\ \vdots\\ v_{n} \end{pmatrix} = \begin{pmatrix} w_{1}\\ w_{2}\\ \vdots\\ w_{n} \end{pmatrix} \end{equation}
  \begin{equation} \frac{\partial{\bf{u}}}{\partial{t}}+(\bf{u}\cdot\nabla)\bf{u}-\nu\nabla^2\bf(u)=-\nabla h \end{equation}
  \[      % This is preferred to the $$ environment  \alpha A \beta B \gamma \Gamma \delta \Delta \pi \Pi \omega \Omega  \]
- \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law}
- \vec{\nabla} \times \vec{E} \quad &=\hspace{10pt}-\frac{\partial{\vec{B}}}{\partial{t}} &&\text{Faraday's Law of Induction} 
+ \begin{align}   \vec{\nabla} \cdot \vec{E} \quad &=\quad\frac{\rho}{\epsilon_0} &&\text{Gauss's Law} \end{align}    
+ \begin{align}   \vec{\nabla} \cdot \vec{B} \quad &=\quad 0 &&\text{Gauss's Law for Magnetism} \end{align}
+ \begin{align}   \vec{\nabla} \times \vec{E} \quad &=\hspace{10pt}-\frac{\partial{\vec{B}}}{\partial{t}} &&\text{Faraday's Law of Induction} \end{align}
+ \begin{align}   \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \end{align}
  \begin{equation} \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 \end{equation}
+ \left\{ \begin{array}{l} x=r\cos\theta\\ y=r\sin\theta \end{array} \right. ~~\Rightarrow~~ x^2+y^2 =r^2(\underbrace{\cos^2\theta+\sin^2\theta}_{=1})=r^2
