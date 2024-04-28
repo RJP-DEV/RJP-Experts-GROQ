@@ -3,3 +3,7 @@
  \begin{equation} f(x)=(x+a)(x+b) \end{equation} 
  y = a + f(\underbrace{b x}_{ \ge 0 \text{ by assumption}}) = a + f(\underbrace{b x}_{ \mathclap{\ge 0 \text{ by assumption}}}) 
  \begin{align*} f(x)  &= a x^2+b x +c   &   g(x)  &= d x^3 \\  f'(x) &= 2 a x +b   &   g'(x) &= 3 d x^2 \end{align*} 
+ \begin{align*} \Aboxed{ f(x) & = \int h(x)\, dx} \\ & = g(x) \end{align*}
+ \operatorname{arg\,max}_a f(a) = \operatorname*{arg\,max}_b f(b)
+ \sum_{i = -N}^{i = N} \sum_{j \geq 0} \frac{1}{i^2 + j^3}
+ \bigcup_{k=3}^{n} \{1, 2, \ldots, k\} \lim_{n \to \infty} \frac{1}{n}
