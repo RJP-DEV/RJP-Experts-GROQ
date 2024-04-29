@@ -162,7 +162,7 @@ def main():
     # Display the Groq logo
     with col2:  
         image = Image.open('groqcloud_darkmode.png')
-        g_image = image.resize((100, 30))
+        g_image = image.resize((100, 25))
         st.image(g_image)
          
         
@@ -173,7 +173,7 @@ def main():
     st.latex(get_random_formula('formulas.txt'))
     
     st.divider()
-    st.caption("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
+    st.caption("We are your friendly Artificial Intelligence Experts, Provided by Raul Perez Development Studio.")
     st.caption("First select, one of the provided Expert or Fun Personalities. In the Sidebar area.")
     st.caption("This application is power by Groq Language Processing Unit, for ultra fast performance! Let's start our conversation!")
 
