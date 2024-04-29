@@ -155,15 +155,20 @@ def main():
     )
 
     # Display the Groq logo
-    spacer, col = st.columns([2, 1])  
-    with col:  
+    col1, col2 = st.columns([2, 1])  
+    # The title and greeting message of the Streamlit application
+    with col1:  
+        st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:') 
+    # Display the Groq logo
+    with col2:  
         image = Image.open('groqcloud_darkmode.png')
         g_image = image.resize((100, 30))
         st.image(g_image)
          
         
     # The title and greeting message of the Streamlit application
-    st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:' + Image.open('groqcloud_darkmode.png') ) 
+    #  with col1:  
+    #     st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:') 
 
     st.latex(get_random_formula('formulas.txt'))
     
