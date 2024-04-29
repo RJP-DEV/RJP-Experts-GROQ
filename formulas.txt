@@ -23,4 +23,5 @@
  \begin{align}   \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \end{align}
  \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 
  \begin{array}{l} x=r\cos\theta\\ y=r\sin\theta \end{array} 
+ \begin{circuitikz} \draw  (0,0) to[short, -*] (1,0) -- (2,0) node[and port, anchor=in 1] (myand1) {} (1,-1) node[american not port,rotate=-90] (prvone) {} (myand1.in 2) -| (2,-4) (1,0) -| (prvone.in) ; \ctikzset{multipoles/dipchip/pin spacing=0.5}% increasee size of dipchip \draw (myand1.out) -- ++(1,0) node[anchor=pin 1, dipchip, num pins=6, hide numbers, no topmark, external pins width=0](ff1) {} (ff1.pin 3) -- ++(-1,0) node[and port, anchor=out] (myand2) {} (myand2.in 1) node[circ]{} (prvone.out) |- (myand2.in 2); \node [right,font=\tiny] at (ff1.bpin 1) {\textsl{S}}; \node [right,font=\tiny] at (ff1.bpin 2) {\textsl{CP}}; \node [right,font=\tiny] at (ff1.bpin 3) {\textsl{R}}; \node [left,font=\tiny] at (ff1.bpin 6) {\textsl{Q}}; \node [left,font=\tiny] at (ff1.bpin 4) {\textsl{\ctikztextnot{Q}}}; \end{circuitikz}
  
