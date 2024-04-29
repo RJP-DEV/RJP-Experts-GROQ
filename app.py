@@ -163,7 +163,7 @@ def main():
          
         
     # The title and greeting message of the Streamlit application
-    st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses: :st.image(g_image):') 
+    st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses: $formulas.txt$') 
 
     st.latex(get_random_formula('formulas.txt')   )
     
