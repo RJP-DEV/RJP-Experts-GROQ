@@ -163,9 +163,9 @@ def main():
          
         
     # The title and greeting message of the Streamlit application
-    st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses: $formulas.txt$') 
+    st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:' + st.image(g_image)) 
 
-    st.latex(get_random_formula('formulas.txt')   )
+    st.latex(get_random_formula('formulas.txt'))
     
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, power by GROQ and Provided by Raul Perez Development Studio.")
