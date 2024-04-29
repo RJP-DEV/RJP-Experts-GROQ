@@ -23,4 +23,4 @@
  \begin{align}   \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \end{align}
  \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 
  \begin{array}{l} x=r\cos\theta\\ y=r\sin\theta \end{array} 
- \documentclass{article} \usepackage{pgfplots}\pgfplotsset{compat=newest} \begin{document} \newcommand{\mya}{2}  I have a nice parabola: \[ y = \mya x^2 + 3 x + 1 \] which is drawn like:  \begin{tikzpicture}   \begin{axis}[width=6cm,  xmin=-3, xmax=3,  ymin=-10, ymax=10, domain=-10:10,  samples=100,  axis x line = center,  axis y line = center,  xlabel = {$x$},  ylabel = {$y$},  ]          \addplot[blue, thick] {\mya *x*x + 3*x +1 };     \end{axis} \end{tikzpicture} \end{document}
+ 
