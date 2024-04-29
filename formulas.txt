@@ -24,4 +24,4 @@
  \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 
  \begin{array}{l} x=r\cos\theta\\ y=r\sin\theta \end{array} 
  \documentclass[tikz,border=15pt]{standalone}
- \usepackage{circuitikz}  \begin{document} \begin{tikzpicture}  \draw  (0,2) node[and port] (myand1) {}  (0,0) node[and port] (myand2) {}  (2,1) node[xnor port] (myxnor) {}  (myand1.out) -- (myxnor.in 1) (myand2.out) -- (myxnor.in 2); \draw (myand1.out) node[anchor=south,scale=0.5]{out}; \draw (myand1.in 1) node[anchor=south,color=blue]{in1}; \draw (myand1.in 2) node[anchor=south east,rotate=90,scale=0.5]{in2};  \end{tikzpicture} \end{document}
+ \begin{tikzpicture} \begin{axis}[width=6cm, xmin=-3, xmax=3, ymin=-10, ymax=10, domain=-10:10, samples=100, axis x line = center, axis y line = center, xlabel = {$x$}, ylabel = {$y$}, ] \addplot[blue, thick] {\mya *x*x + 3*x +1 }; \end{axis} \end{tikzpicture}
