@@ -159,11 +159,11 @@ def main():
     with col:  
         image = Image.open('groqcloud_darkmode.png')
         g_image = image.resize((100, 30))
-       # st.image(g_image)
+        st.image(g_image)
          
         
     # The title and greeting message of the Streamlit application
-    st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:' , st.image(g_image) ) 
+    st.subheader('RJP Studio Presents : :blue[The Experts!] :sunglasses:' + Image.open('groqcloud_darkmode.png') ) 
 
     st.latex(get_random_formula('formulas.txt'))
     
