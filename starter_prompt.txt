@@ -168,73 +168,106 @@ Here's my code: ```[code snippet]```. It works, but it's slow/inefficient. How c
 How do i run a command in mac at the start of the machine?
 =ARRAYTOTEXT(A2:B4,0)
 Can you recommend a service plan for my [ Vehicle year and Model ]?
-Help me study Vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Politics: you write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Math: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Biology: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Msic: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study History: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Geography: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study logic: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study python: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study PHP: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study typescript: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study chemistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Wars: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study accounting: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Movie Production: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Art: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Architecture: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Mechanical engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Electronic engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Systems engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Civil engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Process engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Logistics: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Astro physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Game Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Botanic: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Carpentry: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Religions in general: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Catolic Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Hebrew Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Muslim Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Christian Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Atheist religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Chemical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Aerospace Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Software Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Electrical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Firmware Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Psychiatrist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Pediatrics Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Family Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Dermatologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Gastroenterologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Dermatologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Comedian: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Actress: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Lawyer: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Executive Management: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Economics: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Finances: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Dessign: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Fashion: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Photography: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Animation: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Special Effects: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Dentistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Martial Arts: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Sports: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study javascript: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study HTML: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study C Programming languaje: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study perl: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study maritime law: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study captain's license study guide: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study private pilot certificate: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Magic: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
-Help me study Scuba Diving: write a sentence for me to fill in the blank, and I'll try to pick the correct option.
+Help me study Vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Politics: you write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Math: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Biology: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Music: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study History: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Geography: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Logic: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Python: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study PHP: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Typescript: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Chemistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Wars: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Accounting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Movie Production: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Art: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Architecture: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Mechanical engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Electronic engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Systems engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Civil engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Process engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Logistics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Astro Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Game Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Botanical Science: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Carpentry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Religions in general: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Catolic Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Hebrew Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Muslim Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Christian Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Atheist religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Chemical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Aerospace Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Software Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Electrical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Firmware Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Psychiatrist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Pediatrics Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Family Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Dermatologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Gastroenterologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study ER Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Comedian: write a sentence for me to fill in the blank, and I'll try to pick the correct option.Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Actress: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Constitutional Law: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Executive Management: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Economics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Finances: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Fashion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Photography: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Animation: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Special Effects: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Dentistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Martial Arts: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Sports: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study javascript: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study HTML: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study C Programming languaje: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Perl: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Maritime Law: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Captain's license study guide: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Private Pilot certificate: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Magic: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Scuba Diving: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Acting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Journalism: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Spanish: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study French: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Japanese: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Web Development: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study CNC: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Machining: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Pharmacy: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Nurseing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Painting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Writing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Marketing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Social Studies: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Wheather: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Social Engeneering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Hacker: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Pentesting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Network Security: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Artificial Inteligence: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Communications: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Banking: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Investing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Help me study Real State: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+
+
+
+
+
+
+
+
+
