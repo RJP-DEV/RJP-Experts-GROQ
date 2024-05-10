@@ -49,12 +49,13 @@ def detect_source_language(client,text: str) -> str:
         ],
         temperature=0,
     )
-
+    st.write(response.choices[0].message.content.strip())
     source_language = response.choices[0].message.content.strip()
-
+    st.write(source_language.capitalize())
     if source_language.capitalize() not in list(supported_languages.keys())[1:]:
         source_language = "English"
-       
+    
+    st.write(source_language)
     return source_language
 
 
@@ -307,10 +308,10 @@ def main():
             convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         if "translation" not in st.session_state:
             st.session_state.translation = ""
+        
         if  st.session_state.translation:
             st.audio("translation.mp3", format="audio/mpeg",)
             container = st.container(border=True)
-            
             with st.container(height= 600):
                  st.write(llm_answer) 
                  
