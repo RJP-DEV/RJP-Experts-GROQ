@@ -30,7 +30,7 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
 
 
 
-def detect_source_language(client, text2: str) -> str:
+def detect_source_language(client, Inputtext: str) -> str:
     """Detect the language of source text
     :type text: str
     :param text: Source text to detect language
@@ -42,7 +42,7 @@ def detect_source_language(client, text2: str) -> str:
         model="mixtral-8x7b-32768",
         messages=[
             { "role": "system", "content": "You are a multi-language translator that only translate to english. and you answer with 1 word only and without punctuation." },
-            { "role": "user",   "content": "Which language is '{text2}' written in? answer with 1 word only without punctuation.", },
+            { "role": "user",   "content": "Which language is '{Inputtext}' written in? answer with 1 word only without punctuation.", },
                  ],
         temperature=0,
     )
@@ -295,7 +295,8 @@ def main():
         # The chatbot's answer is added to the chatbot answer history.
         st.session_state['chatbot_answer_history'].append(llm_answer)
         st.session_state.translation = llm_answer
-        st.session_state.target_lang = detect_source_language(client,llm_answer)
+        st.write(llm_answer)
+        st.session_state.target_lang = detect_source_language(client, llm_answer)
         target_language = st.session_state.target_lang
         
         if  st.session_state.translation: 
