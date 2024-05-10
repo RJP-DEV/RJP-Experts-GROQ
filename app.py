@@ -50,12 +50,13 @@ def detect_source_language(client,text: str) -> str:
         temperature=0,
     )
     st.write(response)
+    
     source_language = response.choices[0].message.content.strip()
-    st.write(source_language.capitalize())
+    
     if source_language.capitalize() not in list(supported_languages.keys())[1:]:
         source_language = "English"
     
-    st.write(source_language)
+    
     return source_language
 
 
@@ -296,7 +297,7 @@ def main():
         st.session_state.translation = llm_answer
         st.session_state.target_lang = detect_source_language(client,llm_answer)
         target_language = st.session_state.target_lang
-        st.write(target_language)
+        
         if  st.session_state.translation: 
             nl = '  \nResponse :  \n  \n  ' 
             st.session_state.translation = st.session_state.translation.replace('**', '  ')
