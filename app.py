@@ -46,13 +46,15 @@ def detect_source_language(client, text: str ) -> str:
         temperature=0
     )
     
-    st.write(response)
+    st.write(source_language)
 
     source_language = response.choices[0].message.content.strip()
 
     if source_language.capitalize() not in list(supported_languages.keys())[1:]:
        source_language = "English"
     
+
+    st.write(source_language)
     return source_language
 
 
