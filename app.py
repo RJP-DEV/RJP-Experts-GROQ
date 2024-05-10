@@ -37,22 +37,22 @@ def detect_source_language(client, Inputtext: str) -> str:
     :rtype: str
     :returns: Detected language of source text  mixtral-8x7b-32768  gemma-7b-it  : str) -> str:
     """
-
+    text2 = Inputtext
+    
     response = client.chat.completions.create(
         model="mixtral-8x7b-32768",
         messages=[
             { "role": "system", "content": "You are a multi-language translator that only translate to english. and you answer with 1 word only and without punctuation." },
-            { "role": "user",   "content": "Which language is '{Inputtext}' written in? answer with 1 word only without punctuation.", },
+            { "role": "user",   "content": "Which language is '{Inputtext}' written in? answer with 1 word only without punctuation." }
                  ],
-        temperature=0,
+        temperature=0
     )
     
     st.write(response)
 
     source_language = response.choices[0].message.content.strip()
 
-    st.write(source_language)
-    
+        
     if source_language.capitalize() not in list(supported_languages.keys())[1:]:
         source_language = "English"
     
@@ -295,7 +295,7 @@ def main():
         # The chatbot's answer is added to the chatbot answer history.
         st.session_state['chatbot_answer_history'].append(llm_answer)
         st.session_state.translation = llm_answer
-        st.write(llm_answer)
+       
         st.session_state.target_lang = detect_source_language(client, llm_answer)
         target_language = st.session_state.target_lang
         
