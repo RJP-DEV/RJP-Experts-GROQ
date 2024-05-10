@@ -27,10 +27,10 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
 
     with open("translation.mp3", "wb") as mp3_file:
         tts.write_to_fp(mp3_file)
+    return
+   
 
-
-
-def detect_source_language(text: str, client):
+def detect_source_language(client, text: str ) -> str:
     """Detect the language of source text
     :type text: str
     :param text: Source text to detect language
@@ -51,10 +51,8 @@ def detect_source_language(text: str, client):
 
     source_language = response.choices[0].message.content.strip()
 
-        
     if source_language.capitalize() not in list(supported_languages.keys())[1:]:
-        source_language = "English"
-    
+       source_language = "English"
     
     return source_language
 
@@ -295,7 +293,8 @@ def main():
         st.session_state['chatbot_answer_history'].append(llm_answer)
         st.session_state.translation = llm_answer
        
-        st.session_state.target_lang = detect_source_language(st.session_state.translation, client)
+        st.session_state.target_lang = detect_source_language(client, llm_answer)
+        
         target_language = st.session_state.target_lang
         
         if  st.session_state.translation: 
