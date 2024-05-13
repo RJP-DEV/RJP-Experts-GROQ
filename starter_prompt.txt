@@ -262,12 +262,3 @@ Help me study Communications: write a sentence for me to fill in the blank, and 
 Help me study Banking: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 Help me study Investing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 Help me study Real State: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-
-
-
-
-
-
-
-
-
