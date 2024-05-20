@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from languages import supported_languages
 from language_dict import language_dict
 import edge_tts
-import tempfile
+import asyncio
 
 @dataclass
 class Prompt1:
@@ -19,7 +19,7 @@ class Prompt1:
 Gengerlist = ["-M", "-F"]
  
 
-def convert_text_to_mp3(text: str, target_language_code: str) -> str:
+async def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     """Convert the given text to mp3 formatted audio
     :type text: str
     :param text: Text to convert to audio
@@ -28,18 +28,23 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> str:
     """
     target_language_code = target_language_code + random.choice(Gengerlist)
     voice = language_dict.get(target_language_code, "default_voice")
-    tts = edge_tts.Communicate(text, voice)
+    communicate = edge_tts.Communicate(text, voice)
 
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
 
-    with open("translation.mp3", "rb") as mp3_file:
-        tts.save(mp3_file)
-    return
+    #with open("translation.mp3", "wb") as mp3_file:
+    #    tts.save(mp3_file)
+    #return
 
-    #with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp_file:
-    #    tmp_path = tmp_file.name
-    #    await tts.save(tmp_path)
-    #yield tmp_path
+   
+    with open("translation.mp3", "wb") as file:
+        async for chunk in communicate.stream():
+            if chunk["type"] == "audio":
+                file.write(chunk["data"])
+            elif chunk["type"] == "WordBoundary":
+                print(f"WordBoundary: {chunk}")
+    return
+    
    
 
 
