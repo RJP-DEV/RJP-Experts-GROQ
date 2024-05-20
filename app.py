@@ -6,7 +6,7 @@ from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
-from language_dict import dictionary_languages
+from language_dict import language_dict
 import edge_tts
 
 @dataclass
@@ -26,7 +26,7 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     :param target_language_code: Language code
     """
     target_language_code = target_language_code + random.choice(Gengerlist)
-    voice = dictionary_languages.get(target_language_code, "default_voice")
+    voice = language_dict.get(target_language_code, "default_voice")
     tts = edge_tts.Communicate(text, voice)
 
 
