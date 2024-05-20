@@ -38,7 +38,7 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
 
     with open("translation.mp3", "wb") as mp3_file:
-        tts.write_to_fp(mp3_file)
+        tts.save(mp3_file)
     return
    
 
