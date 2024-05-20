@@ -27,9 +27,11 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     """
     target_language_code = target_language_code + random.choice(Gengerlist)
 
-    st.write(target_language_code)
     voice = language_dict.get(target_language_code, "default_voice")
+   
+    st.write(text)
     st.write(voice)
+    
     tts = edge_tts.Communicate(text, voice)
 
 
@@ -305,9 +307,6 @@ def main():
         st.session_state.target_lang = detect_source_language(client, llm_answer)
         
         target_language = st.session_state.target_lang
-
-        st.write(target_language)
-        st.write(supported_languages[target_language])
 
         if  st.session_state.translation: 
             nl = '  \nResponse :  \n  \n  ' 
