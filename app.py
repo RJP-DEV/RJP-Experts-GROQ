@@ -19,7 +19,7 @@ class Prompt1:
 Gengerlist = ["-M", "-F"]
  
 
-async def convert_text_to_mp3(text: str, target_language_code: str) :
+def convert_text_to_mp3(text: str, target_language_code: str) -> str:
     """Convert the given text to mp3 formatted audio
     :type text: str
     :param text: Text to convert to audio
@@ -32,8 +32,8 @@ async def convert_text_to_mp3(text: str, target_language_code: str) :
 
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
 
-    with open("translation.mp3", "wb") as mp3_file:
-        tts.write_to_fp(mp3_file)
+    with open("translation.mp3", "rb") as mp3_file:
+        tts.save(mp3_file)
     return
 
     #with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp_file:
@@ -324,7 +324,7 @@ def main():
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-            st.audio("translation.mp3", format="audio/mpeg")
+            st.audio("translation.mp3", format="audio/wav")
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
