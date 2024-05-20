@@ -318,9 +318,9 @@ def main():
      #      convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
 
      
-            mp3_file= convert_text_to_mp3(st.session_state.translation, target_language)
-            st.write(mp3_file) 
-            
+            convert_text_to_mp3(st.session_state.translation, target_language)
+           
+
         if "translation" not in st.session_state:
             st.session_state.translation = ""
         
