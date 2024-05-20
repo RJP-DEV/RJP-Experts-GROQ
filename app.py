@@ -37,14 +37,16 @@ async def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     #return
     st.write(voice)
    
-    with open("translation.mp3", "wb") as file:
-        async for chunk in communicate.stream():
-            if chunk["type"] == "audio":
-                file.write(chunk["data"])
-            elif chunk["type"] == "WordBoundary":
-                print(f"WordBoundary: {chunk}")
-   
-    
+   # with open("translation.mp3", "wb") as file:
+   #     async for chunk in communicate.stream():
+   #         if chunk["type"] == "audio":
+   #             file.write(chunk["data"])
+   #         elif chunk["type"] == "WordBoundary":
+   #             print(f"WordBoundary: {chunk}")
+      
+    await communicate.save("translation.mp3")
+    return
+
    
 
 
