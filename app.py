@@ -26,7 +26,10 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     :param target_language_code: Language code
     """
     target_language_code = target_language_code + random.choice(Gengerlist)
+
+    st.write(target_language_code)
     voice = language_dict.get(target_language_code, "default_voice")
+    st.write(voice)
     tts = edge_tts.Communicate(text, voice)
 
 
