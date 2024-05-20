@@ -26,21 +26,21 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     :param target_language_code: Language code
     """
     target_language_code = target_language_code + random.choice(Gengerlist)
-
     voice = language_dict.get(target_language_code, "default_voice")
-   
-    st.write(text)
-    st.write(voice)
-    
     tts = edge_tts.Communicate(text, voice)
-
 
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
 
-    with open("translation.mp3", "wb") as mp3_file:
+    with open("translation.wav", "wb") as mp3_file:
         tts.save(mp3_file)
     return
-   
+
+#    with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp_file:
+#        tmp_path = tmp_file.name
+#        await tts.save(tmp_path)
+#    yield tmp_path
+
+
 
 def detect_source_language(client, text: str ) -> str:
     """Detect the language of source text
@@ -322,7 +322,7 @@ def main():
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-            st.audio("translation.mp3", format="audio/mpeg",)
+            st.audio("translation.wav", format="audio/wav",)
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
