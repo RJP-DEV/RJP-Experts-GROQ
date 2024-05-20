@@ -322,11 +322,20 @@ def main():
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-    #        st.audio("translation.mp3", format="audio/mpeg",)
-            container = st.container(border=True)
-            with st.container(height= 600):
-                 st.write(llm_answer) 
+    #        st.audio("translation.mp3", format="audio/mp3",)
+             uploaded_file = "translation.mp3"
+             if uploaded_file is not None:
+                audio_bytes = uploaded_file.read()
+                st.audio(audio_bytes, format='audio/mp3') 
+                container = st.container(border=True)
+                with st.container(height= 600):
+                     st.write(llm_answer) 
                  
+
+
+
+
+
             
     if Resetclicked:
        llm_answer = []
