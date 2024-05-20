@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from languages import supported_languages
 from language_dict import language_dict
 import edge_tts
+import tempfile
 
 @dataclass
 class Prompt1:
@@ -18,7 +19,7 @@ class Prompt1:
 Gengerlist = ["-M", "-F"]
  
 
-def convert_text_to_mp3(text: str, target_language_code: str) -> None:
+async def convert_text_to_mp3(text: str, target_language_code: str) :
     """Convert the given text to mp3 formatted audio
     :type text: str
     :param text: Text to convert to audio
@@ -31,14 +32,15 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
 
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
 
-    with open("translation.wav", "wb") as mp3_file:
-        tts.save(mp3_file)
-    return
+    #with open("translation.wav", "wb") as mp3_file:
+    #     tts.save(mp3_file)
+    #return
 
-#    with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp_file:
-#        tmp_path = tmp_file.name
-#        await tts.save(tmp_path)
-#    yield tmp_path
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp_file:
+        tmp_path = tmp_file.name
+        await tts.save(tmp_path)
+    yield tmp_path
+   
 
 
 
