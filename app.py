@@ -302,7 +302,10 @@ def main():
         st.session_state.target_lang = detect_source_language(client, llm_answer)
         
         target_language = st.session_state.target_lang
-        
+
+        st.write(target_language)
+        st.write(supported_languages[target_language])
+
         if  st.session_state.translation: 
             nl = '  \nResponse :  \n  \n  ' 
             st.session_state.translation = st.session_state.translation.replace('**', '  ')
@@ -311,7 +314,7 @@ def main():
             st.session_state.translation = st.session_state.translation.replace('"', '  ')
             st.session_state.translation = st.session_state.translation.replace("'", "  ")            
             st.session_state.translation = nl + st.session_state.translation
-            convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+     #       convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         if "translation" not in st.session_state:
             st.session_state.translation = ""
         
