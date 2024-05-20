@@ -35,9 +35,9 @@ async def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     #with open("translation.mp3", "wb") as mp3_file:
     #    tts.save(mp3_file)
     #return
-
+    st.write(voice)
    
-    with open("translation.mp3", "wb") as file:
+    with open("translation.wav", "wb") as file:
         async for chunk in communicate.stream():
             if chunk["type"] == "audio":
                 file.write(chunk["data"])
@@ -329,7 +329,7 @@ def main():
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-            st.audio("translation.mp3", format="audio/mpeg")
+            st.audio("translation.wav", format="audio/wav")
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
