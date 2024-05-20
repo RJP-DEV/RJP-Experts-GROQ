@@ -43,7 +43,7 @@ async def convert_text_to_mp3(text: str, target_language_code: str) -> None:
                 file.write(chunk["data"])
             elif chunk["type"] == "WordBoundary":
                 print(f"WordBoundary: {chunk}")
-    return
+   
     
    
 
