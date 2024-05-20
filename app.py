@@ -28,23 +28,14 @@ async def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     """
     target_language_code = target_language_code + random.choice(Gengerlist)
     voice = language_dict.get(target_language_code, "default_voice")
-    communicate = edge_tts.Communicate(text, voice)
+    tts = edge_tts.Communicate(text, voice)
 
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
-
-    #with open("translation.mp3", "wb") as mp3_file:
-    #    tts.save(mp3_file)
-    #return
     st.write(voice)
-   
-   # with open("translation.mp3", "wb") as file:
-   #     async for chunk in communicate.stream():
-   #         if chunk["type"] == "audio":
-   #             file.write(chunk["data"])
-   #         elif chunk["type"] == "WordBoundary":
-   #             print(f"WordBoundary: {chunk}")
-      
-    await communicate.save("translation.mp3")
+    
+    with open("translation.mp3", "wb") as mp3_file:
+     await tts.save(mp3_file)
+       
     return
 
    
