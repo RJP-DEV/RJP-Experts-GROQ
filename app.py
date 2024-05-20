@@ -321,7 +321,7 @@ def main():
             OUTPUT_FILE = "translation.mp3"
             target_language = target_language + random.choice(Gengerlist)
             voice = language_dict.get(target_language, "default_voice")
-            communicate = edge_tts.communicate(st.session_state.translation, voice)
+            communicate = edge_tts.Communicate(st.session_state.translation, voice)
     #       with open("translation.mp3", "wb") as mp3_file:
             communicate.save(OUTPUT_FILE)
 
