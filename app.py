@@ -316,10 +316,16 @@ def main():
             st.session_state.translation = nl + st.session_state.translation
      
      #      convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+     #      convert_text_to_mp3(st.session_state.translation, target_language)
+     #      tts = gTTS(text, lang=target_language_code, lang_check=True)
+       
+            target_language = target_language + random.choice(Gengerlist)
+            voice = language_dict.get(target_language, "default_voice")
+            tts = edge_tts.Communicate(st.session_state.translation, voice)
+            with open("translation.mp3", "wb") as mp3_file:
+                 tts.save(mp3_file)
 
-     
-            convert_text_to_mp3(st.session_state.translation, target_language)
-           
+
 
         if "translation" not in st.session_state:
             st.session_state.translation = ""
