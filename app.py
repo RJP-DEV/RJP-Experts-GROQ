@@ -33,7 +33,7 @@ async def convert_text_to_mp3(text: str, target_language_code: str) :
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
 
     with open("translation.mp3", "wb") as mp3_file:
-         await tts.save(mp3_file)
+        tts.write_to_fp(mp3_file)
     return
 
     #with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp_file:
