@@ -34,7 +34,7 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> str:
     
     with open("translation.mp3", "wb") as mp3_file:
          tts.save(mp3_file)
-    return mp3_file
+    return 
 
    
 
@@ -318,12 +318,12 @@ def main():
      #      convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
      #      convert_text_to_mp3(st.session_state.translation, target_language)
      #      tts = gTTS(text, lang=target_language_code, lang_check=True)
-       
+            OUTPUT_FILE = "translation.mp3"
             target_language = target_language + random.choice(Gengerlist)
             voice = language_dict.get(target_language, "default_voice")
-            tts = edge_tts.Communicate(st.session_state.translation, voice)
-            with open("translation.mp3", "wb") as mp3_file:
-                 tts.save(mp3_file)
+            communicate = edge_tts.communicate(st.session_state.translation, voice)
+    #       with open("translation.mp3", "wb") as mp3_file:
+            communicate.save(OUTPUT_FILE)
 
 
 
@@ -331,7 +331,7 @@ def main():
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-            st.audio("translation.mp3", format='audio/mpeg') 
+            st.audio(OUTPUT_FILE, format='audio/mpeg') 
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
