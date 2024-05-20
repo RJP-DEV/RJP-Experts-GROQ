@@ -1,8 +1,8 @@
 language_dict = {
- 'English-F': 'Spanish (El Salvador)-Lorena- (Female)',
- 'English-M': 'Spanish (Venezuela)-Sebastian- (Male)',
- 'Spanish-F': 'Spanish (El Salvador)-Lorena- (Female)',
- 'Spanish-M': 'Spanish (Venezuela)-Sebastian- (Male)',
+ 'English-F': 'es-VE-SebastianNeural',
+ 'English-M': 'es-VE-SebastianNeural',
+ 'Spanish-F': 'es-VE-SebastianNeural',
+ 'Spanish-M': 'es-VE-SebastianNeural',
  'Korean-F': 'Korean-Sun-Hi- (Female)',
  'Korean-M': 'Korean-InJoon- (Male)',
  'Thai-F': 'Thai-Premwadee- (Female)',
