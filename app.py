@@ -32,7 +32,7 @@ async def convert_text_to_mp3(text: str, target_language_code: str) :
 
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
 
-    with open("translation.wav", "wb") as mp3_file:
+    with open("translation.mp3", "wb") as mp3_file:
          await tts.save(mp3_file)
     return
 
@@ -324,7 +324,7 @@ def main():
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-            st.audio("translation.wav", format="audio/wav",)
+            st.audio("translation.mp3", format="audio/mpeg",)
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
