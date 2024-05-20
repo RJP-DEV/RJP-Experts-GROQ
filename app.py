@@ -6,9 +6,7 @@ from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
-from language_dict import language_dict
-import edge_tts
-import asyncio
+from gtts import gTTS 
 
 @dataclass
 class Prompt1:
@@ -16,29 +14,21 @@ class Prompt1:
     title: str
     name: str
 
-Gengerlist = ["-M", "-F"]
- 
 
-def convert_text_to_mp3(text: str, target_language_code: str) -> str:
+def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     """Convert the given text to mp3 formatted audio
     :type text: str
     :param text: Text to convert to audio
     :type target_language_code: str
     :param target_language_code: Language code
     """
-    target_language_code = target_language_code + random.choice(Gengerlist)
-    voice = language_dict.get(target_language_code, "default_voice")
-    tts = edge_tts.Communicate(text, voice)
 
-    # tts = gTTS(text, lang=target_language_code, lang_check=True)
-    
+    tts = gTTS(text, lang=target_language_code, lang_check=True)
+
     with open("translation.mp3", "wb") as mp3_file:
-         tts.save(mp3_file)
-    return 
-
+        tts.write_to_fp(mp3_file)
+    return
    
-
-
 
 def detect_source_language(client, text: str ) -> str:
     """Detect the language of source text
@@ -305,7 +295,7 @@ def main():
         st.session_state.target_lang = detect_source_language(client, llm_answer)
         
         target_language = st.session_state.target_lang
-
+        
         if  st.session_state.translation: 
             nl = '  \nResponse :  \n  \n  ' 
             st.session_state.translation = st.session_state.translation.replace('**', '  ')
@@ -314,28 +304,15 @@ def main():
             st.session_state.translation = st.session_state.translation.replace('"', '  ')
             st.session_state.translation = st.session_state.translation.replace("'", "  ")            
             st.session_state.translation = nl + st.session_state.translation
-     
-     #      convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
-     #      convert_text_to_mp3(st.session_state.translation, target_language)
-     #      tts = gTTS(text, lang=target_language_code, lang_check=True)
-            OUTPUT_FILE = "translation.mp3"
-            target_language = target_language + random.choice(Gengerlist)
-            voice = language_dict.get(target_language, "default_voice")
-            communicate = edge_tts.Communicate(st.session_state.translation, voice)
-    #       with open("translation.mp3", "wb") as mp3_file:
-            communicate.save(OUTPUT_FILE)
-
-
-
+            convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
         if "translation" not in st.session_state:
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-            st.audio(OUTPUT_FILE, format='audio/mpeg') 
+            st.audio("translation.mp3", format="audio/mpeg",)
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
-
                  
             
     if Resetclicked:
