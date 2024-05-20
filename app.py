@@ -329,7 +329,7 @@ def main():
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-            st.audio("translation.mp3", format="audio/wav")
+            st.audio("translation.mp3", format="audio/mpeg")
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
