@@ -6,8 +6,7 @@ from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
-from language_dict import dictionary_languages
-import edge_tts
+from gtts import gTTS 
 
 @dataclass
 class Prompt1:
@@ -15,8 +14,6 @@ class Prompt1:
     title: str
     name: str
 
-Gengerlist = ["-M", "-F"]
- 
 
 def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     """Convert the given text to mp3 formatted audio
@@ -25,12 +22,8 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     :type target_language_code: str
     :param target_language_code: Language code
     """
-    target_language_code = target_language_code + random.choice(Gengerlist)
-    voice = dictionary_languages.get(target_language_code, "default_voice")
-    tts = edge_tts.Communicate(text, voice)
 
-
-    # tts = gTTS(text, lang=target_language_code, lang_check=True)
+    tts = gTTS(text, lang=target_language_code, lang_check=True)
 
     with open("translation.mp3", "wb") as mp3_file:
         tts.write_to_fp(mp3_file)
