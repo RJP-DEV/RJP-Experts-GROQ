@@ -314,7 +314,8 @@ def main():
             st.session_state.translation = st.session_state.translation.replace('"', '  ')
             st.session_state.translation = st.session_state.translation.replace("'", "  ")            
             st.session_state.translation = nl + st.session_state.translation
-     #       convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+      #      convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+            convert_text_to_mp3(st.session_state.translation, target_language)
         if "translation" not in st.session_state:
             st.session_state.translation = ""
         
