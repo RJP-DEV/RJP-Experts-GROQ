@@ -19,7 +19,7 @@ class Prompt1:
 Gengerlist = ["-M", "-F"]
  
 
-async def convert_text_to_mp3(text: str, target_language_code: str) -> None:
+async def convert_text_to_mp3(text: str, target_language_code: str) -> str:
     """Convert the given text to mp3 formatted audio
     :type text: str
     :param text: Text to convert to audio
@@ -31,12 +31,10 @@ async def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     tts = edge_tts.Communicate(text, voice)
 
     # tts = gTTS(text, lang=target_language_code, lang_check=True)
-    st.write(voice)
-
+    
     with open("translation.mp3", "wb") as mp3_file:
      await tts.save(mp3_file)
-     st.audio(mp3_file, format='audio/mp3') 
-    return
+    return mp3_file
 
    
 
@@ -316,16 +314,18 @@ def main():
             st.session_state.translation = st.session_state.translation.replace('"', '  ')
             st.session_state.translation = st.session_state.translation.replace("'", "  ")            
             st.session_state.translation = nl + st.session_state.translation
-      #      convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
-            convert_text_to_mp3(st.session_state.translation, target_language)
+     
+     #      convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+     
+            mp3_file= convert_text_to_mp3(st.session_state.translation, target_language)
         if "translation" not in st.session_state:
             st.session_state.translation = ""
         
         if  st.session_state.translation:
-    #        st.audio("translation.mp3", format="audio/mp3",)
-             container = st.container(border=True)
-             with st.container(height= 600):
-                  st.write(llm_answer) 
+            st.audio(mp3_file, format='audio/mp3') 
+            container = st.container(border=True)
+            with st.container(height= 600):
+                 st.write(llm_answer) 
                  
 
 
