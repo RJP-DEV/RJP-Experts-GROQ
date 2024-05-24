@@ -26,8 +26,10 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     :type target_language_code: str
     :param target_language_code: Language code
     """
-    Accent=random.choice(Accentlist)
-    st.write(Accent)
+    
+    #Accent=random.choice(Accentlist)
+    
+    Accent=st.selectbox(Accentlist)
     tts = gTTS(text, lang=target_language_code, tld=Accent, lang_check=True)
 
     with open("translation.mp3", "wb") as mp3_file:
