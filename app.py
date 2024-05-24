@@ -14,6 +14,9 @@ class Prompt1:
     title: str
     name: str
 
+Gengerlist = ["1", "2"]
+Accentlist = ["com.au", "co.uk", "us", "ca", "co.in", "ie", "co.za", "com.ng", "ca", "fr", "com.br", "pt", "com.mx", "es", "us"]
+
 
 def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     """Convert the given text to mp3 formatted audio
@@ -23,7 +26,7 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     :param target_language_code: Language code
     """
 
-    tts = gTTS(text, lang=target_language_code, tld='us', lang_check=True)
+    tts = gTTS(text, lang=target_language_code, tld=random.choice(Accentlist), lang_check=True)
 
     with open("translation.mp3", "wb") as mp3_file:
         tts.write_to_fp(mp3_file)
