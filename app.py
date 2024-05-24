@@ -41,7 +41,7 @@ def detect_source_language(client, text: str ) -> str:
     idioma= "In which language is the following text written in? :" +  text  
 
     response = client.chat.completions.create(
-        model="llama3-8b-8192",
+        model="gemma-7b-it", # model="llama3-8b-8192",
         messages=[ { "role": "system", "content": instruccion }, { "role": "user",   "content": idioma } ],
         temperature=0
     )
@@ -53,7 +53,6 @@ def detect_source_language(client, text: str ) -> str:
     
     
     return source_language
-
 
 
 
