@@ -26,8 +26,9 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     :type target_language_code: str
     :param target_language_code: Language code
     """
-
-    tts = gTTS(text, lang=target_language_code, tld=random.choice(Accentlist), lang_check=True)
+    Accent=random.choice(Accentlist)
+    st.write(Accent)
+    tts = gTTS(text, lang=target_language_code, tld=Accent, lang_check=True)
 
     with open("translation.mp3", "wb") as mp3_file:
         tts.write_to_fp(mp3_file)
@@ -316,6 +317,8 @@ def main():
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
+                 user_question = []
+
                  
             
     if Resetclicked:
