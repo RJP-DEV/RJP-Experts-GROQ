@@ -3,7 +3,7 @@ AccentList = {
     "American": "com",
     "Australian": "com.au",
     "Irish": "ie",
-    "Argentinean Female": "ar",
+    "Argentinean Female": "bs",
     "Argentinean Male": "com.ar",
     "Spanish": "es",
     "Mexican": "com.mx",
