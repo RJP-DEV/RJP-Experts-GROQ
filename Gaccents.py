@@ -6,7 +6,7 @@ AccentList = {
     "Argentinean Female": "ca",
     "Argentinean Male": "com.ar",
     "Spanish Female": "es",
-    "Spanish/italian Male": "com.it",
+    "Spanish.Italian Male": "com.it",
     "Mexican": "com.mx",
     "Catalan": "ca",
     "Brazilian": "com.br",
