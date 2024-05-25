@@ -48,10 +48,11 @@ def detect_source_language(client, text: str ) -> str:
     )
     
     source_language = response.choices[0].message.content.strip()
-    
+   
     if source_language.capitalize() not in list(supported_languages.keys())[1:]:
        source_language = "English"
-   
+ 
+           
     st.write(source_language)
     
     return source_language
@@ -247,6 +248,7 @@ def main():
     # Add customization options Localization Accent in the sidebar
     Selected_Accent=st.sidebar.selectbox('Localization Accent', AccentList)
     Accent=AccentList.get(Selected_Accent, "us" )
+      
 
     # Add customization options conversational memory length in the sidebar
     conversational_memory_length = st.sidebar.slider('Conversational memory:', 1, 10, value = 5)
@@ -297,7 +299,10 @@ def main():
         st.session_state['chatbot_answer_history'].append(llm_answer)
         st.session_state.translation = llm_answer
        
-        st.session_state.target_lang = detect_source_language(client, llm_answer)
+        if Accent == "com.ar":
+           st.session_state.target_lang = "Argentino"
+        else:
+           st.session_state.target_lang = detect_source_language(client, llm_answer)
         
         target_language = st.session_state.target_lang
         
