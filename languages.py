@@ -7,7 +7,7 @@ supported_languages = {
     "English": "en",
     "Spanish": "es",
     "Argentino": "et",
-    "Argentino2": "ca",
+    "Argentino2": "it",
     "Estonian": "et",
     "Finnish": "fi",
     "French": "fr",
