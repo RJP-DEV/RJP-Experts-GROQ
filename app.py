@@ -317,7 +317,7 @@ def main():
             container = st.container(border=True)
             with st.container(height= 600):
                  st.write(llm_answer) 
-                 user_question = []
+                 #user_question = []
 
                  
             
