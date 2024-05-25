@@ -1,4 +1,4 @@
-accents = {
+AccentList = {
     "American": "us",
     "British": "co.uk",
     "Australian": "com.au",

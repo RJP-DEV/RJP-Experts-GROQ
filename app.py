@@ -6,7 +6,7 @@ from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
-from Gaccents import accents
+from Gaccents import AccentList
 from gtts import gTTS 
 
 @dataclass
@@ -247,7 +247,8 @@ def main():
     promptx = Prompt3.name
 
     # Add customization options Localization Accent in the sidebar
-    Accent=st.sidebar.selectbox('Localization Accent', accents)
+    Selected_Accent=st.sidebar.selectbox('Localization Accent', AccentList)
+    Accent=AccentList.get(Selected_Accent, "us" )
 
     # Add customization options conversational memory length in the sidebar
     conversational_memory_length = st.sidebar.slider('Conversational memory:', 1, 10, value = 5)
