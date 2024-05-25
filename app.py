@@ -19,7 +19,7 @@ Accentlist = ["com.au", "ca", "co.in", "ie", "co.za", "com.ng", "ca", "fr", "com
 #Accentlist = ["com.au", "co.uk", "us", "ca", "co.in", "ie", "co.za", "com.ng", "ca", "fr", "com.br", "pt", "com.mx", "es", "us"]
 
 
-def convert_text_to_mp3(text: str, target_language_code: str) -> None:
+def convert_text_to_mp3(text: str, target_language_code: str, Accent: str) -> None:
     """Convert the given text to mp3 formatted audio
     :type text: str
     :param text: Text to convert to audio
@@ -27,9 +27,6 @@ def convert_text_to_mp3(text: str, target_language_code: str) -> None:
     :param target_language_code: Language code
     """
     
-    #Accent=random.choice(Accentlist)
-    
-    Accent=st.selectbox(Accentlist)
     tts = gTTS(text, lang=target_language_code, tld=Accent, lang_check=True)
 
     with open("translation.mp3", "wb") as mp3_file:
@@ -310,7 +307,9 @@ def main():
             st.session_state.translation = st.session_state.translation.replace('"', '  ')
             st.session_state.translation = st.session_state.translation.replace("'", "  ")            
             st.session_state.translation = nl + st.session_state.translation
-            convert_text_to_mp3(st.session_state.translation, supported_languages[target_language])
+           #Accent=random.choice(Accentlist)
+            Accent=st.selectbox('Localization accent',Accentlist)
+            convert_text_to_mp3(st.session_state.translation, supported_languages[target_language], Accent)
         if "translation" not in st.session_state:
             st.session_state.translation = ""
         
