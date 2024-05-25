@@ -51,10 +51,7 @@ def detect_source_language(client, text: str ) -> str:
    
     if source_language.capitalize() not in list(supported_languages.keys())[1:]:
        source_language = "English"
- 
-           
-    st.write(source_language)
-    
+       
     return source_language
 
 
