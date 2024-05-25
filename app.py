@@ -307,9 +307,11 @@ def main():
             nl = '  \nResponse :  \n  \n  ' 
             st.session_state.translation = st.session_state.translation.replace('**', '  ')
             st.session_state.translation = st.session_state.translation.replace('*', ' ')
-            st.session_state.translation = st.session_state.translation.replace('`', '  ')
-            st.session_state.translation = st.session_state.translation.replace('"', '  ')
-            st.session_state.translation = st.session_state.translation.replace("'", "  ")            
+            st.session_state.translation = st.session_state.translation.replace('`', ' ')
+            st.session_state.translation = st.session_state.translation.replace('"', ' ')
+            st.session_state.translation = st.session_state.translation.replace("'", " ")     
+            st.session_state.translation = st.session_state.translation.replace("_", " ")   
+            st.session_state.translation = st.session_state.translation.replace("__", "  ")                 
             st.session_state.translation = nl + st.session_state.translation
            
             convert_text_to_mp3(st.session_state.translation, supported_languages[target_language], Accent)
