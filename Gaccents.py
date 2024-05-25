@@ -12,7 +12,7 @@ AccentList = {
     "French": "fr",
     "Indian": "co.in",
     "Icelandic": "is",
-    "Hebrew": "iw",
+    "Hebrew": "co.il",
     "Latin": "la",
     "Japanese": "co.jp",
     "Korean": "co.kr",
