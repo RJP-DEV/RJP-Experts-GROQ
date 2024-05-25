@@ -6,6 +6,7 @@ from groq import Groq
 from PIL import Image
 from dataclasses import dataclass
 from languages import supported_languages
+from Gaccents import accents
 from gtts import gTTS 
 
 @dataclass
@@ -15,7 +16,7 @@ class Prompt1:
     name: str
 
 Gengerlist = ["1", "2"]
-Accentlist = ["com.ar","com.au", "co.uk", "us", "ca", "co.in", "ie", "co.za", "com.ng", "ca", "fr", "com.br", "pt", "com.mx", "es", "us"]
+Accentlist = ["Argentina":,"com.ar","com.au", "co.uk", "us", "ca", "co.in", "ie", "co.za", "com.ng", "ca", "fr", "com.br", "pt", "com.mx", "es", "us"]
 
 
 def convert_text_to_mp3(text: str, target_language_code: str, Accent: str) -> None:
@@ -246,7 +247,7 @@ def main():
     promptx = Prompt3.name
 
     # Add customization options Localization Accent in the sidebar
-    Accent=st.sidebar.selectbox('Localization Accent',Accentlist)
+    Accent=st.sidebar.selectbox('Localization Accent', accents)
 
     # Add customization options conversational memory length in the sidebar
     conversational_memory_length = st.sidebar.slider('Conversational memory:', 1, 10, value = 5)
