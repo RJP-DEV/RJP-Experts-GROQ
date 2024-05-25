@@ -15,8 +15,7 @@ class Prompt1:
     name: str
 
 Gengerlist = ["1", "2"]
-Accentlist = ["com.au", "ca", "co.in", "ie", "co.za", "com.ng", "ca", "fr", "com.br", "pt", "com.mx" ]
-#Accentlist = ["com.au", "co.uk", "us", "ca", "co.in", "ie", "co.za", "com.ng", "ca", "fr", "com.br", "pt", "com.mx", "es", "us"]
+Accentlist = ["com.au", "co.uk", "us", "ca", "co.in", "ie", "co.za", "com.ng", "ca", "fr", "com.br", "pt", "com.mx", "es", "us"]
 
 
 def convert_text_to_mp3(text: str, target_language_code: str, Accent: str) -> None:
