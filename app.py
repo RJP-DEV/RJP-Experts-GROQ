@@ -297,7 +297,7 @@ def main():
         st.session_state.translation = llm_answer
        
         if Accent == "com.ar":
-           st.session_state.target_lang = "Argentino"
+           st.session_state.target_lang = "Argentino1"
         if Accent == "com.it":
            st.session_state.target_lang = "Argentino2"  
            Accent = "com.ar" 

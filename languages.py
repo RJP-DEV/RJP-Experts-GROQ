@@ -6,7 +6,7 @@ supported_languages = {
     "Greek": "el",
     "English": "en",
     "Spanish": "es",
-    "Argentino": "et",
+    "Argentino1": "et",
     "Argentino2": "it",
     "Estonian": "et",
     "Finnish": "fi",
