@@ -298,11 +298,12 @@ def main():
        
         if Accent == "com.ar":
            st.session_state.target_lang = "Argentino1"
-        if Accent == "com.it":
-           st.session_state.target_lang = "Argentino2"  
-           Accent = "com.ar" 
         else:
-           st.session_state.target_lang = detect_source_language(client, llm_answer)
+           if Accent == "com.it":
+              st.session_state.target_lang = "Argentino2"  
+              Accent = "com.ar" 
+           else:
+              st.session_state.target_lang = detect_source_language(client, llm_answer)
         
         target_language = st.session_state.target_lang
         
