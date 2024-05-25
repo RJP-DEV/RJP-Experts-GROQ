@@ -311,6 +311,8 @@ def main():
             st.session_state.translation = st.session_state.translation.replace("'", "  ")            
             st.session_state.translation = nl + st.session_state.translation
            #Accent=random.choice(Accentlist)
+
+           st.write(Accent)
            
             convert_text_to_mp3(st.session_state.translation, supported_languages[target_language], Accent)
         if "translation" not in st.session_state:
