@@ -245,6 +245,9 @@ def main():
               )
     promptx = Prompt3.name
 
+    # Add customization options Localization Accent in the sidebar
+    Accent=st.sidebar.selectbox('Localization Accent',Accentlist)
+
     # Add customization options conversational memory length in the sidebar
     conversational_memory_length = st.sidebar.slider('Conversational memory:', 1, 10, value = 5)
 
@@ -268,7 +271,6 @@ def main():
 
     # The user is prompted to ask a question. The default value is a random prompt from the 'starter_prompt.txt' file.
     if clicked:
-       Accent=st.selectbox('Localization accent',Accentlist)
        user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
     else:
        user_question = st.text_input("Ask a question:")
