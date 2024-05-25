@@ -7,7 +7,7 @@ AccentList = {
     "Spanish": "es",
     "Mexican": "com.mx",
     "Canadian": "ca",
-    "Brazilian": "br",
+    "Brazilian": "com.br",
     "Italian": "it",
     "French": "fr",
     "Indian": "co.in",
