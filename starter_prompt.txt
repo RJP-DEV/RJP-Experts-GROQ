@@ -22,15 +22,68 @@ Old Woman Frying Eggs' was a 17th century painting by which Spanish artist?
 Summary Alex Rider series show a link to Youtube latest release.
 List 5 famous 'Sherlock Holmes and Dr. Watson' Quotes. 
 What is ADC and DAC on a Microcontroller? Also What are bits in those pins (for e.g. 8 bit ADC, 10 bit ADC etc)
-Recipe of Vietnamese Fresh Spring Rolls
+Provide a Recipe of Vietnamese Fresh Spring Rolls
 Which 20th century Mexican artist contracted polio as a child?
 How do I tie a tie?
 What countries influence Argentina cooking ?
-Italy and Spain
 How should medication be stored?
+What is the true story behind the disappearance of the lost colony of Roanoke?
+Who was the mastermind behind the notorious 1914 sinking of the RMS Lusitania?
+What secrets lie within the enigmatic Stonehenge in England?
 What is the 120 rule in scuba diving?
 What are scuba certification limits?
 What are the common faults in BJT?
+Who was the real-life inspiration for Sir Arthur Conan Doyle's Sherlock Holmes?
+What caused the unexplained 17th-century disappearances of the Salem witches?
+Who built the Great Pyramids of Giza in Egypt and why?
+What was the fate of the Viking colony of Vinland in North America?
+Who was responsible for the infamous 1963 assassination of President John F. Kennedy?
+What caused the mysterious Tunguska event in Siberia in 1908?
+Who was the anonymous author of the Declaration of Independence?
+What caused the mysterious deaths of the Roman Emperor Titus and his brother Domitian?
+Who created the famous Bayeux Tapestry depicting the Norman Conquest of England?
+What secrets lie within the enigmatic crop circles found around the world?
+Who was the true identity of the infamous pirate Blackbeard?
+What caused the mysterious Voynich Manuscript's coded language and illustrations?
+Who was the unidentified woman in the famous Mona Lisa painting?
+What caused the unexplained 1945 disappearance of Amelia Earhart?
+Who was responsible for the 1978 Jonestown massacre in Guyana?
+What secrets lie within the enigmatic Sphinx of Giza in Egypt?
+Who was the real-life inspiration for Bram Stoker's Dracula?
+What caused the mysterious deaths of thousands of animals during the 2011 "animal apocalypse"?
+Who was the unidentified man buried in Tutankhamun's tomb?
+What are the basic syntax and data types in PHP programming?
+How does PHP handle user input and security concerns?
+What are the advantages of using Object-Oriented Programming (OOP) in PHP?
+How can you connect a PHP application to a MySQL database?
+What are some best practices for error handling and debugging in PHP?
+How do you implement sessions and cookies for user tracking in PHP?
+What are the key differences between include and require statements in PHP?
+How can you create and manage arrays in PHP?
+What are some popular PHP frameworks for web development?
+How does PHP handle file uploads and manipulation?
+What caused the mysterious disappearance of the Mary Celeste ship in 1872?
+Who was the true identity of the Zodiac Killer in the 1960s and 1970s?
+What secrets lie within the mysterious Oak Island Money Pit in Canada?
+Who was the mastermind behind the 1911 theft of the Mona Lisa?
+What caused the unexplained 1996 disappearance of Caledonia Yaw in the Pacific Ocean?
+Who was the unidentified woman in the famous painting The Lady of Shalott?
+What caused the mysterious 1930 disappearance of the USS Cyclops?
+Who was the true identity of the Mad Gasser of Mattoon in the 1940s?
+What secrets lie within the enigmatic Vatican Archives in Italy?
+Who was the unidentified man buried in the tomb of the Unknown Soldier in Washington D.C.?
+What caused the mysterious 1942 disappearance of Flight 19 in the Bermuda Triangle?
+Who was the mastermind behind the 1993 World Trade Center bombing?
+What secrets lie within the enigmatic Dead Sea Scrolls in Israel?
+Who was the real-life inspiration for Oscar Wilde's Dorian Gray?
+What caused the unexplained 1972 disappearance of the Dyatlov Expedition in the Ural Mountains?
+Who was the unidentified woman in the famous painting The Girl with the Pearl Earring?
+What caused the mysterious 1921 disappearance of the Nita Naldi in the Atlantic Ocean?
+Who was the true identity of the infamous pirate Captain Kidd?
+What caused the mysterious 1947 disappearance of Flight 19 in the Bermuda Triangle?
+What secrets lie within the enigmatic Terracotta Army in China?
+Who was the mysterious inventor of the first steam engine?
+What was the fate of the lost colony of St. Kilda in Scotland?
 When you test a good diode with a multimeter, it shows.
 What color is the pigment called ochre, extensively used in Australian aboriginal art?
 Which Spanish painter's works include 'The Tilled Field' and 'The Farm'?
@@ -66,6 +119,16 @@ Who painted famous British work 'The Hay Wain'?
 What is automotive charging system is made up of?
 One of Salvador Dali's most famous paintings was 'The Burning' what?
 Explain how timing belt works?
+What are the fundamental concepts of JavaScript, such as variables, data types, and operators?
+How does JavaScript handle functions, events, and user interactions?
+What are the key differences between JavaScript and other programming languages, like PHP or Java?
+How can you manipulate the Document Object Model (DOM) using JavaScript?
+What are some best practices for debugging and troubleshooting JavaScript code?
+How can you implement JavaScript in web pages, and what are the benefits of using external JavaScript files?
+What are some popular JavaScript libraries and frameworks for web development, such as React, Angular, or Vue?
+How does JavaScript handle asynchronous operations, like AJAX requests and promises?
+What are closures, hoisting, and scoping in JavaScript, and how do they affect variable declarations?
+How can you use JavaScript for form validation, user input, and form submission handling?
 Who was the last Tsar of Russia?
 There is a basket containing 5 apples, how do you divide the apples among 5 children so that each child has 1 apple while 1 apple remains in the basket?
 In which country was the Battle of Culloden fought in 1746?
@@ -112,6 +175,36 @@ What are some popular board games?
 How do I draw a cartoon character?
 What's a fun science experiment I can do at home?
 Tell me a tongue twister.
+Who holds the executive power in Argentina's government structure?
+What are the main responsibilities of the President of Argentina?
+What is the role of the National Congress in Argentina's political system?
+Who are the most successful football clubs in Argentina's top league, the Primera División, in terms of titles won?
+What are the key differences between Argentina's football league system and other countries' football league systems?
+Who are some of the greatest Argentine football players of all time and their contributions to the sport?
+How has the Argentine national football team performed in international tournaments, such as the FIFA World Cup and Copa América?
+What are the rules and regulations of Argentine football, and how do they compare to those of other countries?
+How does the concept of time impact our daily lives?
+Can you explain the different measurements of time?
+What is the theory of time dilation in physics?
+How has the perception of time changed throughout history?
+What are some cultural differences in the way people perceive and value time?
+How does time affect our understanding of mortality and the human experience?
+Can you discuss the role of time in various religions and philosophies?
+How does technology influence our perception and management of time?
+What are some strategies for managing time effectively in personal and professional settings?
+Can you explain the concept of time travel and its significance in science fiction?
+How does the Argentine Football Association (AFA) manage and regulate football in the country, including refereeing, disciplinary actions, and youth development?
+What are the economic and social impacts of football on Argentina, including its influence on the country's culture, tourism, and media?
+How does football in Argentina address issues of violence, hooliganism, and discrimination, and what measures have been taken to ensure fan safety and inclusivity?
+What are the current challenges and opportunities facing Argentine football, such as stadium infrastructure, grassroots development, and professionalization?
+Who are some promising young Argentine football talents and their potential to impact the national team and international football?
+How is the Argentine Supreme Court composed and what are its functions?
+What are the three branches of Argentina's government and their interconnections?
+How does the political party system work in Argentina, and which are the most influential parties?
+What are the key aspects of Argentina's foreign policy and its relations with neighboring countries?
+How has Argentina's political landscape changed throughout its history, including periods of military dictatorships and democratic governments?
+What are the current political challenges and opportunities facing Argentina, such as economic stability, social inequality, and corruption?
+Who are some influential political figures in Argentina's recent history and their contributions to the country's development?
 What are some good jokes for kids?
 Hello Groq! How are you today?
 What are the key considerations for managing in a startup biomedical company a large number of milenial employees, that work mostly remotly and lack interpersonal skills?
@@ -150,8 +243,8 @@ Create a list of [10] frequently asked questions about [keyword] and provide ans
 Please guide me to artificial Intelligence llm Model books
 What can you tell me about Harry Potter?
 Write an article about [topic]  include relevant statistics (add the links of the sources you use) and consider diverse perspectives. Write it in a [X_tone] and mention the source links in the end.
-=LEFT(Cell name, number of characters)
-=TEXT(“10/2/2022″,”mmmm dd, yyyy”)
+Explain: =LEFT(Cell name, number of characters)
+Explain: =TEXT(“10/2/2022″,”mmmm dd, yyyy”)
 What is an Excel array formula? 
 Define conditional formatting?
 What is VLOOKUP? 
@@ -166,99 +259,559 @@ write a unit test for this function: $(cat fib.py)
 Propose and develop a WEB accounting system written in PHP and javascript. 
 Here's my code: ```[code snippet]```. It works, but it's slow/inefficient. How can I optimize it for better performance?
 How do i run a command in mac at the start of the machine?
-=ARRAYTOTEXT(A2:B4,0)
+Calculate and Explain: =ARRAYTOTEXT(A2:B4,0)
 Can you recommend a service plan for my [ Vehicle year and Model ]?
 Help me study Vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What is the difference between a law, a principle, a theory, and a hypothesis in science?
 Help me study Politics: you write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What is the most stable nucleus?
 Help me study Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How can I tell if I have depression or just normal sadness?
 Help me study Math: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Does everything get smashed to bits when two galaxies collide?
 Help me study Biology: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Where do ocean tides get their energy from?
 Help me study Music: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Where does the atmosphere end? Where is the edge of space?
 Help me study History: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How can glass produce glare without reflecting light?
 Help me study Geography: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Is mental illness really an illness?
+Do scientists have a hard time understanding art?
+How can I find accurate science information on the internet?
+How can I tell whether my friend's scientific explanation is accurate?
+How can I win the lottery?
+How can science solve all of our problems?
+How did Albert Einstein flunk math and still end up so smart?
+How many years do we have until the earth becomes so over-populated that people won't be allowed to have children?
+How much money do I save by recharging my cell phone at work?
+I watched a science documentary and then came up with my own theory. Where can I get it published?
+Is there a difference between mainstream science and alternative science?
+What are some fake-science headlines that reappear regularly?
+What is the difference between a law, a principle, a theory, and a hypothesis in science?
+What is the most harmful drug to society?
+What makes guns so dangerous?
+What makes x so special that you see it all the time in equations?
+What part of China do fortune cookies come from?
+What part of France invented French toast?
+What part of Germany does German chocolate cake come from?
+When will the technological singularity occur?
+When will the written word become obsolete?
+Who invented the scientific method?
+Why are refried beans cooked twice?
+Why are scientists atheists?
+Why are truck drivers rude?
+Why do most international phone calls and data links go through satellites?
+Why do people believe in conspiracy theories?
+Why do scientists write so well?
+Why is speculation forbidden in science?
 Help me study Logic: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Is there a difference between thermal radiation and infrared radiation?
 Help me study Python: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+When does light travel in a straight line?
 Help me study PHP: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Are there any massless particles?
 Help me study Typescript: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why don't the gases in the atmosphere separate out according to mass?
 Help me study Chemistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why does a person with only one working eye have zero depth perception?
 Help me study Wars: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do 5G cell phone signals harm humans?
 Help me study Accounting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How can radioactive decay just happen with nothing triggering it?
 Help me study Movie Production: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why is gravity not a real force?
+A truck driver is going down a one-way street in the wrong direction. A police car drives past him but doesn’t stop him. Why?
 Help me study Art: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Are there different types of black holes?
 Help me study Architecture: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Is a black hole a 2D or a 3D object?
 Help me study Mechanical engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why does the air only contain water vapor and not other kinds of vapors?
 Help me study Electronic engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Can humans ever directly see a photon?
 Help me study Systems engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Do koalas eat honey like other bears?
 Help me study Civil engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Does the human body contain minerals?
+Why did a woman call the police over a man who knocked on her door and claimed that he thought the room was his?
 Help me study Process engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How did doctors create my belly button?
 Help me study Logistics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do trees give earth all its oxygen?
 Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How long before genetic sequencing is able to tell us exactly how our children will look and act?
 Help me study Astro Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How strong does a non-toxic odor have to be before it damages your sense of smell?
 Help me study Game Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Is it completely random whether a baby is a boy or a girl?
 Help me study Botanical Science: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why are human brains the biggest?
 Help me study Carpentry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why can't color blind people see any colors?
 Help me study Religions in general: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why does every cell in our body contain DNA?
 Help me study Catolic Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why don't dogs sweat?
 Help me study Hebrew Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why don't our eyeballs fill up with water when we swim?
+A woman and a man go on a date. While on their date, the woman shoots the man, drowns the man, and hangs the man. The next night, the same man and woman go on a date and both of them are 100% fine. How is this possible?
 Help me study Muslim Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why don't trees freeze and burst in the winter like cold pipes?
 Help me study Christian Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do vaccines cause autism?
 Help me study Atheist religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do carrots help you see in the dark?
 Help me study Chemical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do antibiotics kill viruses?
 Help me study Aerospace Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do baby walkers teach a baby to walk sooner?
 Help me study Software Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How does dust get in a house when the doors and windows are always closed?
 Help me study Electrical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How much extra radiation am I exposed to if I stick my hand in the microwave right after it turns off?
 Help me study Firmware Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+I know anything from a plant is safe to eat, but anything from a lab can be dangerous. How can I tell if something came from a plant or a lab?
 Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why does chocolate cause acne?
 Help me study Psychiatrist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why does mainstream medicine only treat patients with drugs?
 Help me study Pediatrics Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why isn't there just one cure for cancer?
 Help me study Family Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why don't dark-skinned people get sunburns?
+Three men were swimming in the ocean. The ocean guard called them to stay away from water during high tides. He saw that only two men’s hair was wet. What happened to the third man?
 Help me study Dermatologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why isn't there just one cure for cancer?
 Help me study Gastroenterologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Do scientists have a hard time understanding art?
 Help me study ER Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How can I find accurate science information on the internet?
 Help me study Comedian: write a sentence for me to fill in the blank, and I'll try to pick the correct option.Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How can science solve all of our problems?
+Are gender traits completely a result of societal expectations?
+Are there any parts of the human body that get oxygen directly from the air and not from the blood?
+Are there nuclear reactions going on in our bodies?
+Can humans ever directly see a photon?
+Can I turn my cat into a diamond?
+Do blind people dream in visual images?
+Do Kirlian photographs show the soul of an organism?
+Do koalas eat honey like other bears?
+Do poppy seeds contain narcotics?
+Does the human body contain minerals?
+How can the heart be strong enough to pump blood up your legs against gravity?
+How can we differentiate so many different foods if we can only taste four flavors on our tongue: sweet, bitter, sour, and salty?
+How can we unlock the 90% of our brain that we never use?
+How did doctors create my belly button?
+How did evolution ever lead ostriches to hide their head in the sand when an enemy approaches?
+How do 5G cell phone signals harm humans?
+How do I turn on more parts of my brain and get smarter?
+How do nerves control every organ and function in the body?
+How do trees give earth all its oxygen?
+How does the outer layer of skin cells on my finger detect when I am touching an object?
+How long before genetic sequencing is able to tell us exactly how our children will look and act?
+How long does it take our eyes to fully adapt to darkness?
+How much water can a camel store in its hump?
+How strong does a non-toxic odor have to be before it damages your sense of smell?
+Is human blood ever any color other than red?
+Is ionizing radiation always harmful?
+Is it completely random whether a baby is a boy or a girl?
+What are the five senses of the human body?
+What chemicals can make human tissue regenerate in seconds?
+What is it about a full moon that makes people do crazy things and commit crimes?
+What is it about red that makes bulls so angry?
+When did humans stop evolving?
+When do birds use their teeth?
+Where in my body is the original cell from which I was formed?
+Why are bats blind?
+Why are human brains the biggest?
+Why are red, yellow, and blue the primary colors in painting but computer screens use red, green, and blue?
+Why are veins blue?
+Why can only certain parts of the tongue taste sweet flavors? Is there an evolutionary benefit to this?
+Why can you boil a frog without it jumping out to safety if you raise the temperature slowly?
+Why can't color blind people see any colors?
+Why did evolution create a chicken that lays so many unfertilized eggs when that is so wasteful?
+Why do camera flashes make your eyes turn red?
+Why do humans have an appendix even though it is unnecessary?
+Why do my fingers absorb water and become wrinkled?
+Why does chewing gum take seven years to digest?
+Why does every cell in our body contain DNA?
+Why does evolution always lead to more advanced species?
+Why don't dogs sweat?
+Why don't I burst cells in my rear when I sit down?
+Why don't our eyeballs fill up with water when we swim?
+Why don't trees freeze and burst in the winter like cold pipes?
+Why have humans evolved to be taller over the last three hundred years?
+Why will a mother bird abandon its chick if touched by a human?
 Help me study Actress: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Is there a difference between mainstream science and alternative science?
 Help me study Constitutional Law: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What makes x so special that you see it all the time in equations?
 Help me study Executive Management: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What part of Germany does German chocolate cake come from?
 Help me study Economics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Who invented the scientific method?
 Help me study Finances: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What is the most harmful drug to society?
 Help me study Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+When will the technological singularity occur?
+A detective reported to a crime scene at the circus. A clown was found backstage in a pool of blood with his hands grasping his neck. How did he die?
 Help me study Fashion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How many years do we have until the earth becomes so over-populated that people won't be allowed to have children?
 Help me study Photography: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why do most international phone calls and data links go through satellites?
 Help me study Animation: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why is speculation forbidden in science?
 Help me study Special Effects: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Can a star turn into a planet?
+A girl got killed, the killer took her iPhone, AirPods, piano, and money. What did the killer take first?
 Help me study Dentistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How can astronomers know things for certain since they only look at space from one vantage point?
 Help me study Martial Arts: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do space ships fly faster than light?
 Help me study Sports: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do space ships make artificial gravity?
 Help me study javascript: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How long before the expansion of the universe causes our earth to drift away from the sun?
+Are there different types of black holes?
+Can a star turn into a planet?
+Can gravity form waves?
+Does every black hole contain a singularity?
+Does everything get smashed to bits when two galaxies collide?
+Does sound travel faster in space?
+Does the influence of gravity extend out forever?
+Galaxies look stationary, so why do scientists say that they rotate?
+Have aliens ever visited earth?
+Have astronomers ever observed a violet shift like they have blue shifts and red shifts?
+How bright is a laser beam when viewed from the side?
+How can astronomers know things for certain since they only look at space from one vantage point?
+How can there be anything left in the universe? Don't black holes suck everything in?
+How can you cancel out the jolt of a quick start?
+How can you tell a black hole made out of antimatter from a black hole made out of matter?
+How do space probes make it past the asteroid belt without crashing into asteroids?
+How do space ships fly faster than light?
+How do space ships make artificial gravity?
+How do stars move when viewed from a speeding space ship?
+How does a black hole give off light?
+How does a supernova completely destroy a star?
+How does astrology work?
+How does looking at distant galaxies allow us to look back in time?
+How does the expansion of the universe make outer space a vacuum?
+How large would a bucket of water have to be to put out the sun?
+How long before the expansion of the universe causes our earth to drift away from the sun?
+How long can a human in outer space last without a spacesuit before exploding?
+How often does the sun's magnetic field flip?
+I know that the gravity of the moon causes ocean tides on earth. How does centrifugal force cause the far-side bulge?
+Is a black hole a 2D or a 3D object?
+Is Pluto a planet?
+Since a star's light takes so long to reach us, how do we know that the star is still there?
+Since one satellite can see half of the earth, why do we need more than two satellites in a given network?
+What could a space ship do if it stopped because it ran out of fuel?
+What is the color of the sun?
+What is the overall electric charge of the universe?
+What is the range of weapons if used in space?
+What keeps space empty?
+What keeps the North Star stuck at exactly North?
+What keeps the sun spinning?
+What kind of space ships can make banking turns?
+What makes meteorites so hot that you can't touch them?
+What makes space so cold?
+What makes the Great Wall of China the only man-made object visible from space?
+What would space ships actually look like in space?
+When do the planets in our solar system all line up?
+Where is the center of the universe?
+Where is the edge of the universe?
+Which space movie has the most accurate physics?
+Why are all the stars fixed in space?
+Why are stars not blurred even though the earth is moving?
+Why did NASA spend millions developing a pen that would work in space when a pencil is just as good?
+Why did people believe the earth is the center of the solar system when it's obvious the sun is?
+Why do the spikes that shoot out of stars form perfect crosses?
+Why does everything in our galaxy orbit the supermassive black hole at the center?
+Why does the moon get bigger when it's closer to the horizon?
+Why does the moon's gravity cause tides on earth but the sun's gravity doesn't?
+Why does the sun not run out of oxygen as it burns?
+Why doesn't the earth fall down?
+Why don't galaxies have a natural magnetic field like the earth does?
+Why is gravity the strongest force?
+Why is the moon so bright?
+Why is there no gravity in space?
+Why is there no up and down in space?
+Will the night sky eventually end up completely black because the universe is expanding?
+Would a guitar sound the same on a space station?
 Help me study HTML: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How long can a human in outer space last without a spacesuit before exploding?
 Help me study C Programming languaje: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why doesn't the planet Uranus explode if it contains so much hydrogen and methane?
 Help me study Perl: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why is lead used in pencils even though lead is poisonous?
 Help me study Maritime Law: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why is propane stored in household tanks but natural gas is not?
 Help me study Captain's license study guide: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why is plastic not used in home construction?
+What is so delicate that saying its name breaks it?
 Help me study Private Pilot certificate: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What makes a "fluorescent" highlighter marker so bright?
 Help me study Magic: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why are there so many different kinds of forces in chemistry?
 Help me study Scuba Diving: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why don't metals burn?
 Help me study Acting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Can it rain fish?
 Help me study Journalism: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How does water dowsing work?
+One woman was not punished by the court despite her sister claiming and showing ample proof that she murdered her husband. Why was the woman not jailed?
 Help me study Spanish: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What makes rain drops tear shaped?
 Help me study French: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Where do ocean tides get their energy from?
 Help me study Japanese: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why doesn't the outside world appear blue even though so much light comes from the blue sky?
 Help me study Web Development: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why is the sky blue?
 Help me study CNC: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why is the sky not blue as seen from space?
+A girl and a boy were out one night. They were in the woods, and they saw 3 men hunting. Next day the girl and boy were found dead. Why is this?
 Help me study Machining: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Can momentum be hidden to human eyes like how kinetic energy can be hidden as heat?
 Help me study Pharmacy: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How can we travel to the past?
 Help me study Nurseing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do free energy machines work?
+There were 5 people in a room, I came and killed 4. How many remain?
 Help me study Painting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How do levers create energy if the conservation of energy does not allow energy to be created?
 Help me study Writing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How does quantum theory allow a rock to turn suddenly into a duck?
 Help me study Marketing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Why is mass conserved in chemical reactions?
 Help me study Social Studies: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How can Lyme disease last for years?
 Help me study Wheather: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How does dust get in a house when the doors and windows are always closed?
 Help me study Social Engeneering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How does ice cream in your stomach cause a headache?
+A man eats dinner, goes up to his bedroom, turns off the lights, and goes to sleep. In the morning, he wakes up and looks outside. Horrified at what he sees, he hurls himself out his window to his death. Why does he do this?
 Help me study Hacker: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+How often should hydrogen peroxide be used to treat wounds?
+Mad Ade's Uncle, Phil Space, who doesn't like what passes for art these days, ran into the National Gallery and caused millions of pounds of damage to several masterpieces. Later that day, Uncle Phil was invited to meet the manager and was warmly thanked for his actions. How come?
 Help me study Pentesting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+I know anything from a plant is safe to eat, but anything from a lab can be dangerous. How can I tell if something came from a plant or a lab?
+What are the key components of a plumbing system, and how do they work together to supply and remove water and waste?
+Can you explain the difference between potable and non-potable water, and the importance of each in plumbing?
+What are some common plumbing materials, and how do they affect the longevity and maintenance of a system?
+How does proper venting and drainage affect the performance and safety of a plumbing system?
+What are the defining characteristics of a desert ecosystem, and how does it differ from other biomes?
+Can you explain the concept of water conservation in desert environments, and its importance for preserving biodiversity?
+What are some common desert plants and animals, and how have they adapted to the harsh desert conditions?
+How does the desert climate affect soil composition and nutrient availability, and what are the implications for agriculture and land use?
+Can you discuss the concept of desertification, and how human activities contribute to this process?
+What are some strategies for managing and mitigating the impacts of desertification, and how can they be implemented effectively?
+How do desert communities and cultures adapt to the challenges of living in a harsh and arid environment?
+What are some common misconceptions about deserts, and how do they perpetuate negative stereotypes and attitudes?
+Can you explain the role of deserts in global climate patterns, and how they affect weather and precipitation in other regions?
+How has the perception of deserts evolved over time, from a historical and cultural perspective, and what are some contemporary challenges and opportunities in desert conservation and management?
+Can you discuss the concept of water pressure and its impact on plumbing fixtures and appliances?
+What are some common plumbing codes and regulations, and how do they ensure the safety and efficiency of a system?
+How can homeowners and building managers prevent and detect plumbing leaks and other issues?
+What are some common plumbing repairs and maintenance tasks, and how can they be performed safely and effectively?
+Can you explain the role of a plumbing inspector, and how they help ensure the safety and functionality of a system?
+How has the field of plumbing evolved over time, and what are some recent advancements and trends in the industry?
+A man kept crossing the border every day with bags of sand. Cops suspected the man was smuggling illegal goods into the country. The detective couldn’t find anything upon checking the bags, yet he got arrested. Why?
 Help me study Network Security: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What is the debate over vaccines?
 Help me study Artificial Inteligence: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What is the most harmful pseudo-science?
+There was a person laying dead in the middle of the grass field with nothing but a weird kind of rock next to him. Also the nearest building was 50 miles away. And the man that was found dead was wearing the colors red, yellow, and blue. So who was the man and was the rock from earth?
+Cops found a dead man lying in the snow. They saw the tracks of a footprint pair in between two parallel lines a few feet away from the dead body. Who should be on the cops' radar?
 Help me study Communications: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What should I do if I can't swallow pills?
 Help me study Banking: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Do humans give off radiation?
 Help me study Investing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What part of China do fortune cookies come from?
+When will the written word become obsolete?
+Do scientists have a hard time understanding art?
+How can I find accurate science information on the internet?
+How can I tell whether my friend's scientific explanation is accurate?
+How can I win the lottery?
+How can science solve all of our problems?
+How did Albert Einstein flunk math and still end up so smart?
+How many years do we have until the earth becomes so over-populated that people won't be allowed to have children?
+How much money do I save by recharging my cell phone at work?
+I watched a science documentary and then came up with my own theory. Where can I get it published?
+Is there a difference between mainstream science and alternative science?
+What are some fake-science headlines that reappear regularly?
+What is the difference between a law, a principle, a theory, and a hypothesis in science?
+What is the most harmful drug to society?
+What makes guns so dangerous?
+A woman shoots her husband and then holds him underwater for 5 minutes. They then go out and enjoy a romantic dinner. How?
+What makes x so special that you see it all the time in equations?
+What part of China do fortune cookies come from?
+One winter day, there was a man standing in the middle of someone’s front yard. The person stayed there for several weeks without moving and the owner of the yard didn’t mind. Eventually the man left. Who was he?
+What part of France invented French toast?
+Are there any massless particles?
+As light from a star spreads out and weakens, do gaps form between the photons?
+Can a fire have a shadow?
+A man invited his friend for dinner, and they both had a gala over mashed potatoes and chicken nuggets. For dessert, he cut an apple in half and gave one to the man, and he ate the same apple's other half. How did his friend die?
+Can air make shadows?
+Can gold be created from other elements?
+Can light bend around corners?
+Can momentum be hidden to human eyes like how kinetic energy can be hidden as heat?
+Can one bit of light bounce off another bit of light?
+Can radio antennas emit visible light?
+Can sound waves generate heat?
+Can the decay half-life of a radioactive material be changed?
+Can you go fast enough to get enough mass to become a black hole?
+Can you make a shock wave of light by breaking the light barrier just like supersonic airplanes break the sound barrier?
+Can you make a sunset in a cup of milk?
+Could electronic devices charge themselves without being plugged into an electricity source?
+Could scientists perfectly simulate the entire universe in a computer, down to the last atom?
+Do atoms ever actually touch each other?
+Do flames contain plasma?
+Does a source of electricity ever run out of electrons?
+Does an atom have a color?
+Does an electron in an atom move at all?
+Does the negative mass of antimatter mean that it's gravitationally repelled from stars?
+Does time go faster at the top of a building compared to the bottom?
+How bad would a person's injuries be if an elevator's cables snapped at the 100th floor so that the elevator fell to the bottom?
+How can a clear object be transparent and visible at the same time?
+What is accounting, and how does it differ from other financial disciplines?
+Can you explain the accounting equation and its importance in financial record-keeping?
+What are the key financial statements used in accounting, and how do they provide insight into a company's financial health?
+How does the accounting cycle work, and what are the key steps involved?
+Can you discuss the concept of accrual accounting and its importance in financial reporting?
+What are some common accounting methods, and how do they differ in their treatment of revenue and expenses?
+How does accounting help organizations make informed financial decisions, and what are some examples of its applications?
+What are some ethical considerations surrounding accounting practices, and how can professionals ensure they are acting ethically?
+Can you explain the role of auditing in accounting, and how it helps ensure financial accuracy and transparency?
+How has the field of accounting evolved over time, and what are some recent advancements and trends in the industry?
+How can a material at a certain temperature have all of its molecules at the same energy?
+How can an electron leap between atomic levels without passing through all the space in between?
+How can glass produce glare without reflecting light?
+How can it be so hard to drag rubber across smooth glass if friction is caused by surface roughness?
+How can radioactive decay just happen with nothing triggering it?
+How can we travel to the past?
+How did Archimedes use mirrors to burn up invaders' ships?
+How do airplanes fly upside down if it's the shape of the wings that make them fly?
+How do free energy machines work?
+A man told a story about how he was awarded a medal for bravery during World War 1. Why is this a lie?
+How do levers create energy if the conservation of energy does not allow energy to be created?
+How do projectors project the color black?
+How do scientists cool objects to absolute zero?
+How do tractor beams work?
+How do you focus regular light to make it a laser beam?
+How do you make a one-photon-thick beam of light?
+How does a microwave oven heat up food even though it emits no thermal radiation?
+How does a penny left on the track derail a train?
+How does a photon accelerate to light speed so quickly?
+How does quantum theory allow a rock to turn suddenly into a duck?
+How does sound going slower in water make it hard to talk to someone underwater?
+How high does a building have to be for a penny dropped from the top to kill a person on the ground?
+How is a magnetic field just an electric field with relativity applied?
+How long can you use a cell phone before getting a brain tumor?
+If I hammered and flattened a penny enough, could I cover the entire earth with it?
+If I'm on an elevator that breaks loose and plummets down the shaft, can I avoid harm by jumping at the last second?
+Is it possible to create magnetic waves?
+Is light a particle or a wave?
+Is metal a good heat shield?
+Is the reason that nothing can go faster than light because we have not tried hard enough?
+Is there a difference between thermal radiation and infrared radiation?
+Is there any difference between antimatter, dark matter, dark energy, and degenerate matter?
+Light has no mass so it also has no energy according to Einstein, but how can sunlight warm the earth without energy?
+Since gravity is unlimited, can we use it as an infinite energy source?
+What are some other ways to save energy in a car besides turning off the air conditioner and rolling down the windows?
+What did Schrodinger's Cat experiment prove?
+What is the most stable nucleus?
+What is the shape of an electron?
+What is the speed of dark?
+What are the key principles of personal finance, and how can they help individuals manage their money effectively?
+Can you explain the difference between saving and investing, and the role of each in financial planning?
+What is the concept of compound interest, and how can it impact long-term financial goals?
+How does budgeting help individuals and families manage their expenses and achieve financial stability?
+Can you discuss the role of credit and debt in personal finance, and how to use them responsibly?
+What are some common financial risks, and how can individuals protect themselves against them?
+How does financial planning differ for short-term and long-term goals, and what are some strategies for each?
+What are some tax-efficient investment strategies, and how can they benefit individuals and families?
+Can you explain the concept of diversification in investing, and its importance in managing risk?
+How can individuals and families prepare for major life events, such as retirement, education expenses, or unexpected emergencies, from a financial perspective?
+A man is found dead in the desert. He is wearing only underwear and his right hand is clutching a single stalk of hay. There are no footprints or tire tracks nearby. What happened?
+What is the speed of electricity?
+What is the speed of gravity?
+What is the strongest magnetic field possible? Is there a limit?
+What keeps a bicycle balanced?
+What makes heat rise?
+Melanie lived with her siblings in a small town. One afternoon, Melanie was found dead in the living room. When the police questioned her siblings, they had both been in the pool from the morning and hadn’t killed her. But the police arrested Melanie’s siblings for her murder. Why?
+What makes radioactive atoms get old so quickly and decay?
+What makes the light waves in laser light parallel?
+What psychological effect makes notes on a piano that are an octave apart sound the same?
+What stops a piece of paper from being folded more than seven times?
+What would happen if you drove your car close to the speed of light and turned on the headlights?
+When does a light beam have only a single frequency?
+When does light travel in a straight line?
+When I bump one end of a long metal bar, the other end instantaneously moves. Can I use this to send messages faster than light?
+When I sit by a campfire, how does its hot air heat me?
+When I step out of the shower, what makes the tile floor so much colder than the bathroom mat?
+Why are all metals magnetic?
+What are the basic components of an electronic circuit, and how do they interact?
+Can you explain the difference between analog and digital electronics?
+What is the role of semiconductors in electronic devices, and how do they function?
+How do electronic components affect the performance and reliability of a circuit?
+Can you discuss the concept of electronic signal processing and its applications?
+What are some common types of electronic circuits, and how are they used in different devices?
+How does electronic waste impact the environment, and what are some solutions for managing it?
+What are some ethical considerations surrounding electronic technology and its use?
+Can you explain the concept of electronic system design and its importance in engineering?
+How has the field of electronics evolved over time, and what are some recent advancements and trends?
+Why are sound waves invisible?
+Why are the microwaves in a microwave oven tuned to water?
+Why are there only six fundamental colors: red, orange, yellow, green, blue, and violet?
+Why can't flat lenses focus light?
+Why do diamonds last forever?
+Why do mirrors flip left to right and not up to down?
+Why do quantum effects only happen on the atomic scale?
+Why does a person with only one working eye have zero depth perception?
+Why does a rainbow contain a pure spread of spectral colors?
+Why does a rainbow exist only in a narrow band?
+Why does air friction affect a car's gas mileage?
+Why does lightning push electricity through air, but common batteries do not?
+Why does my room get dark when I turn the lights off even if my window is shut?
+Why does water make a shirt darker?
+Why doesn't light carry momentum?
+Why doesn't my laptop emit radiation?
+Why don't atoms collapse if they are mostly empty space?
+Why don't electrons in the atom enter the nucleus?
+Why don't I feel the miles of air above me that are crushing me down?
+Why don't scientists use fractal concepts more considering that fractals are everywhere?
+Why is a 12-volt household battery harmless, but the shock from a 12-volt car battery will kill you?
+Why is gravity not a real force?
+Why is light pure energy?
+What is DNA, and how does it differ from RNA and proteins?
+Can you explain the structure of a DNA molecule, including its base pairs and helical shape?
+What is the role of DNA in heredity and genetic inheritance?
+How does DNA replication occur, and what are the key steps involved?
+Can you discuss the process of DNA transcription and its role in protein synthesis?
+What are some common types of DNA mutations, and how do they affect gene expression?
+How is DNA analyzed in forensic science, and what information can it provide?
+What are some ethical considerations surrounding DNA technology and genetic engineering?
+Can you explain the concept of epigenetics and how it relates to DNA?
+How is DNA used in gene therapy and medical research, and what are the potential benefits and risks?
+Why is physics scale invariant?
+Why is the centrifugal force talked about so much if it's not real?
+Why is the lowest temperature called absolute zero if it's relative to the frame of reference?
+Why is the speed of light a random finite number?
+Why is time frozen from light's perspective?
+Why was color invented by humans?
+Why were electrons chosen to be negatively charged? Wouldn't it make more sense to call electrons positively charged because when they move they make electricity?
+Why will a delivery truck filled with birds sitting on its floor be heavier than a truck with the same birds flying around inside.
+What are thoughts, and how do they differ from other mental processes?
+Can you explain the relationship between thoughts, emotions, and behaviors?
+What is the role of thoughts in the formation of beliefs and attitudes?
+How do thoughts influence decision-making and problem-solving?
+Can you discuss the concept of positive thinking and its impact on well-being?
+What are some common cognitive distortions that can affect thinking patterns?
+How can mindfulness and meditation practices help improve the quality of thoughts?
+What is the role of thoughts in the development and maintenance of mental health conditions?
+Can you explain the concept of thought suppression and its potential consequences?
+How do thoughts and memories interact, and what is the role of memory in thought processes?
 Help me study Real State: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
