@@ -179,7 +179,7 @@ def main():
         
     model = st.sidebar.selectbox(
         'Select a Model',
-        ['deepseek-r1-distill-llama-70b', 'mistral-saba-24b', 'llama3-groq-70b-8192-tool-use-preview', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'llama3-70b-8192', 'llama3-8b-8192', 'gemma2-9b-it']
+        ['mistral-saba-24b', 'deepseek-r1-distill-llama-70b', 'llama3-groq-70b-8192-tool-use-preview', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'llama3-70b-8192', 'llama3-8b-8192', 'gemma2-9b-it']
     )
    
     if 'Prompt2' not in st.session_state:
