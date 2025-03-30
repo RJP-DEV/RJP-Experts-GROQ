@@ -329,7 +329,9 @@ def main():
             with st.container(height= 600):
                  st.write(llm_answer) 
                  user_question = []
-
+        
+        st.caption(target_language)
+        st.caption(Accent)
                  
             
     if Resetclicked:
