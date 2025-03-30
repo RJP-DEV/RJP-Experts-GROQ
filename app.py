@@ -330,7 +330,7 @@ def main():
                  st.write(llm_answer) 
                  user_question = []
         
-        st.caption(target_language)
+        st.caption(supported_languages[target_language])
         st.caption(Accent)
                  
             

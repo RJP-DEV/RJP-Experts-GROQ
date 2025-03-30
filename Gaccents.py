@@ -1,6 +1,6 @@
 AccentList = {
     "British": "co.uk",
-    "American": "com",
+    "American": "us",
     "Australian": "com.au",
     "Irish": "ie",
     "Argentinean Female": "ca",
