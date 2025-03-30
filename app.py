@@ -42,7 +42,7 @@ def detect_source_language(client, text: str ) -> str:
     idioma= "In which language is the following text written in? :" +  text  
 
     response = client.chat.completions.create(
-        model="gemma2-9b-it", # model="llama3-8b-8192",
+        model="gemma2-9b-it",
         messages=[ { "role": "system", "content": instruccion }, { "role": "user",   "content": idioma } ],
         temperature=0
     )
@@ -179,7 +179,7 @@ def main():
         
     model = st.sidebar.selectbox(
         'Select a Model',
-        ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'qwen-qwq-32b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
+        ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
     )
    
     if 'Prompt2' not in st.session_state:
@@ -244,7 +244,8 @@ def main():
 
     # Add customization options Localization Accent in the sidebar
     Selected_Accent=st.sidebar.selectbox('Localization Accent', AccentList)
-    Accent=AccentList.get(Selected_Accent, "us" )
+    #Accent=AccentList.get(Selected_Accent, "us" )
+    Accent=AccentList.get(Selected_Accent)
       
 
     # Add customization options conversational memory length in the sidebar
