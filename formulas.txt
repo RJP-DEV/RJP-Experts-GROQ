@@ -23,10 +23,16 @@
  \begin{align}   \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \end{align}
  \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 
  \begin{array}{l} x=r\cos\theta\\ y=r\sin\theta \end{array} 
- \E=mc^2\
- \{*6((=O)-N(-)-(*5(-N=-N(-)-))=-(=O)-N(-)-)}
- \{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}|
- \[K=\frac{[{Hg^2+}][{Hg}]}{[{Hg2^2+}]}\]| 
- \Glucose:  {C6H12O6}
- \{CO2 + C -> 2 CO}
+ \log _b \left( {\frac{x}{y}} \right) = \log _b \left( x \right) - \log _b \left( y \right)
+ \sin \theta  = \frac{{{\rm{Opposite Side}}}}{{{\rm{Hypotenuse}}}}
+ V = \frac{{Bh}}{3} = \frac{{\pi r^2 h}}{3}
+ \sin x = \sum\limits_{n = 1}^\infty  {\frac{{\left( { - 1} \right)^{n - 1} x^{2n - 1} }}{{\left( {2n - 1} \right)!}}}
+ E = mc^2
+ \left( {P + \frac{{an^2 }}{{V^2 }}} \right)\left( {V - bn} \right) = nRT
+ R = \frac{{m_e k^2 e^4 }}{{4\pi c\hbar ^3 }}
+ S = \frac{{Akc^3 }}{{4\hbar G}}
+ \int\limits_0^\infty  {x_1 (\tau )x_2 (t - \tau )d\tau }  \Leftrightarrow X_1 (s)X_2 (s)
+ pH \approx pK_a  - \log \frac{{\left[ {HA} \right]_0 }}{{\left[ {A^ -  } \right]_0 }}
+ s_{N - 1}  = \sqrt {\frac{1}{{N - 1}}\sum\limits_{i = 1}^N {\left( {x_i  - \bar x} \right)^2 } }
+ E_{cell}  = E^\circ _{cell}  - \frac{{RT}}{{n\Im }}\ln Q = E^\circ _{cell}  - \frac{{0.0592}}{n}\log Q
  \Upsilon  = \frac{{{F \mathord{\left/  {\vphantom {F A}} \right.  \kern-\nulldelimiterspace} A}}}{{{{\Delta L} \mathord{\left/  {\vphantom {{\Delta L} L}} \right.  \kern-\nulldelimiterspace} L}}} = \frac{{{\rm{Stress}}}}{{{\rm{Strain}}}}
