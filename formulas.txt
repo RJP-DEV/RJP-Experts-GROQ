@@ -6,7 +6,7 @@
  \operatorname{arg\,max}_a f(a) = \operatorname*{arg\,max}_b f(b)
  \sum_{i = -N}^{i = N} \sum_{j \geq 0} \frac{1}{i^2 + j^3}
  \bigcup_{k=3}^{n} \{1, 2, \ldots, k\} \lim_{n \to \infty} \frac{1}{n}
- \lim_{\min\{x,y\} \to \infty} \frac{x + y}{x^2 + y^2} = 0         \int_{-\infty}^{\infty} e^{-x^{2}}dx = \sqrt{\pi} 
+ \lim_{\min\{x,y\} \to \infty} \frac{x + y}{x^2 + y^2} = 0     \int_{-\infty}^{\infty} e^{-x^{2}}dx = \sqrt{\pi} 
  \int\limits_a^b x\,dx = \left.\frac{x^2}{2} \right|_a^b
  \iiint\limits_V f(x,y,z)\,dV = F
  \frac{dx}{dy}=x'=\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}
@@ -23,11 +23,11 @@
  \begin{align}   \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \end{align}
  \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 
  \begin{array}{l} x=r\cos\theta\\ y=r\sin\theta \end{array} 
- \[E=mc^2\]
+ \E=mc^2\
  \chemfig{*6((=O)-N(-)-(*5(-N=-N(-)-))=-(=O)-N(-)-)}
  \newchessgame \mainline{1.e4 e5 2.Nf3 Nc6 3.Bb5 a6} \showboard % A skak package command. Future examples will use \chessboard[...]
- \verb|\ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}|
- \verb|\[K=\frac{[\ce{Hg^2+}][\ce{Hg}]}{[\ce{Hg2^2+}]}\]| 
- \item Glucose: \verb|\ce{C6H12O6}|, \ce{C6H12O6}
+ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}|
+ \[K=\frac{[\ce{Hg^2+}][\ce{Hg}]}{[\ce{Hg2^2+}]}\]| 
+ \ce{C6H12O6}|, \ce{C6H12O6}
  \ce{CO2 + C -> 2 CO}
  \draw  (0,0) to [short, *-] (6,0) to [V, l_=$\mathrm{j}{\omega}_m \underline{\psi}^s_R$] (6,2)  to [R, l_=$R_R$] (6,4)  to [short, i_=$\underline{i}^s_R$] (5,4)  (0,0) to [open, v^>=$\underline{u}^s_s$] (0,4)  to [short, *- ,i=$\underline{i}^s_s$] (1,4)  to [R, l=$R_s$] (3,4)   to [L, l=$L_{\sigma}$] (5,4)   to [short, i_=$\underline{i}^s_M$] (5,3)   to [L, l_=$L_M$] (5,0); 
