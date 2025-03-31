@@ -20,25 +20,29 @@
  \begin{align}   \vec{\nabla} \cdot \vec{E} \quad &=\quad\frac{\rho}{\epsilon_0} &&\text{Gauss's Law} \end{align}    
  \begin{align}   \vec{\nabla} \cdot \vec{B} \quad &=\quad 0 &&\text{Gauss's Law for Magnetism} \end{align}    
  \begin{align}   \vec{\nabla} \times \vec{E} \quad &=\hspace{10pt}-\frac{\partial{\vec{B}}}{\partial{t}} &&\text{Faraday's Law of Induction} \end{align}
- \begin{align}   \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{Ampere's Circuital Law} \end{align}
+ \begin{align}   \vec{\nabla} \times \vec{B} \quad &=\quad \mu_0\left( \epsilon_0\frac{\partial{\vec{E}}}{\partial{t}}+\vec{J}\right) &&\text{ Ampere's Circuital Law} \end{align}
  \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 
  \begin{array}{l} x=r\cos\theta\\ y=r\sin\theta \end{array} 
  \log _b \left( {\frac{x}{y}} \right) = \log _b \left( x \right) - \log _b \left( y \right)
  \sin \theta  = \frac{{{\rm{Opposite Side}}}}{{{\rm{Hypotenuse}}}}
  V = \frac{{Bh}}{3} = \frac{{\pi r^2 h}}{3}
  \sin x = \sum\limits_{n = 1}^\infty  {\frac{{\left( { - 1} \right)^{n - 1} x^{2n - 1} }}{{\left( {2n - 1} \right)!}}}
- E = mc^2 \text{ Einstein's relativistic mass-energy relation }
+ E = mc^2   \text{    Einstein's relativity relation }
  \left( {P + \frac{{an^2 }}{{V^2 }}} \right)\left( {V - bn} \right) = nRT
  R = \frac{{m_e k^2 e^4 }}{{4\pi c\hbar ^3 }}
  S = \frac{{Akc^3 }}{{4\hbar G}}
  \int\limits_0^\infty  {x_1 (\tau )x_2 (t - \tau )d\tau }  \Leftrightarrow X_1 (s)X_2 (s)
  pH \approx pK_a  - \log \frac{{\left[ {HA} \right]_0 }}{{\left[ {A^ -  } \right]_0 }}
  s_{N - 1}  = \sqrt {\frac{1}{{N - 1}}\sum\limits_{i = 1}^N {\left( {x_i  - \bar x} \right)^2 } }
- E_{cell}  = E^\circ _{cell}  - \frac{{RT}}{{n\Im }}\ln Q = E^\circ _{cell}  - \frac{{0.0592}}{n}\log Q 
  e^{j\omega _o n}  \Leftrightarrow 2\pi \sum\limits_{k =  - \infty }^\infty  {\delta (\omega  - \omega _o  + 2\pi k)}
  d = \sqrt {\left( {x_1  - x_2 } \right)^2  + \left( {y_1  - y_2 } \right)^2 }
  \left( {x - x_0 } \right)^2  + \left( {y - y_0 } \right)^2  = R^2
- \frac{{\left( {x - x_0 } \right)^2 }}{{a^2 }} - \frac{{\left( {y - y_0 } \right)^2 }}{{b^2 }} = 1 \text{ Equation of a Hyperbola }
- E_{cell}  = E^\circ _{cell}  - \frac{{RT}}{{n\Im }}\ln Q = E^\circ _{cell}  - \frac{{0.0592}}{n}\log Q \text{ Cell Voltage }
- p = m\upsilon \text{ Linear Momentum }
- \Delta S^\circ  = \sum {S^\circ {\rm{products}}}  - \sum {S^\circ {\rm{reactants}}} \text{ Entropy Change }
+ \frac{{\left( {x - x_0 } \right)^2 }}{{a^2 }} - \frac{{\left( {y - y_0 } \right)^2 }}{{b^2 }} = 1   \text{     Equation of a Hyperbola }
+ E_{cell}  = E^\circ _{cell}  - \frac{{RT}}{{n\Im }}\ln Q = E^\circ _{cell}  - \frac{{0.0592}}{n}\log Q   \text{     Cell Voltage }
+ p = m\upsilon   \text{     Linear Momentum }
+ \Delta S^\circ  = \sum {S^\circ {\rm{products}}}  - \sum {S^\circ {\rm{reactants}}}   \text{    Entropy Change }
+ A = \pi r^2    \text{   Area of a circle }
+ V = \frac{{4\pi r^3 }}{3}   \text{   Volume of a sphere }
+ y(x,t) = A_n \cos (\omega _n t + \delta _n )\sin (k_n x)   \text{  Standing-wave function }
+ A = \frac{{F_0 }}{{\sqrt {m^2 \left( {\omega _0^2  - \omega ^2 } \right)^2  + b^2 \omega ^2 } }}  \text{  Amplitude of a driven oscillation }
+ y = \frac{1}{{\sqrt {2\pi } }}e^{ - \frac{{z^2 }}{2}}  = .3989e^{ - 5z^2 }  \text{  Standard Normal Distribution }
