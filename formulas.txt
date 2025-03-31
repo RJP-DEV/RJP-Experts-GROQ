@@ -24,10 +24,9 @@
  \frac{1}{1 + \sqrt[3]{2} + \sqrt[3]{4}} = \sqrt[3]{2} - 1 
  \begin{array}{l} x=r\cos\theta\\ y=r\sin\theta \end{array} 
  \E=mc^2\
- \chemfig{*6((=O)-N(-)-(*5(-N=-N(-)-))=-(=O)-N(-)-)}
- \newchessgame \mainline{1.e4 e5 2.Nf3 Nc6 3.Bb5 a6} \showboard % A skak package command. Future examples will use \chessboard[...]
- \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}|
- \[K=\frac{[\ce{Hg^2+}][\ce{Hg}]}{[\ce{Hg2^2+}]}\]| 
- \ce{C6H12O6}|, \ce{C6H12O6}
- \ce{CO2 + C -> 2 CO}
- \draw  (0,0) to [short, *-] (6,0) to [V, l_=$\mathrm{j}{\omega}_m \underline{\psi}^s_R$] (6,2)  to [R, l_=$R_R$] (6,4)  to [short, i_=$\underline{i}^s_R$] (5,4)  (0,0) to [open, v^>=$\underline{u}^s_s$] (0,4)  to [short, *- ,i=$\underline{i}^s_s$] (1,4)  to [R, l=$R_s$] (3,4)   to [L, l=$L_{\sigma}$] (5,4)   to [short, i_=$\underline{i}^s_M$] (5,3)   to [L, l_=$L_M$] (5,0); 
+ \{*6((=O)-N(-)-(*5(-N=-N(-)-))=-(=O)-N(-)-)}
+ \{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-}|
+ \[K=\frac{[{Hg^2+}][{Hg}]}{[{Hg2^2+}]}\]| 
+ \Glucose:  {C6H12O6}
+ \{CO2 + C -> 2 CO}
+ \Upsilon  = \frac{{{F \mathord{\left/  {\vphantom {F A}} \right.  \kern-\nulldelimiterspace} A}}}{{{{\Delta L} \mathord{\left/  {\vphantom {{\Delta L} L}} \right.  \kern-\nulldelimiterspace} L}}} = \frac{{{\rm{Stress}}}}{{{\rm{Strain}}}}
