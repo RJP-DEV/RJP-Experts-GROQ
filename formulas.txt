@@ -27,7 +27,7 @@
  \sin \theta  = \frac{{{\rm{Opposite Side}}}}{{{\rm{Hypotenuse}}}}
  V = \frac{{Bh}}{3} = \frac{{\pi r^2 h}}{3}
  \sin x = \sum\limits_{n = 1}^\infty  {\frac{{\left( { - 1} \right)^{n - 1} x^{2n - 1} }}{{\left( {2n - 1} \right)!}}}
- E = mc^2
+ E = mc^2 &&\text{Einstein's relativistic mass-energy relation}
  \left( {P + \frac{{an^2 }}{{V^2 }}} \right)\left( {V - bn} \right) = nRT
  R = \frac{{m_e k^2 e^4 }}{{4\pi c\hbar ^3 }}
  S = \frac{{Akc^3 }}{{4\hbar G}}
@@ -36,5 +36,6 @@
  s_{N - 1}  = \sqrt {\frac{1}{{N - 1}}\sum\limits_{i = 1}^N {\left( {x_i  - \bar x} \right)^2 } }
  E_{cell}  = E^\circ _{cell}  - \frac{{RT}}{{n\Im }}\ln Q = E^\circ _{cell}  - \frac{{0.0592}}{n}\log Q 
  e^{j\omega _o n}  \Leftrightarrow 2\pi \sum\limits_{k =  - \infty }^\infty  {\delta (\omega  - \omega _o  + 2\pi k)}
- \begin{array}{*{20}c}   {x = r\cos \theta } & {r = \sqrt {x^2  + y^2 } }  \\  {y = r\sin \theta } & {\theta  = \tan ^{ - 1} \left( {\frac{y}{x}} \right)}  \\ \end{array}
- \begin{array}{*{20}c}   {x = R\sin \theta \cos \phi } & {R = \sqrt {x^2  + y^2  + z^2 } } & {}  \\   {y = R\sin \theta \sin \phi } & {\phi  = \tan ^{ - 1} \left( {\frac{y}{x}} \right)} & {}  \\ 0 {z = R\cos \theta } & {\theta  = \cos ^{ - 1} \left( {\frac{z}{{\sqrt {x^2  + y^2  + z^2 } }}} \right)} & {}  \\ \end{array}
+ d = \sqrt {\left( {x_1  - x_2 } \right)^2  + \left( {y_1  - y_2 } \right)^2 }
+ \left( {x - x_0 } \right)^2  + \left( {y - y_0 } \right)^2  = R^2
+ \frac{{\left( {x - x_0 } \right)^2 }}{{a^2 }} - \frac{{\left( {y - y_0 } \right)^2 }}{{b^2 }} = 1 &&\text{Equation of a Hyperbola}
