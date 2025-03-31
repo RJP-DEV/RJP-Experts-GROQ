@@ -39,3 +39,6 @@
  d = \sqrt {\left( {x_1  - x_2 } \right)^2  + \left( {y_1  - y_2 } \right)^2 }
  \left( {x - x_0 } \right)^2  + \left( {y - y_0 } \right)^2  = R^2
  \frac{{\left( {x - x_0 } \right)^2 }}{{a^2 }} - \frac{{\left( {y - y_0 } \right)^2 }}{{b^2 }} = 1 \text{ Equation of a Hyperbola }
+ E_{cell}  = E^\circ _{cell}  - \frac{{RT}}{{n\Im }}\ln Q = E^\circ _{cell}  - \frac{{0.0592}}{n}\log Q \text{ Cell Voltage }
+ p = m\upsilon \text{ Linear Momentum }
+ \Delta S^\circ  = \sum {S^\circ {\rm{products}}}  - \sum {S^\circ {\rm{reactants}}} \text{ Entropy Change }
