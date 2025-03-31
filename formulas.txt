@@ -34,5 +34,7 @@
  \int\limits_0^\infty  {x_1 (\tau )x_2 (t - \tau )d\tau }  \Leftrightarrow X_1 (s)X_2 (s)
  pH \approx pK_a  - \log \frac{{\left[ {HA} \right]_0 }}{{\left[ {A^ -  } \right]_0 }}
  s_{N - 1}  = \sqrt {\frac{1}{{N - 1}}\sum\limits_{i = 1}^N {\left( {x_i  - \bar x} \right)^2 } }
- E_{cell}  = E^\circ _{cell}  - \frac{{RT}}{{n\Im }}\ln Q = E^\circ _{cell}  - \frac{{0.0592}}{n}\log Q
- \Upsilon  = \frac{{{F \mathord{\left/  {\vphantom {F A}} \right.  \kern-\nulldelimiterspace} A}}}{{{{\Delta L} \mathord{\left/  {\vphantom {{\Delta L} L}} \right.  \kern-\nulldelimiterspace} L}}} = \frac{{{\rm{Stress}}}}{{{\rm{Strain}}}}
+ E_{cell}  = E^\circ _{cell}  - \frac{{RT}}{{n\Im }}\ln Q = E^\circ _{cell}  - \frac{{0.0592}}{n}\log Q 
+ e^{j\omega _o n}  \Leftrightarrow 2\pi \sum\limits_{k =  - \infty }^\infty  {\delta (\omega  - \omega _o  + 2\pi k)}
+ \begin{array}{*{20}c}   {x = r\cos \theta } & {r = \sqrt {x^2  + y^2 } }  \\  {y = r\sin \theta } & {\theta  = \tan ^{ - 1} \left( {\frac{y}{x}} \right)}  \\ \end{array}
+ \begin{array}{*{20}c}   {x = R\sin \theta \cos \phi } & {R = \sqrt {x^2  + y^2  + z^2 } } & {}  \\   {y = R\sin \theta \sin \phi } & {\phi  = \tan ^{ - 1} \left( {\frac{y}{x}} \right)} & {}  \\ 0 {z = R\cos \theta } & {\theta  = \cos ^{ - 1} \left( {\frac{z}{{\sqrt {x^2  + y^2  + z^2 } }}} \right)} & {}  \\ \end{array}
