@@ -47,4 +47,4 @@
  A = \frac{{F_0 }}{{\sqrt {m^2 \left( {\omega _0^2  - \omega ^2 } \right)^2  + b^2 \omega ^2 } }}  \text{  Amplitude of a driven oscillation }
  y = \frac{1}{{\sqrt {2\pi } }}e^{ - \frac{{z^2 }}{2}}  = .3989e^{ - 5z^2 }  \text{  Standard Normal Distribution }
  n^3 a^n u(n) \Leftrightarrow \frac{{az(z^2  + 4az + a^2 )}}{{\left( {z - a} \right)^4 }},\left| z \right| > \left| a \right|  \text{  Z-transform involving the unit step function and an exponential }
- X(z) \buildrel \Delta \over = \sum\limits_{n =  - \infty }^\infty  {x(n)z^{ - n} } \text{  Z-transform definition }
+ X(z) \Delta \over = \sum\limits_{n =  - \infty }^\infty  {x(n)z^{ - n} } \text{  Z-transform definition }
