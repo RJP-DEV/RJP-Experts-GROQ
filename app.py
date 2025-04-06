@@ -133,6 +133,20 @@ def reset_chat_on_model_change():
     uploaded_file = None
     base64_image = None
 
+# Cache the model fetching function to improve performance
+@st.cache_data
+def fetch_available_models():
+    """
+    Fetches the available models from the Groq API.
+    Returns a list of models or an empty list if there's an error.
+    """
+    try:
+        models_response = client.models.list()
+        return models_response.data
+    except Exception as e:
+        st.error(f"Error fetching models: {e}")
+        return []
+
 
 def main():
     """
@@ -152,19 +166,7 @@ def main():
     )
 
     #########################################################################
-    # Cache the model fetching function to improve performance
-    @st.cache_data
-    def fetch_available_models():
-      """
-      Fetches the available models from the Groq API.
-      Returns a list of models or an empty list if there's an error.
-      """
-    try:
-        models_response = client.models.list()
-        return models_response.data
-    except Exception as e:
-        st.error(f"Error fetching models: {e}")
-        return []
+    
 
     # Load available models 
     available_models = fetch_available_models()
@@ -172,17 +174,10 @@ def main():
 
     # Prepare a dictionary of model metadata
     models = {
-       model.id: {
-          "name": model.id,
-          "tokens": 4000,
-          "developer": model.owned_by,
-          }
-      for model in filtered_models
+       model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, }
     }
     
-    if "selected_model" not in st.session_state:
-       st.session_state.selected_model = None 
-
+    
     #########################################################################
 
     # Display the Groq logo
@@ -218,19 +213,6 @@ def main():
     #    ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
     )
    
-# Model selection dropdown
-#    if models:
-#        model_option = st.selectbox(
-#            "Choose a model:",
-#            options=list(models.keys()),
-#            format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})",
-#            on_change=reset_chat_on_model_change,  # Reset chat when model changes
-#        )
-#    else:
-#        st.warning("No available models to select.")
-#        model_option = None
-
-
 
     if 'Prompt2' not in st.session_state:
         st.session_state.Prompt2 = (
