@@ -15,7 +15,7 @@ class Prompt1:
     title: str
     name: str
 
-
+# Define a function to convert text to Audio using gTTS
 def convert_text_to_mp3(text: str, target_language_code: str, Accent: str) -> None:
     """Convert the given text to mp3 formatted audio
     :type text: str
@@ -30,7 +30,7 @@ def convert_text_to_mp3(text: str, target_language_code: str, Accent: str) -> No
         tts.write_to_fp(mp3_file)
     return
    
-
+# Define a function to detect the language in the input user text and return language in proper case.
 def detect_source_language(client, text: str ) -> str:
     """Detect the language of source text
     :type text: str
@@ -55,7 +55,7 @@ def detect_source_language(client, text: str ) -> str:
     return source_language
 
 
-
+# Define a function to initialize groq parameters in the chat
 def chat_with_groq(client,promptx,prompt,model,temperaturex):
     """
     This function sends a chat message to the Groq API and returns the content of the response.
@@ -71,7 +71,7 @@ def chat_with_groq(client,promptx,prompt,model,temperaturex):
     return completion.choices[0].message.content
 
 
-
+# Define a function to maintain a coversational history of the chat
 def get_conversational_history(user_question_history,chatbot_answer_history,conversational_memory_length):
     """
     This function generates a full prompt for the chatbot based on the history of the conversation.
@@ -111,26 +111,30 @@ def get_conversational_history(user_question_history,chatbot_answer_history,conv
 
 
 
-
+# Define a function to get a random prompt one button is press
 def get_random_prompt(file_path):
     """
     This function reads a file of prompts and returns a random prompt.
     """
-
     with open(file_path, 'r') as f:
         prompts = f.readlines()
     return random.choice(prompts).strip()
 
+# Define a function to get a random formula
 def get_random_formula(file_path):
     """
     This function reads a file of latex formulas and returns a random formula.
     """
-
     with open(file_path, 'r') as f:
         formula = f.readlines()
     return random.choice(formula).strip()
 
-
+# Define a function to clear messages when the model changes
+def reset_chat_on_model_change():
+    st.session_state.messages = []
+    st.session_state.image_used = False
+    uploaded_file = None
+    base64_image = None
 
 
 def main():
@@ -139,7 +143,7 @@ def main():
     """
     
     # And the root-level secrets are also accessible as environment variables:
-    st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
+    st.set_page_config(layout="wide", page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
     llm_answer = []
     
     # Get Groq API key
@@ -149,6 +153,40 @@ def main():
     client = Groq(       
         api_key=groq_api_key
     )
+
+    #########################################################################
+    # Cache the model fetching function to improve performance
+    @st.cache_data
+    def fetch_available_models():
+      """
+      Fetches the available models from the Groq API.
+      Returns a list of models or an empty list if there's an error.
+      """
+    try:
+        models_response = client.models.list()
+        return models_response.data
+    except Exception as e:
+        st.error(f"Error fetching models: {e}")
+        return []
+
+    # Load available models 
+    available_models = fetch_available_models()
+   
+
+    # Prepare a dictionary of model metadata
+    models = {
+       model.id: {
+          "name": model.id,
+          "tokens": 4000,
+          "developer": model.owned_by,
+          }
+      for model in filtered_models
+    }
+    
+    if "selected_model" not in st.session_state:
+       st.session_state.selected_model = None 
+
+    #########################################################################
 
     # Display the Groq logo
     col1, col2 = st.columns([2, 1])  
@@ -179,9 +217,24 @@ def main():
         
     model = st.sidebar.selectbox(
         'Select a Model',
-        ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
+         options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})", on_change=reset_chat_on_model_change
+    #    ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
     )
    
+# Model selection dropdown
+#    if models:
+#        model_option = st.selectbox(
+#            "Choose a model:",
+#            options=list(models.keys()),
+#            format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})",
+#            on_change=reset_chat_on_model_change,  # Reset chat when model changes
+#        )
+#    else:
+#        st.warning("No available models to select.")
+#        model_option = None
+
+
+
     if 'Prompt2' not in st.session_state:
         st.session_state.Prompt2 = (
         Prompt1('1', 'Olivia 👩‍🎨 your Assistant', 'You are the default Assistant for RJP Development Studio 👩‍🎨: You are a knowledgeable and friendly female assistant named Olivia. and your ${emoji} is. You are sexy, femenine and professional. Your role is to help users by answering their questions, providing information, and offering guidance to the best of your abilities. When responding, use a warm and professional tone, and break down complex topics into easy-to-understand explanations. If you are unsure about an answer, it is okay to say you do not know rather than guessing. Generate a comprehensive and informative answer for any given question you are alloud to based it on one or several new Web Search Results in case you need current information. Use an unbiased and journalistic tone. Be concise and action-oriented in your responses. Ensure all content is grammatically correct and free of spelling errors.' ),
@@ -244,16 +297,15 @@ def main():
 
     # Add customization options Localization Accent in the sidebar
     Selected_Accent=st.sidebar.selectbox('Localization Accent', AccentList)
+    
     #Accent=AccentList.get(Selected_Accent, "us" )
     Accent=AccentList.get(Selected_Accent)
-      
-
+    
     # Add customization options conversational memory length in the sidebar
     conversational_memory_length = st.sidebar.slider('Conversational memory:', 1, 10, value = 5)
 
     # Add customization options temperature in the sidebar
     temperaturex = st.sidebar.slider('Temperature:', 0.00, 2.00, value = 0.50)
-
 
     # Add customization options Generate Random Question in the sidebar
     clicked = st.sidebar.button("Suggest Random Question", key="generate_btn")
@@ -261,14 +313,12 @@ def main():
     # The chatbot'reset and clear memory.   
     Resetclicked = st.sidebar.button("Reset", key="reset_btn")
       
-
     if Resetclicked:
        llm_answer = []
        user_question = []
        st.session_state['user_question_history'] = []
        st.session_state['chatbot_answer_history'] = []
-       
-
+ 
     # The user is prompted to ask a question. The default value is a random prompt from the 'starter_prompt.txt' file.
     if clicked:
        user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
@@ -282,8 +332,6 @@ def main():
     # If there is no chatbot answer history in the session state, an empty list is initialized.
     if 'chatbot_answer_history' not in st.session_state:
         st.session_state['chatbot_answer_history'] = []
-
-        
 
     # If the user has asked a question,
     if user_question:
@@ -330,7 +378,6 @@ def main():
                  st.write(llm_answer) 
                  user_question = []
         
-                        
             
     if Resetclicked:
        llm_answer = []
@@ -339,11 +386,9 @@ def main():
        st.session_state['chatbot_answer_history'] = []
        st.session_state.translation = ""
        
-    
 
 if __name__ == "__main__":
     main()
-
 
 random_prompt = get_random_prompt('starter_prompt.txt')
 print(random_prompt)
