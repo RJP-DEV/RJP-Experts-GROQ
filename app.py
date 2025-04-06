@@ -23,7 +23,6 @@ def convert_text_to_mp3(text: str, target_language_code: str, Accent: str) -> No
     :type target_language_code: str
     :param target_language_code: Language code
     """
-    
     tts = gTTS(text, lang=target_language_code, tld=Accent, lang_check=True, slow=False)
 
     with open("translation.mp3", "wb") as mp3_file:
@@ -61,7 +60,6 @@ def chat_with_groq(client,promptx,prompt,model,temperaturex):
     This function sends a chat message to the Groq API and returns the content of the response.
     It takes three parameters: the Groq client, the chat prompt, and the model to use for the chat.
     """
-    
     completion = client.chat.completions.create(
     model=model,
     messages=[{"role": "system", "content": promptx }, {"role": "user", "content": prompt } ],
@@ -108,7 +106,6 @@ def get_conversational_history(user_question_history,chatbot_answer_history,conv
         '''.format(user_question = user_question_history[-1])
     
     return full_prompt
-
 
 
 # Define a function to get a random prompt one button is press
