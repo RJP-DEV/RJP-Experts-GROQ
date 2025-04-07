@@ -156,7 +156,10 @@ def main():
     available_models = client.models.list()
     args1 = (infor.name for infor in available_models)
     args2 = (infor.developer for infor in available_models)
-        
+    print(available_models)
+
+
+
     #########################################################################
 
     # Display the Groq logo
