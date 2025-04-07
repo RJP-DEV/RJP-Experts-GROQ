@@ -154,10 +154,9 @@ def main():
     
     # Load available models 
     available_models = client.models.list()
-    args1 = (infor.name for infor in available_models)
-    args2 = (infor.developer for infor in available_models)
-    print(client.models.list())
-
+    model1 = (models.name for models in available_models)
+    model2 = (models.developer for models in available_models)
+    
 
 
     #########################################################################
@@ -191,8 +190,8 @@ def main():
         
     model = st.sidebar.selectbox(
         'Select a Model',
-        options=available_models, format_func=lambda infor: infor.name
-    #      options=list(available_models), format_func=lambda x: f"{available_models[x]['name']} ({available_models[x]['developer']})"
+            options=available_models, format_func=lambda models: models.name
+    #     options=list(available_models())), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})"
     #     ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
     )
    
