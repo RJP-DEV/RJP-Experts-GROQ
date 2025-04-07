@@ -133,20 +133,6 @@ def reset_chat_on_model_change():
     uploaded_file = None
     base64_image = None
 
-# Cache the model fetching function to improve performance
-@st.cache_data
-def fetch_available_models():
-    """
-    Fetches the available models from the Groq API.
-    Returns a list of models or an empty list if there's an error.
-    """
-    try:
-        models_response = client.models.list()
-        return models_response.data
-    except Exception as e:
-        st.error(f"Error fetching models: {e}")
-        return []
-
 
 def main():
     """
@@ -161,12 +147,24 @@ def main():
     groq_api_key = st.secrets["key"]
 
     # Initialize Groq client
-    client = Groq(       
-        api_key=groq_api_key
-    )
+    client = Groq( api_key=groq_api_key )
 
     #########################################################################
-    
+
+
+    @st.cache_data
+    def fetch_available_models():
+        """
+        Fetches the available models from the Groq API.
+        Returns a list of models or an empty list if there's an error.
+        """
+    try:
+        models_response = client.models.list()
+        return models_response.data
+    except Exception as e:
+        st.error(f"Error fetching models: {e}")
+        return []
+
 
     # Load available models 
     available_models = fetch_available_models()
@@ -175,6 +173,8 @@ def main():
     # Prepare a dictionary of model metadata
     models = {
        model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, }
+       for model in available_models
+
     }
     
     
