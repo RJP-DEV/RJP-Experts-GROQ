@@ -165,7 +165,7 @@ def main():
            
     # Load available models and filter them
     available_models = fetch_available_models()
-    filtered_models = [ model for model in available_models  if 'whisper' not in model.id ]
+    filtered_models = [ model for model in available_models  if 'whisper' or 'tts' not in model.id ]
 
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
@@ -198,9 +198,7 @@ def main():
         
     model = st.sidebar.selectbox(
         'Select a Model',
-          options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})",
-    #     ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
-    )
+          options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})", )
    
 
     if 'Prompt2' not in st.session_state:
