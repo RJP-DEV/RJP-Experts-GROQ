@@ -198,7 +198,9 @@ def main():
         
     model = st.sidebar.selectbox(
         'Select a Model',
-          options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})", )
+          options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})",
+          index='mistral-saba-24b'
+    )
    
 
     if 'Prompt2' not in st.session_state:
