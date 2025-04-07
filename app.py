@@ -151,23 +151,9 @@ def main():
 
     #########################################################################
 
-    @st.cache_data
-    def fetch_available_models():
-        """
-        Fetches the available models from the Groq API.
-        Returns a list of models or an empty list if there's an error.
-        """
-    try:
-        models_response = client.models.list()
-        return models_response.data
-    except Exception as e:
-        st.error(f"Error fetching models: {e}")
-        return []
-
     
-
     # Load available models 
-    available_models = fetch_available_models()
+    available_models = client.models.list()
     filtered_models = [ model for model in available_models if 'llama' in model.id ]
 
     # Prepare a dictionary of model metadata
