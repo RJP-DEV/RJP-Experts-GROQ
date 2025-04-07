@@ -133,6 +133,26 @@ def reset_chat_on_model_change():
     uploaded_file = None
     base64_image = None
 
+# Cache the model fetching function to improve performance
+@st.cache_data
+def fetch_available_models():
+    """
+    Fetches the available models from the Groq API.
+    Returns a list of models or an empty list if there's an error.
+    """
+    # Get Groq API key
+    groq_api_key = st.secrets["key"]
+
+    # Initialize Groq client
+    client = Groq( api_key=groq_api_key )
+
+    try:
+        models_response = client.models.list()
+        return models_response.data
+    except Exception as e:
+        st.error(f"Error fetching models: {e}")
+        return []
+    
 
 def main():
     """
@@ -142,25 +162,14 @@ def main():
     # And the root-level secrets are also accessible as environment variables:
     st.set_page_config(layout="wide", page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
     llm_answer = []
-    
-    # Get Groq API key
-    groq_api_key = st.secrets["key"]
-
-    # Initialize Groq client
-    client = Groq( api_key=groq_api_key )
-
-    #########################################################################
-
-    
-   
-
+           
     # Load available models and filter them
-    filtered_models = [ model for model in client.models.list() ]
+    available_models = fetch_available_models()
+    filtered_models = [ model for model in available_models if 'llama' in model.id ]
+
     # Prepare a dictionary of model metadata
-    models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, }  for model in filtered_models }
+    models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
 
-
-    #########################################################################
 
     # Display the Groq logo
     col1, col2 = st.columns([2, 1])  
@@ -173,9 +182,7 @@ def main():
         g_image = image.resize((100, 25))
         st.image(g_image)
          
-   
     st.latex(get_random_formula('formulas.txt'))
-    
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, Provided by Raul Perez Development Studio.")
     st.caption("First select, one of the provided Expert or Fun Personalities. In the Sidebar area.")
