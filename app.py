@@ -155,12 +155,9 @@ def main():
    
 
     # Load available models and filter them
-    available_models = client.models.list()
-    filtered_models = [ model for model in available_models ]
+    filtered_models = [ model for model in client.models.list() ]
     # Prepare a dictionary of model metadata
-    models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, }
-    for model in filtered_models
-}
+    models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, }  for model in filtered_models }
 
 
     #########################################################################
