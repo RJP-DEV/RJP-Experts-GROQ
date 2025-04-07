@@ -168,14 +168,10 @@ def main():
 
     # Load available models 
     available_models = fetch_available_models()
-   
+    filtered_models = [ model for model in available_models if 'llama' in model.id ]
 
     # Prepare a dictionary of model metadata
-    models = {
-       model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, }
-       for model in available_models
-
-    }
+    models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
     
     
     #########################################################################
