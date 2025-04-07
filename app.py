@@ -160,7 +160,7 @@ def main():
     """
     
     # And the root-level secrets are also accessible as environment variables:
-    st.set_page_config(layout="wide", page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
+    st.set_page_config(page_title="The Experts.ai", page_icon=":busts_in_silhouette:")
     llm_answer = []
            
     # Load available models and filter them
