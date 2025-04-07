@@ -190,7 +190,7 @@ def main():
         
     model = st.sidebar.selectbox(
         'Select a Model',
-            options=available_models, format_func=lambda model: model1:__name__ 
+            options=available_models, format_func=lambda model1: model1:name 
     #     options=list(available_models())), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})"
     #     ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
     )
