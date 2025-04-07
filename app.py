@@ -165,7 +165,7 @@ def main():
            
     # Load available models and filter them
     available_models = fetch_available_models()
-    filtered_models = [ model for model in available_models  if 'whisper' or 'tts' not in model.id ]
+    filtered_models = [ model for model in available_models  if 'whisper tts' not in model.id ]
 
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
