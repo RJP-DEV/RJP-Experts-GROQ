@@ -149,7 +149,32 @@ def main():
     # Initialize Groq client
     client = Groq( api_key=groq_api_key )
 
+    #########################################################################
+
+    @st.cache_data
+    def fetch_available_models():
+        """
+        Fetches the available models from the Groq API.
+        Returns a list of models or an empty list if there's an error.
+        """
+    try:
+        models_response = client.models.list()
+        return models_response.data
+    except Exception as e:
+        st.error(f"Error fetching models: {e}")
+        return []
+
     
+
+    # Load available models 
+    available_models = fetch_available_models()
+    filtered_models = [ model for model in available_models if 'llama' in model.id ]
+
+    # Prepare a dictionary of model metadata
+    models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
+    
+    
+    #########################################################################
 
     # Display the Groq logo
     col1, col2 = st.columns([2, 1])  
@@ -180,8 +205,8 @@ def main():
         
     model = st.sidebar.selectbox(
         'Select a Model',
-         options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})", on_change=reset_chat_on_model_change
-    #    ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
+    #     options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})", on_change=reset_chat_on_model_change
+         ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
     )
    
 
