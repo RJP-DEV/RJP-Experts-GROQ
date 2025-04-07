@@ -292,7 +292,13 @@ def main():
        user_question = st.text_input("Ask a question:",value=get_random_prompt('starter_prompt.txt'))
     else:
        user_question = st.text_input("Ask a question:")
+
+    # Get Groq API key
+    groq_api_key = st.secrets["key"]
     
+    # Initialize Groq client
+    client = Groq( api_key=groq_api_key )
+
     # If there is no user question history in the session state, an empty list is initialized.
     if 'user_question_history' not in st.session_state:
         st.session_state['user_question_history'] = []
