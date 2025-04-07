@@ -186,8 +186,8 @@ def main():
     st.sidebar.title('Customization')
         
     model = st.sidebar.selectbox(
-        'Select a Model', client.models.list()
-    #     options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})", on_change=reset_chat_on_model_change
+        'Select a Model',
+          options=list(client.models.list()), format_func=lambda x: f"{model[x]['name']} ({model[x]['developer']})"
     #     ['mistral-saba-24b', 'qwen-qwq-32b', 'deepseek-r1-distill-llama-70b', 'deepseek-r1-distill-qwen-32b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant', 'gemma2-9b-it']
     )
    
