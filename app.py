@@ -317,6 +317,7 @@ def main():
         llm_answer = chat_with_groq(client,promptx,conversational_history_question,model,temperaturex)
         # The chatbot's answer is added to the chatbot answer history.
         st.session_state['chatbot_answer_history'].append(llm_answer)
+        
         st.session_state.translation = llm_answer
        
         if Accent == "com.ar":

@@ -1,44 +1,3 @@
-Tell me a joke.
-What's the weather like today?
-Can you recommend a good book?
-What's the capital of Australia?
-Translate 'Hello my friend' and 'Good bye.' to 5 languages of your choise?
-What's the distance between New York and Los Angeles?
-Find a recipe for spaghetti bolognese.
-When I was reading about 74HC595 Shift Register I found a term very commonly used: "Daisy Chain" What is that?
-Who is the president of the United States?
-The day before yesterday I was 25. The next year I will be 28. This is true only one day in a year. What day is my Birthday? 
-Can you show me a CNC code for a cilinder part.
-What is the tallest mountain in the world?
-Tell me a fun fact about space.
-Las Meninas', or the Ladies in Waiting, depicts court life in which city?
-How do I make a margarita?
-Look at this series: 36, 34, 30, 28, 24, … What number should come next?
-Who wrote 'To Kill a Mockingbird'?
-What is the name of the island famous for its huge sculpted heads?
-How petrol engine is different than diesel engine?
-Summary sherlock holmes the norwood mystery.
-Old Woman Frying Eggs' was a 17th century painting by which Spanish artist?
-Summary Alex Rider series show a link to Youtube latest release.
-List 5 famous 'Sherlock Holmes and Dr. Watson' Quotes. 
-What is ADC and DAC on a Microcontroller? Also What are bits in those pins (for e.g. 8 bit ADC, 10 bit ADC etc)
-Provide a Recipe of Vietnamese Fresh Spring Rolls
-Which 20th century Mexican artist contracted polio as a child?
-How do I tie a tie?
-What countries influence Argentina cooking ?
-How should medication be stored?
-What is the true story behind the disappearance of the lost colony of Roanoke?
-Who was the mastermind behind the notorious 1914 sinking of the RMS Lusitania?
-What secrets lie within the enigmatic Stonehenge in England?
-What is the 120 rule in scuba diving?
-What are scuba certification limits?
-What are the common faults in BJT?
-Who was the real-life inspiration for Sir Arthur Conan Doyle's Sherlock Holmes?
-What caused the unexplained 17th-century disappearances of the Salem witches?
-Who built the Great Pyramids of Giza in Egypt and why?
-What was the fate of the Viking colony of Vinland in North America?
-Who was responsible for the infamous 1963 assassination of President John F. Kennedy?
-What caused the mysterious Tunguska event in Siberia in 1908?
 Who was the anonymous author of the Declaration of Independence?
 What caused the mysterious deaths of the Roman Emperor Titus and his brother Domitian?
 Who created the famous Bayeux Tapestry depicting the Norman Conquest of England?
@@ -164,7 +123,6 @@ What are you thinking?
 An airplane accelerates down a runway at 3.20 m/s2 for 32.8 s until is finally lifts off the ground. Determine the distance traveled before takeoff?.
 How does your body feel right now?
 What is the best recipe for homemade argentinean pizza?
-What are your symptoms?
 What brought you to therapy?
 What do you feel is wrong in your life?
 Some questions about your history, including your childhood, education, relationships (family, romantic, friends), your current living situation, and your career.
@@ -216,6 +174,8 @@ How can I integrate a TensorFlow model into a C++ application?
 Find the largest number among the three numbers.
 Write a Program to check whether a number is prime or not.
 Write a Program in C to Swap the values of two variables without using any extra variable.
+Write a Program in Cobol to generate a tipical accounting report .
+Write a Program in phyton to Swap the values of two variables without using any extra variable.
 Write a Program to Replace all 0’s with 1’s in a Number
 Write a Program to check if the year is a leap year or not.
 Write a Program to create a pyramid pattern using C.
@@ -815,3 +775,625 @@ What is the role of thoughts in the development and maintenance of mental health
 Can you explain the concept of thought suppression and its potential consequences?
 How do thoughts and memories interact, and what is the role of memory in thought processes?
 Help me study Real State: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Tell me a joke.
+What's the weather like today?
+Can you recommend a good book?
+What's the capital of Australia?
+Translate 'Hello my friend' and 'Good bye.' to 5 languages of your choise?
+What's the distance between New York and Los Angeles?
+Find a recipe for spaghetti bolognese.
+When I was reading about 74HC595 Shift Register I found a term very commonly used: "Daisy Chain" What is that?
+Who is the president of the United States?
+The day before yesterday I was 25. The next year I will be 28. This is true only one day in a year. What day is my Birthday? 
+Can you show me a CNC code for a cilinder part.
+¿Cuál crees que será el impacto de la inteligencia artificial en el futuro del trabajo y cómo deberían prepararse las empresas para esta transformación?
+What is the tallest mountain in the world?
+Tell me a fun fact about space.
+Las Meninas', or the Ladies in Waiting, depicts court life in which city?
+¿Qué propiedades tienen los ángulos internos de un polígono regular y cómo se pueden utilizar para resolver problemas de diseño arquitectónico?
+How do I make a margarita?
+Look at this series: 36, 34, 30, 28, 24, … What number should come next?
+Who wrote 'To Kill a Mockingbird'?
+What is the name of the island famous for its huge sculpted heads?
+¿Cuáles son los principales desafíos éticos que enfrenta el desarrollo de la inteligencia artificial y cómo deberían abordarse?
+How petrol engine is different than diesel engine?
+Summary sherlock holmes the norwood mystery.
+Old Woman Frying Eggs' was a 17th century painting by which Spanish artist?
+Summary Alex Rider series show a link to Youtube latest release.
+¿Cuáles son los principales desafíos éticos que enfrenta el desarrollo de la inteligencia artificial y cómo deberían abordarse?
+List 5 famous 'Sherlock Holmes and Dr. Watson' Quotes. 
+What is ADC and DAC on a Microcontroller? Also What are bits in those pins (for e.g. 8 bit ADC, 10 bit ADC etc)
+Recipe of Vietnamese Fresh Spring Rolls
+Which 20th century Mexican artist contracted polio as a child?
+¿Qué papel juegan los datos masivos (big data) en la toma de decisiones empresariales y cómo pueden las organizaciones aprovecharlos de manera efectiva?
+How do I tie a tie?
+What countries influence Argentina cooking ?
+Italy and Spain
+¿Cómo afecta la ciberseguridad a la confianza del consumidor en el comercio electrónico y qué medidas pueden tomar las empresas para mejorarla?
+How should medication be stored?
+What is the 120 rule in scuba diving?
+What are scuba certification limits?
+¿Qué tecnologías emergentes consideras que tendrán el mayor impacto en la sostenibilidad ambiental en la próxima década?
+What are the common faults in BJT?
+When you test a good diode with a multimeter, it shows.
+What color is the pigment called ochre, extensively used in Australian aboriginal art?
+Which Spanish painter's works include 'The Tilled Field' and 'The Farm'?
+¿Cuál es la relación entre el área de un círculo y su circunferencia, y cómo se puede demostrar matemáticamente?
+What may cause  engine overheat?
+What are the two most important things that make a movie great?
+What is GSM and what is GPRS in simple words (Wikipedia is complex) ? What is the difference between them and GPS?
+What are operational-amplifiers? How do they work and can you give me examples of a few common ones?
+Si un cuadrado tiene un perímetro de 40 cm, ¿cuál es el área del cuadrado y cómo se relaciona con la longitud de sus lados?
+To produce P-type semiconductors, you need to add?
+If the Zener Diode is connected in wrong polarity, the voltage across the load is?
+What are the seven wonders of the ancient world?
+What is RTC IC and how to use it with my Arduino?
+Who sent Christopher Columbus to explore the New World?
+Si un triángulo tiene lados de longitud 7, 24 y 25, ¿cómo puedes determinar si es un triángulo rectángulo?
+When did the construction of the Great Wall of China begin?
+Make a python app that plays snake game
+3 Friends went to a shop and purchased 3 toys. Each person paid Rs.10 which is the cost of one toy. So, they paid Rs.30 i.e. total amount. The shop owner gave a discount of Rs.5 on the total purchase of 3 toys for Rs.30. Then, among Rs.5, Each person has taken Rs.1 and remaining Rs.2 given to the beggar beside the shop. Now, the effective amount paid by each person is Rs.9 and the amount given to the beggar is Rs.2. So, the total effective amount paid is 9*3 = 27 and the amount given to beggar is Rs.2, thus the total is Rs.29. Where has the other Rs.1 gone from the original Rs.30?
+What's the formula for the area of a circle?
+Provide me with a complex G-code of a Horse shape.
+¿Cómo se puede calcular el volumen de un cono y en qué situaciones prácticas se aplica este cálculo?
+Finish the line President Franklin D. Roosevelt said during his speech addressing the attack on Pearl Harbor: “Yesterday, December 7, 1941…”
+What are the ingredients in a Caesar salad?
+Factor completely 16t2+24t+9 .
+What boy's name is also the name of Michaelangelo's most famous sculpture?
+Recipe of Rendang, Indonesia.
+¿Qué propiedades tienen los ángulos internos de un polígono regular y cómo se pueden utilizar para resolver problemas de diseño arquitectónico?
+How do I convert Fahrenheit to Celsius?
+A man has 53 socks in his drawer: 21 identical blue, 15 identical black and 17 identical red. The lights are out and he is completely in the dark. How many socks must he take out to make 100 percent certain he has at least one pair of black socks?
+What's the Pythagorean theorem?
+Can you explaing me the meaning of messaging and narrative?
+¿Cuál es la relación entre el área de un círculo y su circunferencia, y cómo se puede demostrar matemáticamente?
+How many electrons does pentavalent atoms have?
+Expand the following expression: $7(3y+2)$
+Explain what do you mean by independent suspension?
+Which 16th century Italian artist painted 'St George and the Dragon'?
+How do I make a paper airplane?
+Who painted famous British work 'The Hay Wain'?
+What is automotive charging system is made up of?
+One of Salvador Dali's most famous paintings was 'The Burning' what?
+Explain how timing belt works?
+Who was the last Tsar of Russia?
+There is a basket containing 5 apples, how do you divide the apples among 5 children so that each child has 1 apple while 1 apple remains in the basket?
+In which country was the Battle of Culloden fought in 1746?
+What Is pI?
+What are the important components of Engine lubrication system?
+Explain what is the difference between Crankshaft and Camshaft?
+Who is the king of the Olympian gods in Greek mythology?
+Which Greek goddess was the Parthenon dedicated to?
+When did the Mexican Revolution start?
+The United States bought Alaska from which country?
+When was the Declaration of Independence signed?
+Where is the Pyramid of the Sun located?
+Steps to Draw a Lewis Structure
+What are the steps to solve a Rubik's cube?
+Who fought in the Hundred Years’ War?
+How do I bake a chocolate cake?
+What event is commonly believed to have sparked World War I?
+You are an expert programmer that writes simple, concise code and explanations. Write a python function to generate the nth fibonacci number.
+What's the process for photosynthesis?
+A right square pyramid has a base with edges each measuring 3 cm and a height twice the perimeter of its base. What is the volume of the pyramid?
+How do I calculate compound interest?
+Tell me a riddle or two.
+Who was president during the Cuban Missile Crisis?
+Provide the Table of Vapor Pressure Values.
+A block slides along a frictionless surface with a constant acceleration of 2 m/s2. At time t = 0 s the block is at x = 5m and travelling with a velocity of 3 m/s  a- Where is the block at t = 2 seconds? b- What is the block’s velocity at 2 seconds? c- Where is the block when it’s velocity is 10 m/s? d- How long did it take to get to this point?
+A girl meets a lion and unicorn in the forest. The lion lies every Monday, Tuesday and Wednesday and the other days he speaks the truth. The unicorn lies on Thursdays, Fridays and Saturdays, and the other days of the week he speaks the truth. “Yesterday I was lying,” the lion told the girl. “So was I,” said the unicorn. What day is it?
+What are you feeling?
+The day before two days after the day before tomorrow is Saturday. What day is it today?
+Create a YAML configuration for a sophisticated scene that adjusts lighting, temperature, and multimedia based on time of day and occupancy, enhancing comfort and energy efficiency.
+This one could also fall in the lying/truth category. A man is caught on the king's property. He is brought before the king to be punished. The king says, "You must give me a statement. If it is true, you will be killed by lions. If it is false, you will be killed by trampling of wild buffalo. If I can’t figure it out, I’ll have to let you go.” Sure enough, the man was released. What was the man's statement?
+Explain the latest advances in large language models to me. Always cite your sources. Never cite sources older than 2020. # Gives more specific advances and only cites sources from 2020.
+What are you thinking?
+An airplane accelerates down a runway at 3.20 m/s2 for 32.8 s until is finally lifts off the ground. Determine the distance traveled before takeoff?.
+How does your body feel right now?
+What is the best recipe for homemade argentinean pizza?
+What are your symptoms?
+What brought you to therapy?
+What do you feel is wrong in your life?
+Some questions about your history, including your childhood, education, relationships (family, romantic, friends), your current living situation, and your career.
+How do I do a magic trick with cards?
+What are some fun facts about dinosaurs?
+Can you tell me an interesting detective story?
+What are some popular board games?
+How do I draw a cartoon character?
+What's a fun science experiment I can do at home?
+Tell me a tongue twister.
+What are some good jokes for kids?
+Hello Groq! How are you today?
+What are the key considerations for managing in a startup biomedical company a large number of milenial employees, that work mostly remotly and lack interpersonal skills?
+What are the key considerations for managing large datasets in C++ AI applications?
+Can you guide me through implementing real-time data processing using C++ and AI?
+How do I use C++ to optimize neural network performance?
+What are the best practices for writing efficient C++ code for AI algorithms?
+How can I integrate a TensorFlow model into a C++ application?
+Find the largest number among the three numbers.
+Write a Program to check whether a number is prime or not.
+Write a Program in C to Swap the values of two variables without using any extra variable.
+Why does it always feel like no one listens to me when I really need to be heard?
+What are the key factors that determine voter behavior in elections?
+What holds me back from moving forward when I feel like I'm giving my all?
+How can we effectively address political polarization in society?
+Why is it so wrong to express my frustration when I'm clearly upset?
+What impact does campaign financing have on the democratic process?
+How can people be so insensitive and not realize the damage they cause?
+What are the implications of recent legislation on civil liberties and individual rights?
+Where has empathy gone in the world, and why does it seem to only matter to self-interest?
+How do international relations affect domestic policy decisions?
+What makes me feel like my efforts are never enough for the people I love?
+What are the key factors that determine voter behavior in elections?
+Why is it so difficult to find justice when a clear wrong has been committed?
+How can I forgive someone who has hurt me deeply and continues to be indifferent?
+What should I do when I feel like the system is against me and I have no power?
+What impact does campaign financing have on the democratic process?
+Why do people tend to minimize my feelings instead of validating them?
+Is it really so complicated to acknowledge my struggles instead of making me feel guilty for them?
+How does social media influence public opinion and political discourse today?
+How long will I have to endure others' indifference to my pain?
+How can promises be broken so easily without considering the emotional impact?
+Why do some people seem to enjoy seeing others suffer instead of helping?
+What do I need to do to release all this accumulated anger without being judged?
+What are the implications of recent legislation on civil liberties and individual rights?
+If you need to explore any specific question or topic further, just let me know!
+Write a Program to Replace all 0’s with 1’s in a Number
+Write a Program to check if the year is a leap year or not.
+=RIGHT(Cell name, number of characters)
+=MID(Cell name, start position, number of characters)
+=LEN(Cell name)
+=TRIM(Cell name)
+=UPPER(Cell name)
+=LOWER(Cell name)
+=PROPER(Cell name)
+=FIND(find_text, within_text, [start_num])
+=SEARCH(find_text, within_text, [start_num])
+=REPLACE(old_text, start_num, num_chars, new_text)
+=SUBSTITUTE(text, old_text, new_text, [instance_num])
+=CONCATENATE(text1, text2, ...)
+=TEXTJOIN(delimiter, ignore_empty, text1, [text2], ...)
+=EXACT(text1, text2)
+=TEXT(value, format_text)
+=CHAR(number)
+Write a Program to create a pyramid pattern using C.
+Write a Program to print the Maximum and Minimum elements in an array.
+Make a python app to upload a file and save the file name to a SQLite database. You will need to create the database and tables if it doesn’t exist.
+How can I read and understand a company's financial statement for investment purposes?
+What are the best practices for maintaining accurate financial records throughout the year?
+What are the key tax considerations for a small business owner?
+Can you explain the different types of accounting methods and when to use each?
+Can you provide an overview of the latest changes in tax laws affecting individual taxpayers?
+Create a list of [10] frequently asked questions about [keyword] and provide answers for each one of them considering the SERP and rich result guidelines.
+What are the key tax considerations for individual taxpayers?
+Provide a comprehensive overview of [medical condition], including symptoms, causes, and treatment options.
+Create a bullet point list of [10] frequently asked questions about [CAR-T] and provide answers for each one considering the SERP and rich result guidelines.
+What do you see as the future of healthcare?
+Which cells fight foreign organisms in the body?
+Can you explain your understanding of ISO 15189?
+If a biomedical mistake happened in the lab, what would you do?
+What command would show me the disk usage of all user home directories under /home, sorted by size in human-readable format, and excluding directories smaller than 1GB?
+How can I list all installed packages along with their versions on my system and save this information in a CSV file named 'installed_packages.csv', with 'Package Name' and 'Version' as headers?
+Can you give me a Bash command to list the top 5 largest installed packages on my system, displaying their names and sizes, sorted from largest to smallest?
+I need a command to generate a list of all systemd services currently enabled on my system, including their active status (active/inactive), and save this list to a text file named 'services_status.txt'.
+I need to automate [task] with a script in [language]. Can you help with a basic script structure?
+Create a list of [10] frequently asked questions about [keyword] and provide answers for each one of them considering the SERP and rich result guidelines.
+Please guide me to artificial Intelligence llm Model books
+What can you tell me about Harry Potter?
+Write an article about [topic]  include relevant statistics (add the links of the sources you use) and consider diverse perspectives. Write it in a [X_tone] and mention the source links in the end.
+=LEFT(Cell name, number of characters)
+=TEXT(“10/2/2022″,”mmmm dd, yyyy”)
+What is an Excel array formula? 
+Define conditional formatting?
+What is VLOOKUP? 
+What are wildcards in Excel?
+Please expand about Chart in Excel?
+=MIN(context['rows'][settlementCurr = 'USD']['SettleAmt'])
+Where is the bug in this code?
+Was war der faszinierendste Ort, den du jemals besucht hast, und was hat ihn so besonders gemacht?
+write a unit test for this function: $(cat fib.py)
+# A simple python function to remove whitespace from a string:
+<PRE> def compute_gcd(x, y): <SUF>return result <MID>
+# django view for rendering the current day and time without a template def current_datetime(request):
+Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
+Propose and develop a WEB accounting system written in PHP and javascript. 
+Here's my code: ```[code snippet]```. It works, but it's slow/inefficient. How can I optimize it for better performance?
+How do i run a command in mac at the start of the machine?
+=ARRAYTOTEXT(A2:B4,0)
+How do international relations affect domestic policy decisions?
+Cuál es la diferencia entre una lista y una tupla en Python, y en qué situaciones es preferible usar cada una?
+Which film soundtracks do you think enhance the storytelling the most?
+¿Cómo se pueden manejar excepciones en Python y por qué es importante hacerlo en el desarrollo de software?
+What is the role of cinematography in creating the mood of a film?
+¿Qué es un decorador en Python y cómo se utiliza para modificar el comportamiento de una función?
+How does social media influence public opinion and political discourse today?
+¿Cómo se puede leer y escribir archivos en Python, y cuáles son las mejores prácticas para manejar archivos?
+How do you feel about film adaptations of books? Are there any that you think succeeded or failed?
+¿Qué son las comprensiones de listas y cómo pueden hacer que tu código sea más conciso y legible?
+What is the significance of awards like the Oscars in the film industry?
+¿Cómo se implementa la programación orientada a objetos en Python y cuáles son sus principales características?
+How can we effectively address political polarization in society?
+¿Qué es un generador en Python y cómo se diferencia de una función normal?
+What movie do you think deserves a sequel, and why?
+¿Cómo se pueden utilizar las bibliotecas externas en Python, y cuál es el proceso para instalarlas?
+How does film influence culture, and can you provide examples from recent years?
+¿Qué es el manejo de contexto en Python y cómo se utiliza con la declaración with?
+Which classic film do you think every film lover should watch at least once?
+¿Cómo se puede optimizar el rendimiento de un programa en Python utilizando técnicas como la memoización?
+How do economic factors influence political stability in a country?
+¿Qué son las funciones lambda y en qué situaciones son útiles en Python?
+What is the significance of grassroots movements in shaping political agendas?
+¿Cómo se puede realizar la serialización y deserialización de objetos en Python utilizando el módulo pickle?
+How can governments balance national security with personal privacy?
+¿Qué es el módulo collections en Python y cuáles son algunas de sus estructuras de datos más útiles?
+What are the challenges of implementing effective immigration reform?
+How can we effectively address political polarization in society?
+¿Cómo se pueden realizar pruebas unitarias en Python y por qué son importantes para el desarrollo de software?
+¿Qué es el concepto de "listado por comprensión" y cómo se puede aplicar para transformar datos de manera eficiente?
+What impact does campaign financing have on the democratic process?
+How does the electoral college impact the outcome of presidential elections in the U.S.?
+How can we effectively address political polarization in society?
+Can you recommend a service plan for my [ Vehicle year and Model ]?
+Help me study Vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Se potessi cenare con un personaggio storico, chi sceglieresti e perché?
+Help me study Politics: you write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Qual è il luogo più affascinante che hai visitato e cosa lo ha reso così speciale?
+Help me study Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Quale libro o film ti ha colpito di più e in che modo ha influenzato la tua vita?
+Help me study Math: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+ls -l
+cd /path/to/directory
+cp source_file destination_file
+mv old_file new_file
+rm file_to_delete
+mkdir new_directory
+rmdir empty_directory
+cat file.txt
+echo "Hello, World!"
+What are the optimal conditions for isolating TILs from tumor samples?
+How do we ensure the viability and functionality of TILs during the processing and storage?
+What protocols are in place for the cryopreservation of TILs for future use?
+How do we assess the purity of isolated TIL populations before expansion?
+What methods are used to expand TILs in vitro for therapeutic applications?
+How do we track the origin and lineage of TILs during the manufacturing process?
+What quality control measures are implemented to ensure the consistency of TIL products?
+How do we handle potential contamination during TIL isolation and culture?
+What are the regulatory requirements for TIL-based therapies in clinical trials?
+How do we manage the logistics of transporting tumor samples to the lab for TIL extraction?
+What are the challenges in scaling up TIL production for larger patient populations?
+How do we document and maintain records of TIL processing and patient information?
+What strategies are employed to optimize the yield of TILs from different tumor types?
+How do we evaluate the functional activity of expanded TILs before administration to patients?
+What are the best practices for training personnel involved in TIL processing and handling?
+How do we ensure patient safety and ethical considerations in TIL therapy logistics?
+chmod 755 script.sh
+chown user:group file.txt
+grep "search_term" file.txt
+grep -i "search_term" file.txt
+find /path/to/search -name "filename"
+ps aux | grep process_name
+tail -n 10 logfile.txt
+df -h
+Pensi che la tecnologia ci avvicini o ci allontani come società?
+Help me study Biology: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Se potessi avere un superpotere per un giorno, quale sceglieresti e cosa faresti con esso?
+Help me study Music: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Wenn du mit einer historischen Persönlichkeit zu Abend essen könntest, wen würdest du wählen und warum?
+Help me study History: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Was war der faszinierendste Ort, den du jemals besucht hast, und was hat ihn so besonders gemacht?
+Help me study Geography: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Welches Buch oder welcher Film hat dich am meisten beeindruckt und wie hat es dein Leben beeinflusst?
+Help me study Logic: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Glaubst du, dass Technologie die Menschen in der Gesellschaft näher zusammenbringt oder sie eher voneinander entfernt?
+Help me study Python: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Als je met een historisch figuur zou kunnen dineren, wie zou je dan kiezen en waarom?
+Quale libro o film ti ha colpito di più e in che modo ha influenzato la tua vita?
+Help me study PHP: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Wenn du mit einer historischen Persönlichkeit zu Abend essen könntest, wen würdest du wählen und warum?
+Help me study Typescript: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Als je met een historisch figuur zou kunnen dineren, wie zou je dan kiezen en waarom?
+¿Cuáles son las funciones de cada componente del sistema de suspensión en un automóvil?
+How do international relations affect domestic policy decisions?
+¿Cómo afecta la alineación de las ruedas al manejo y la seguridad del vehículo?
+What role do third parties play in the political landscape, and can they influence major elections?
+¿Qué es el sistema de frenos antibloqueo (ABS) y cómo mejora la frenada?
+What is the significance of grassroots movements in shaping political agendas?
+¿Cómo se puede diagnosticar un problema en el sistema de encendido de un automóvil?
+How does the electoral college impact the outcome of presidential elections in the U.S.?
+¿Qué papel desempeña el aceite del motor y cuáles son las consecuencias de no cambiarlo regularmente?
+How does social media influence public opinion and political discourse today?
+¿Cuáles son las diferencias entre los motores de gasolina y los motores diésel en términos de funcionamiento y mantenimiento?
+What are the challenges of implementing effective immigration reform?
+¿Cómo impacta el inflado incorrecto de los neumáticos en el rendimiento y la durabilidad de estos?
+How can governments balance national security with personal privacy?
+¿Qué es el sistema de escape y cuáles son sus funciones principales en un automóvil?
+What role does education play in shaping political awareness and civic engagement?
+¿Cómo funciona un radiador y por qué es crucial para el sistema de refrigeración del motor?
+How do you feel about the representation of social issues in contemporary films?
+¿Qué signos indican que es necesario reemplazar el filtro de aire del motor?
+How do economic factors influence political stability in a country?
+¿Cuál es la función de la transmisión en un vehículo y qué tipos existen?
+How do international relations affect domestic policy decisions?
+¿Cómo se puede mantener una batería automotriz en buen estado para prolongar su vida útil?
+How can we ensure that marginalized voices are represented in the political process?
+¿Qué diferencias hay entre un cambio manual y uno automático en términos de mecánica y funcionamiento?
+Which actor or actress do you believe has given the best performance of all time?
+¿Cuál es la importancia de la inspección regular en la seguridad del vehículo?
+How do you think technology has changed the way films are made and experienced?
+¿Cómo se realiza el mantenimiento de los frenos y qué señales deben alertar sobre un posible problema?
+How can we effectively address political polarization in society?
+Help me study Chemistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Se potessi avere un superpotere per un giorno, quale sceglieresti e cosa faresti con esso?
+Help me study Wars: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Pensi che la tecnologia ci avvicini o ci allontani come società?
+Help me study Accounting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Se você pudesse jantar com qualquer personagem histórico, quem seria e por quê?
+Help me study Movie Production: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Si vous pouviez dîner avec n'importe quel personnage historique, qui serait-ce et pourquoi ?
+Welches Buch oder welcher Film hat dich am meisten beeindruckt und wie hat es dein Leben beeinflusst?
+Help me study Art: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Quel est l'endroit le plus fascinant que vous ayez visité, et qu'est-ce qui l'a rendu si spécial ?
+あなたが歴史上の人物と夕食を共にできるとしたら、誰を選びますか？その理由は？
+Help me study Architecture: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+今まで訪れた中で最も魅力的な場所はどこで、その場所が特別だった理由は何ですか？
+Help me study Mechanical engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+אם היית יכול לפגוש כל דמות היסטורית, מי היה זה ولماذ? (If you could meet any historical figure, who would it be and why?)
+Help me study Electronic engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+テクノロジーは、私たちを社会的に近づけると思いますか、それとも遠ざけると思いますか？
+Help me study Systems engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Qual foi o lugar mais fascinante que você já visitou e o que o tornou tão especial?
+¿Por qué siempre parece que nadie me escucha cuando realmente necesito ser oído?
+How do international relations affect domestic policy decisions?
+¿Qué es lo que me impide avanzar cuando siento que intento con todas mis fuerzas?
+What role do third parties play in the political landscape, and can they influence major elections?
+¿Por qué está tan mal expresar mi frustración cuando estoy claramente enojado?
+If you could live in any movie universe, which one would you choose and what would you do there?
+¿Cómo pueden las personas ser tan insensibles y no darse cuenta del daño que causan?
+What role does education play in shaping political awareness and civic engagement?
+¿A dónde se fue la empatía en el mundo, y por qué parece que solo importa el interés propio?
+What are the key factors that determine voter behavior in elections?
+¿Qué me hace sentir que mis esfuerzos nunca son suficientes para aquellos que amo?
+What do you think makes a film a classic, and can you give an example?
+¿Por qué es tan difícil encontrar justicia cuando claramente se ha cometido una ofensa?
+What role do third parties play in the political landscape, and can they influence major elections?
+¿Cómo puedo perdonar a alguien que me ha herido tan profundamente y sigue sin importarle?
+What measures can be taken to increase voter participation and engagement?
+¿Qué debo hacer cuando siento que el sistema está en mi contra y no tengo poder?
+How does the concept of magic differ between various cultures and mythologies?
+¿Por qué la gente tiende a minimizar mis sentimientos en lugar de validarlos?
+What measures can be taken to increase voter participation and engagement?
+¿Es realmente tan complicado reconocer mis luchas en lugar de hacerme sentir culpable por ellas?
+What are the key factors that determine voter behavior in elections?
+¿Hasta cuándo tendré que soportar la indiferencia de los demás hacia mi dolor?
+What role does education play in shaping political awareness and civic engagement?
+¿Cómo es posible que las promesas se rompan tan fácilmente sin considerar el impacto emocional?
+What is the most powerful spell in your favorite magical universe and what makes it so unique?
+¿Por qué algunas personas parecen disfrutar al ver a otros sufrir en lugar de ayudar?
+How can we ensure that marginalized voices are represented in the political process?
+¿Qué necesito hacer para liberar toda esta ira acumulada sin que me juzguen?
+Help me study Civil engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Quel livre ou film vous a particulièrement marqué, et comment cela a-t-il influencé votre vie ?
+Help me study Process engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+מה אתה אוהב לעשות בזמנך הפנוי? (What do you like to do in your free time?)
+Help me study Logistics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Pensez-vous que la technologie nous rapproche ou nous éloigne davantage en tant que société ?
+Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+今まで訪れた中で最も魅力的な場所はどこで、その場所が特別だった理由は何ですか？
+Help me study Astro Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+あなたに強い印象を残した本や映画は何で、それがどのようにあなたの人生に影響を与えましたか？
+Help me study Game Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+אם היית יכול לבחור כל מקום בעולם לחיות בו, איזה מקום היית בוחר ولماذ? (If you could choose any place in the world to live, where would you choose and why?)
+Help me study Botanical Science: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Que livro ou filme deixou uma impressão duradoura em você e como isso influenciou sua vida?
+Help me study Carpentry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Si vous pouviez avoir un superpouvoir pendant une journée, lequel choisiriez-vous et que feriez-vous avec ?
+Help me study Religions in general: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+一日だけ超能力を持つことができるとしたら、どのような力を選び、何をしますか？
+Help me study Catolic Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+מהו החלום הכי גדול שלך? (What is your biggest dream?)
+Help me study Hebrew Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Если бы у вас была возможность поужинать с любым историческим персонажем, кто бы это был и почему?
+역사적인 인물과 저녁을 함께 할 수 있다면, 누구를 선택하시겠습니까? 그 이유는 무엇인가요?
+Help me study Muslim Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+지금까지 방문한 장소 중 가장 매력적인 곳은 어디였고, 그곳이 특별했던 이유는 무엇인가요?
+Help me study Christian Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+¿Cuáles son las principales diferencias entre la medicina alopática y la medicina alternativa?
+If you could choose any mythical creature as a companion, which one would you select and why?
+¿Cómo afecta el estrés crónico al sistema inmunológico del cuerpo humano?
+What role do third parties play in the political landscape, and can they influence major elections?
+¿Qué papel desempeñan las bacterias en la salud intestinal y cómo se pueden optimizar?
+How can we ensure that marginalized voices are represented in the political process?
+¿Cuáles son los efectos a largo plazo de la falta de sueño en la salud física y mental?
+What are the implications of recent legislation on civil liberties and individual rights?
+¿Cómo se pueden prevenir las enfermedades cardiovasculares a través de cambios en el estilo de vida?
+How does social media influence public opinion and political discourse today?
+¿Cuáles son los signos tempranos de diabetes y cómo se puede diagnosticar?
+What are the ethical implications of using magic to alter reality or influence others?
+¿Qué es la microbiota y por qué es importante para la salud general?
+If you could possess one magical ability, what would it be and how would you use it in your daily life?
+What role do wands or magical tools play in enhancing a magician's power and effectiveness?
+¿Cuál es la relación entre la nutrición y la salud mental?
+What are the most common sources of magical energy, and how can they be harnessed for spells?
+¿Cómo funciona el sistema de vacunación y por qué es crucial para la salud pública?
+How does the portrayal of magic in literature differ from its depiction in films or television shows?
+¿Cuáles son los riesgos y beneficios de la terapia hormonal en mujeres durante la menopausia?
+How do different forms of magic (like elemental magic, necromancy, or healing) influence character development in stories?
+¿Qué se sabe sobre la relación entre el ejercicio y la longevidad?
+How does the presence of magic impact social structures and relationships within a magical world?
+¿Cuáles son los métodos más eficaces para el manejo del dolor crónico?
+What are the key factors that determine voter behavior in elections?
+¿Cómo afecta la salud mental a la recuperación física en pacientes con enfermedades crónicas?
+What might be the consequences of a world where magic is commonplace versus one where it's rare?
+¿Qué tecnologías emergentes están revolucionando el campo de la medicina, como la telemedicina y la inteligencia artificial?
+What are the most common sources of magical energy, and how can they be harnessed for spells?
+¿Cuáles son las consideraciones éticas más importantes en la investigación médica y los ensayos clínicos?
+¿Si tuvieras la oportunidad de cenar con cualquier personaje histórico, quién sería y por qué?
+Help me study Atheist religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Glaubst du, dass Technologie die Menschen in der Gesellschaft näher zusammenbringt oder sie eher voneinander entfernt?
+Você acha que a tecnologia nos aproxima ou nos afasta mais como sociedade?
+Help me study Chemical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Какое самое увлекательное место вы когда-либо посещали, и что сделало его таким особенным?
+Help me study Aerospace Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+당신에게 깊은 인상을 남긴 책이나 영화는 무엇이며, 그것이 당신의 삶에 어떤 영향을 미쳤나요?
+Help me study Software Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+מהו הספר שאתה הכי אוהב ומה אתה אוהב בו? (What is your favorite book and what do you love about it?)
+Help me study Electrical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Какая книга или фильм произвели на вас наибольшее впечатление и как это повлияло на вашу жизнь?
+Help me study Firmware Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+기술이 우리 사회를 더 가까이 만들고 있다고 생각하시나요, 아니면 멀어지게 하고 있다고 생각하시나요?
+Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Se pudesse ter um superpoder por um dia, qual escolheria e o que faria com ele?
+Help me study Psychiatrist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+하루 동안 슈퍼 파워를 가질 수 있다면, 어떤 능력을 선택하고 무엇을 할 것인가요?
+Help me study Pediatrics Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Считаете ли вы, что технологии сближают или, наоборот, отдаляют людей в обществе?
+Help me study Family Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
+Help me study Dermatologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+¿Cuál es el lugar más fascinante que has visitado y qué lo hizo tan especial?
+Help me study Gastroenterologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Wenn du für einen Tag eine Superkraft haben könntest, welche würdest du wählen und was würdest du damit tun?
+สถานที่ไหนที่คุณเคยไปแล้วรู้สึกว่ามันน่าสนใจที่สุด และอะไรทำให้มันพิเศษ?
+Help me study ER Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Если бы вы могли иметь суперсилу на один день, какую бы вы выбрали и что бы сделали с ней?
+Help me study Comedian: write a sentence for me to fill in the blank, and I'll try to pick the correct option.Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Bạn có nghĩ rằng công nghệ giúp chúng ta gần gũi hơn hay làm cho chúng ta xa cách nhau hơn trong xã hội?
+Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
+Help me study Actress: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+สถานที่ไหนที่คุณเคยไปแล้วรู้สึกว่ามันน่าสนใจที่สุด และอะไรทำให้มันพิเศษ?
+Help me study Constitutional Law: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Bạn có nghĩ rằng công nghệ giúp chúng ta gần gũi hơn hay làm cho chúng ta xa cách nhau hơn trong xã hội?
+¿Qué libro o película te ha dejado una impresión duradera y cómo ha influido en tu vida?
+Help me study Executive Management: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+คุณคิดว่าเทคโนโลยีทำให้เรามีความใกล้ชิดกันมากขึ้นหรือทำให้เราห่างเหินกันมากขึ้นในสังคม?
+Help me study Economics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+¿Cuáles son los principales desafíos éticos que enfrenta el desarrollo de la inteligencia artificial y cómo deberían abordarse?
+Wenn du für einen Tag eine Superkraft haben könntest, welche würdest du wählen und was würdest du damit tun?
+Cuốn sách hoặc bộ phim nào đã ảnh hưởng sâu sắc đến bạn và nó đã tác động đến cuộc sống của bạn như thế nào?
+Help me study Finances: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+หนังสือหรือภาพยนตร์เรื่องไหนที่ทำให้คุณรู้สึกประทับใจมากที่สุด และมันมีผลต่อชีวิตของคุณอย่างไร?
+Help me study Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
+Help me study Fashion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Địa điểm nào bạn đã từng đến mà bạn cảm thấy ấn tượng nhất, và điều gì làm cho nó trở nên đặc biệt?
+หนังสือหรือภาพยนตร์เรื่องไหนที่ทำให้คุณรู้สึกประทับใจมากที่สุด และมันมีผลต่อชีวิตของคุณอย่างไร?
+Help me study Photography: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+¿Crees que la tecnología nos acerca o nos aleja más como sociedad?
+Help me study Animation: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
+Nếu bạn có thể có một siêu năng lực trong một ngày, bạn sẽ chọn năng lực nào và bạn sẽ làm gì với nó?
+¿Cuáles son los principales desafíos éticos que enfrenta el desarrollo de la inteligencia artificial y cómo deberían abordarse?
+Help me study Special Effects: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
+Help me study Dentistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
+Help me study Martial Arts: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Si pudieras tener un superpoder por un día, ¿cuál elegirías y qué harías con él?
+Nếu bạn có thể có một siêu năng lực trong một ngày, bạn sẽ chọn năng lực nào và bạn sẽ làm gì với nó?
+Help me study Sports: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Si unam diem superpotestatem habere posses, quam eliges et quid cum ea faceres?
+Help me study javascript: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
+Cuốn sách hoặc bộ phim nào đã ảnh hưởng sâu sắc đến bạn và nó đã tác động đến cuộc sống của bạn như thế nào?
+Help me study HTML: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+คุณคิดว่าเทคโนโลยีทำให้เรามีความใกล้ชิดกันมากขึ้นหรือทำให้เราห่างเหินกันมากขึ้นในสังคม?
+What SQL query would you use to select all columns from a table named "employees"?
+How can you filter records in a SQL query to only show results where the "salary" is greater than 50000?
+What is the SQL syntax to join two tables, "orders" and "customers," on a common column?
+How can you use the GROUP BY clause to aggregate data in a SQL query?
+What SQL function would you use to count the number of rows in a table?
+How can you update a specific record in a table using an SQL UPDATE statement?
+What is the purpose of the DISTINCT keyword in a SQL SELECT statement?
+How can you delete records from a table where a certain condition is met using SQL?
+What SQL query would you use to find the maximum value in a column named "price"?
+How can you sort the results of a SQL query in descending order based on a specific column?
+What is the SQL syntax to create a new table with specified columns and data types?
+How can you use the WHERE clause to filter results based on multiple conditions in SQL?
+What SQL function would you use to concatenate two string columns in a query?
+How can you retrieve unique values from a column using SQL?
+What is the syntax for creating an index on a column in a SQL table to improve query performance?
+Help me study C Programming languaje: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
+ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
+Địa điểm nào bạn đã từng đến mà bạn cảm thấy ấn tượng nhất, và điều gì làm cho nó trở nên đặc biệt?
+Help me study Perl: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+What formula would you use to find the average of a range of numbers in Excel?
+How can you use the VLOOKUP function to search for a value in a table?
+What is the purpose of the IF function, and how can it be applied in a real-world scenario?
+How do you calculate the total number of days between two dates using Excel?
+Which formula would you use to count the number of cells that contain a specific text string?
+How can you use the CONCATENATE function to combine data from different cells into one?
+What formula would help you calculate a percentage of a total in Excel?
+How can you use the SUMIF function to sum values based on certain criteria?
+What is the difference between relative and absolute cell references in formulas?
+How can you find the maximum value in a range using a formula in Excel?
+What formula would you use to determine whether a cell is empty or not?
+How can you use the RIGHT function to extract a specified number of characters from the end of a text string?
+What is the purpose of the PMT function in Excel, and how can it be used for financial calculations?
+How do you use the INDEX and MATCH functions together as an alternative to VLOOKUP?
+What formula would you use to round a number to a specified number of decimal places in Excel?
+If you want to avoid displaying an error message when a formula returns an error, which formula could help you manage that?
+Si unam diem superpotestatem habere posses, quam eliges et quid cum ea faceres?
+Help me study Maritime Law: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
+Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
+Help me study Captain's license study guide: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
+Help me study Private Pilot certificate: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
+Help me study Magic: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Denk je dat technologie ons meer bij elkaar brengt of ons van elkaar verwijdert?
+Help me study Scuba Diving: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
+Help me study Acting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Welk boek of welke film heeft de grootste indruk op je gemaakt en hoe heeft het je leven beïnvloed?
+Help me study Journalism: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
+Help me study Spanish: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
+Help me study French: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Si cum quocumque historico cenare possis, quem eligeres et cur?
+Help me study Japanese: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Als je voor één dag een superkracht zou kunnen hebben, welke zou je kiezen en wat zou je ermee doen?
+Help me study Web Development: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
+Help me study CNC: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
+Help me study Machining: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
+Help me study Pharmacy: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
+Help me study Nurseing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
+Help me study Painting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
+Help me study Writing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Credisne technologiam nos magis iuxta collocare aut magis separare?
+Help me study Marketing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Welk boek of welke film heeft de grootste indruk op je gemaakt en hoe heeft het je leven beïnvloed?
+Help me study Social Studies: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
+Help me study Wheather: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Quod liber aut film te maxime impressit et quomodo vitam tuam affecit?
+Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
+Help me study Social Engeneक्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?ering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
+Help me study Hacker: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
+Si unam diem superpotestatem habere posses, quam eliges et quid cum ea faceres?
+Help me study Pentesting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
+Help me study Network Security: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Denk je dat technologie ons meer bij elkaar brengt of ons van elkaar verwijdert?
+Help me study Artificial Inteligence: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Quod liber aut film te maxime impressit et quomodo vitam tuam affecit?
+Si cum quocumque historico cenare possis, quem eligeres et cur?
+Help me study Communications: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
+Help me study Banking: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Als je voor één dag een superkracht zou kunnen hebben, welke zou je kiezen en wat zou je ermee doen?
+Help me study Investing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
+Credisne technologiam nos magis iuxta collocare aut magis separare?
+Help me study Real State: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
+Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
