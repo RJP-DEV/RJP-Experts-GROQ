@@ -989,13 +989,11 @@ What is VLOOKUP?
 What are wildcards in Excel?
 Please expand about Chart in Excel?
 =MIN(context['rows'][settlementCurr = 'USD']['SettleAmt'])
-Where is the bug in this code?
-Was war der faszinierendste Ort, den du jemals besucht hast, und was hat ihn so besonders gemacht?
+Answer and translate both question and answer, also indicating language : Was war der faszinierendste Ort, den du jemals besucht hast, und was hat ihn so besonders gemacht?
 write a unit test for this function: $(cat fib.py)
-# A simple python function to remove whitespace from a string:
+write A simple python function to remove whitespace from a string:
 <PRE> def compute_gcd(x, y): <SUF>return result <MID>
-# django view for rendering the current day and time without a template def current_datetime(request):
-Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
+Answer and translate both question and answer, also indicating language : Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
 Propose and develop a WEB accounting system written in PHP and javascript. 
 Here's my code: ```[code snippet]```. It works, but it's slow/inefficient. How can I optimize it for better performance?
 How do i run a command in mac at the start of the machine?
@@ -1035,11 +1033,11 @@ How does the electoral college impact the outcome of presidential elections in t
 How can we effectively address political polarization in society?
 Can you recommend a service plan for my [ Vehicle year and Model ]?
 Help me study Vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Se potessi cenare con un personaggio storico, chi sceglieresti e perché?
+Answer and translate both question and answer, also indicating language : Se potessi cenare con un personaggio storico, chi sceglieresti e perché?
 Help me study Politics: you write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Qual è il luogo più affascinante che hai visitato e cosa lo ha reso così speciale?
+Answer and translate both question and answer, also indicating language : Qual è il luogo più affascinante che hai visitato e cosa lo ha reso così speciale?
 Help me study Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Quale libro o film ti ha colpito di più e in che modo ha influenzato la tua vita?
+Answer and translate both question and answer, also indicating language : Quale libro o film ti ha colpito di più e in che modo ha influenzato la tua vita?
 Help me study Math: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 ls -l
 cd /path/to/directory
@@ -1074,24 +1072,24 @@ find /path/to/search -name "filename"
 ps aux | grep process_name
 tail -n 10 logfile.txt
 df -h
-Pensi che la tecnologia ci avvicini o ci allontani come società?
+Answer and translate both question and answer, also indicating language : Pensi che la tecnologia ci avvicini o ci allontani come società?
 Help me study Biology: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Se potessi avere un superpotere per un giorno, quale sceglieresti e cosa faresti con esso?
+Answer and translate both question and answer, also indicating language : Se potessi avere un superpotere per un giorno, quale sceglieresti e cosa faresti con esso?
 Help me study Music: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Wenn du mit einer historischen Persönlichkeit zu Abend essen könntest, wen würdest du wählen und warum?
+Answer and translate both question and answer, also indicating language : Wenn du mit einer historischen Persönlichkeit zu Abend essen könntest, wen würdest du wählen und warum?
 Help me study History: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Was war der faszinierendste Ort, den du jemals besucht hast, und was hat ihn so besonders gemacht?
+Answer and translate both question and answer, also indicating language : Was war der faszinierendste Ort, den du jemals besucht hast, und was hat ihn so besonders gemacht?
 Help me study Geography: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Welches Buch oder welcher Film hat dich am meisten beeindruckt und wie hat es dein Leben beeinflusst?
+Answer and translate both question and answer, also indicating language : Welches Buch oder welcher Film hat dich am meisten beeindruckt und wie hat es dein Leben beeinflusst?
 Help me study Logic: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Glaubst du, dass Technologie die Menschen in der Gesellschaft näher zusammenbringt oder sie eher voneinander entfernt?
+Answer and translate both question and answer, also indicating language : Glaubst du, dass Technologie die Menschen in der Gesellschaft näher zusammenbringt oder sie eher voneinander entfernt?
 Help me study Python: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Als je met een historisch figuur zou kunnen dineren, wie zou je dan kiezen en waarom?
-Quale libro o film ti ha colpito di più e in che modo ha influenzato la tua vita?
+Answer and translate both question and answer, also indicating language : Als je met een historisch figuur zou kunnen dineren, wie zou je dan kiezen en waarom?
+Answer and translate both question and answer, also indicating language : Quale libro o film ti ha colpito di più e in che modo ha influenzato la tua vita?
 Help me study PHP: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Wenn du mit einer historischen Persönlichkeit zu Abend essen könntest, wen würdest du wählen und warum?
+Answer and translate both question and answer, also indicating language : Wenn du mit einer historischen Persönlichkeit zu Abend essen könntest, wen würdest du wählen und warum?
 Help me study Typescript: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Als je met een historisch figuur zou kunnen dineren, wie zou je dan kiezen en waarom?
+Answer and translate both question and answer, also indicating language : Als je met een historisch figuur zou kunnen dineren, wie zou je dan kiezen en waarom?
 ¿Cuáles son las funciones de cada componente del sistema de suspensión en un automóvil?
 How do international relations affect domestic policy decisions?
 ¿Cómo afecta la alineación de las ruedas al manejo y la seguridad del vehículo?
@@ -1123,25 +1121,25 @@ How do you think technology has changed the way films are made and experienced?
 ¿Cómo se realiza el mantenimiento de los frenos y qué señales deben alertar sobre un posible problema?
 How can we effectively address political polarization in society?
 Help me study Chemistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Se potessi avere un superpotere per un giorno, quale sceglieresti e cosa faresti con esso?
+Answer and translate both question and answer, also indicating language : Se potessi avere un superpotere per un giorno, quale sceglieresti e cosa faresti con esso?
 Help me study Wars: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Pensi che la tecnologia ci avvicini o ci allontani come società?
+Answer and translate both question and answer, also indicating language : Pensi che la tecnologia ci avvicini o ci allontani come società?
 Help me study Accounting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Se você pudesse jantar com qualquer personagem histórico, quem seria e por quê?
+Answer and translate both question and answer, also indicating language : Se você pudesse jantar com qualquer personagem histórico, quem seria e por quê?
 Help me study Movie Production: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Si vous pouviez dîner avec n'importe quel personnage historique, qui serait-ce et pourquoi ?
-Welches Buch oder welcher Film hat dich am meisten beeindruckt und wie hat es dein Leben beeinflusst?
+Answer and translate both question and answer, also indicating language : Si vous pouviez dîner avec n'importe quel personnage historique, qui serait-ce et pourquoi ?
+Answer and translate both question and answer, also indicating language : Welches Buch oder welcher Film hat dich am meisten beeindruckt und wie hat es dein Leben beeinflusst?
 Help me study Art: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Quel est l'endroit le plus fascinant que vous ayez visité, et qu'est-ce qui l'a rendu si spécial ?
-あなたが歴史上の人物と夕食を共にできるとしたら、誰を選びますか？その理由は？
+Answer and translate both question and answer, also indicating language :Quel est l'endroit le plus fascinant que vous ayez visité, et qu'est-ce qui l'a rendu si spécial ?
+Answer and translate both question and answer, also indicating language : あなたが歴史上の人物と夕食を共にできるとしたら、誰を選びますか？その理由は？
 Help me study Architecture: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-今まで訪れた中で最も魅力的な場所はどこで、その場所が特別だった理由は何ですか？
+Answer and translate both question and answer, also indicating language : 今まで訪れた中で最も魅力的な場所はどこで、その場所が特別だった理由は何ですか？
 Help me study Mechanical engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-אם היית יכול לפגוש כל דמות היסטורית, מי היה זה ولماذ? (If you could meet any historical figure, who would it be and why?)
+Answer and translate both question and answer, also indicating language : אם היית יכול לפגוש כל דמות היסטורית, מי היה זה ولماذ 
 Help me study Electronic engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-テクノロジーは、私たちを社会的に近づけると思いますか、それとも遠ざけると思いますか？
+Answer and translate both question and answer, also indicating language : テクノロジーは、私たちを社会的に近づけると思いますか、それとも遠ざけると思いますか？
 Help me study Systems engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Qual foi o lugar mais fascinante que você já visitou e o que o tornou tão especial?
+Answer and translate both question and answer, also indicating language : Qual foi o lugar mais fascinante que você já visitou e o que o tornou tão especial?
 ¿Por qué siempre parece que nadie me escucha cuando realmente necesito ser oído?
 How do international relations affect domestic policy decisions?
 ¿Qué es lo que me impide avanzar cuando siento que intento con todas mis fuerzas?
@@ -1172,30 +1170,30 @@ What is the most powerful spell in your favorite magical universe and what makes
 How can we ensure that marginalized voices are represented in the political process?
 ¿Qué necesito hacer para liberar toda esta ira acumulada sin que me juzguen?
 Help me study Civil engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Quel livre ou film vous a particulièrement marqué, et comment cela a-t-il influencé votre vie ?
+Answer and translate both question and answer, also indicating language : Quel livre ou film vous a particulièrement marqué, et comment cela a-t-il influencé votre vie ?
 Help me study Process engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-מה אתה אוהב לעשות בזמנך הפנוי? (What do you like to do in your free time?)
+Answer and translate both question and answer, also indicating language : מה אתה אוהב לעשות בזמנך הפנוי
 Help me study Logistics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Pensez-vous que la technologie nous rapproche ou nous éloigne davantage en tant que société ?
+Answer and translate both question and answer, also indicating language : Pensez-vous que la technologie nous rapproche ou nous éloigne davantage en tant que société ?
 Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-今まで訪れた中で最も魅力的な場所はどこで、その場所が特別だった理由は何ですか？
+Answer and translate both question and answer, also indicating language : 今まで訪れた中で最も魅力的な場所はどこで、その場所が特別だった理由は何ですか？
 Help me study Astro Physics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-あなたに強い印象を残した本や映画は何で、それがどのようにあなたの人生に影響を与えましたか？
+Answer and translate both question and answer, also indicating language : あなたに強い印象を残した本や映画は何で、それがどのようにあなたの人生に影響を与えましたか？
 Help me study Game Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-אם היית יכול לבחור כל מקום בעולם לחיות בו, איזה מקום היית בוחר ولماذ? (If you could choose any place in the world to live, where would you choose and why?)
+Answer and translate both question and answer, also indicating language : אם היית יכול לבחור כל מקום בעולם לחיות בו, איזה מקום היית בוחר ولماذ? 
 Help me study Botanical Science: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Que livro ou filme deixou uma impressão duradoura em você e como isso influenciou sua vida?
+Answer and translate both question and answer, also indicating language : Que livro ou filme deixou uma impressão duradoura em você e como isso influenciou sua vida?
 Help me study Carpentry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Si vous pouviez avoir un superpouvoir pendant une journée, lequel choisiriez-vous et que feriez-vous avec ?
+Answer and translate both question and answer, also indicating language : Si vous pouviez avoir un superpouvoir pendant une journée, lequel choisiriez-vous et que feriez-vous avec ?
 Help me study Religions in general: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-一日だけ超能力を持つことができるとしたら、どのような力を選び、何をしますか？
+Answer and translate both question and answer, also indicating language : 一日だけ超能力を持つことができるとしたら、どのような力を選び、何をしますか？
 Help me study Catolic Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-מהו החלום הכי גדול שלך? (What is your biggest dream?)
+Answer and translate both question and answer, also indicating language :מהו החלום הכי גדול שלך
 Help me study Hebrew Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Если бы у вас была возможность поужинать с любым историческим персонажем, кто бы это был и почему?
-역사적인 인물과 저녁을 함께 할 수 있다면, 누구를 선택하시겠습니까? 그 이유는 무엇인가요?
+Answer and translate both question and answer, also indicating language : Если бы у вас была возможность поужинать с любым историческим персонажем, кто бы это был и почему?
+Answer and translate both question and answer, also indicating language : 역사적인 인물과 저녁을 함께 할 수 있다면, 누구를 선택하시겠습니까? 그 이유는 무엇인가요?
 Help me study Muslim Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-지금까지 방문한 장소 중 가장 매력적인 곳은 어디였고, 그곳이 특별했던 이유는 무엇인가요?
+Answer and translate both question and answer, also indicating language : 지금까지 방문한 장소 중 가장 매력적인 곳은 어디였고, 그곳이 특별했던 이유는 무엇인가요?
 Help me study Christian Religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 ¿Cuáles son las principales diferencias entre la medicina alopática y la medicina alternativa?
 If you could choose any mythical creature as a companion, which one would you select and why?
@@ -1229,74 +1227,74 @@ What are the most common sources of magical energy, and how can they be harnesse
 ¿Cuáles son las consideraciones éticas más importantes en la investigación médica y los ensayos clínicos?
 ¿Si tuvieras la oportunidad de cenar con cualquier personaje histórico, quién sería y por qué?
 Help me study Atheist religion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Glaubst du, dass Technologie die Menschen in der Gesellschaft näher zusammenbringt oder sie eher voneinander entfernt?
-Você acha que a tecnologia nos aproxima ou nos afasta mais como sociedade?
+Answer and translate both question and answer, also indicating language : Glaubst du, dass Technologie die Menschen in der Gesellschaft näher zusammenbringt oder sie eher voneinander entfernt?
+Answer and translate both question and answer, also indicating language : Você acha que a tecnologia nos aproxima ou nos afasta mais como sociedade?
 Help me study Chemical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Какое самое увлекательное место вы когда-либо посещали, и что сделало его таким особенным?
+Answer and translate both question and answer, also indicating language : Какое самое увлекательное место вы когда-либо посещали, и что сделало его таким особенным?
 Help me study Aerospace Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-당신에게 깊은 인상을 남긴 책이나 영화는 무엇이며, 그것이 당신의 삶에 어떤 영향을 미쳤나요?
+Answer and translate both question and answer, also indicating language : 당신에게 깊은 인상을 남긴 책이나 영화는 무엇이며, 그것이 당신의 삶에 어떤 영향을 미쳤나요?
 Help me study Software Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-מהו הספר שאתה הכי אוהב ומה אתה אוהב בו? (What is your favorite book and what do you love about it?)
+Answer and translate both question and answer, also indicating language :מהו הספר שאתה הכי אוהב ומה אתה אוהב בו?
 Help me study Electrical Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Какая книга или фильм произвели на вас наибольшее впечатление и как это повлияло на вашу жизнь?
+Answer and translate both question and answer, also indicating language : Какая книга или фильм произвели на вас наибольшее впечатление и как это повлияло на вашу жизнь?
 Help me study Firmware Engineering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-기술이 우리 사회를 더 가까이 만들고 있다고 생각하시나요, 아니면 멀어지게 하고 있다고 생각하시나요?
+Answer and translate both question and answer, also indicating language : 기술이 우리 사회를 더 가까이 만들고 있다고 생각하시나요, 아니면 멀어지게 하고 있다고 생각하시나요?
 Help me study Medical Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 Se pudesse ter um superpoder por um dia, qual escolheria e o que faria com ele?
 Help me study Psychiatrist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-하루 동안 슈퍼 파워를 가질 수 있다면, 어떤 능력을 선택하고 무엇을 할 것인가요?
+Answer and translate both question and answer, also indicating language : 하루 동안 슈퍼 파워를 가질 수 있다면, 어떤 능력을 선택하고 무엇을 할 것인가요?
 Help me study Pediatrics Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Считаете ли вы, что технологии сближают или, наоборот, отдаляют людей в обществе?
+Answer and translate both question and answer, also indicating language : Считаете ли вы, что технологии сближают или, наоборот, отдаляют людей в обществе?
 Help me study Family Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
+Answer and translate both question and answer, also indicating language : ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
 Help me study Dermatologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 ¿Cuál es el lugar más fascinante que has visitado y qué lo hizo tan especial?
 Help me study Gastroenterologist Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Wenn du für einen Tag eine Superkraft haben könntest, welche würdest du wählen und was würdest du damit tun?
-สถานที่ไหนที่คุณเคยไปแล้วรู้สึกว่ามันน่าสนใจที่สุด และอะไรทำให้มันพิเศษ?
+Answer and translate both question and answer, also indicating language : Wenn du für einen Tag eine Superkraft haben könntest, welche würdest du wählen und was würdest du damit tun?
+Answer and translate both question and answer, also indicating language : สถานที่ไหนที่คุณเคยไปแล้วรู้สึกว่ามันน่าสนใจที่สุด และอะไรทำให้มันพิเศษ?
 Help me study ER Doctor: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Если бы вы могли иметь суперсилу на один день, какую бы вы выбрали и что бы сделали с ней?
+Answer and translate both question and answer, also indicating language : Если бы вы могли иметь суперсилу на один день, какую бы вы выбрали и что бы сделали с ней?
 Help me study Comedian: write a sentence for me to fill in the blank, and I'll try to pick the correct option.Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Bạn có nghĩ rằng công nghệ giúp chúng ta gần gũi hơn hay làm cho chúng ta xa cách nhau hơn trong xã hội?
-Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
+Answer and translate both question and answer, also indicating language : Bạn có nghĩ rằng công nghệ giúp chúng ta gần gũi hơn hay làm cho chúng ta xa cách nhau hơn trong xã hội?
+Answer and translate both question and answer, also indicating language : Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
 Help me study Actress: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-สถานที่ไหนที่คุณเคยไปแล้วรู้สึกว่ามันน่าสนใจที่สุด และอะไรทำให้มันพิเศษ?
+Answer and translate both question and answer, also indicating language : สถานที่ไหนที่คุณเคยไปแล้วรู้สึกว่ามันน่าสนใจที่สุด และอะไรทำให้มันพิเศษ?
 Help me study Constitutional Law: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Bạn có nghĩ rằng công nghệ giúp chúng ta gần gũi hơn hay làm cho chúng ta xa cách nhau hơn trong xã hội?
+Answer and translate both question and answer, also indicating language : Bạn có nghĩ rằng công nghệ giúp chúng ta gần gũi hơn hay làm cho chúng ta xa cách nhau hơn trong xã hội?
 ¿Qué libro o película te ha dejado una impresión duradera y cómo ha influido en tu vida?
 Help me study Executive Management: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-คุณคิดว่าเทคโนโลยีทำให้เรามีความใกล้ชิดกันมากขึ้นหรือทำให้เราห่างเหินกันมากขึ้นในสังคม?
+Answer and translate both question and answer, also indicating language : คุณคิดว่าเทคโนโลยีทำให้เรามีความใกล้ชิดกันมากขึ้นหรือทำให้เราห่างเหินกันมากขึ้นในสังคม?
 Help me study Economics: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 ¿Cuáles son los principales desafíos éticos que enfrenta el desarrollo de la inteligencia artificial y cómo deberían abordarse?
-Wenn du für einen Tag eine Superkraft haben könntest, welche würdest du wählen und was würdest du damit tun?
-Cuốn sách hoặc bộ phim nào đã ảnh hưởng sâu sắc đến bạn và nó đã tác động đến cuộc sống của bạn như thế nào?
+Answer and translate both question and answer, also indicating language : Wenn du für einen Tag eine Superkraft haben könntest, welche würdest du wählen und was würdest du damit tun?
+Answer and translate both question and answer, also indicating language : Cuốn sách hoặc bộ phim nào đã ảnh hưởng sâu sắc đến bạn và nó đã tác động đến cuộc sống của bạn như thế nào?
 Help me study Finances: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-หนังสือหรือภาพยนตร์เรื่องไหนที่ทำให้คุณรู้สึกประทับใจมากที่สุด และมันมีผลต่อชีวิตของคุณอย่างไร?
+Answer and translate both question and answer, also indicating language : หนังสือหรือภาพยนตร์เรื่องไหนที่ทำให้คุณรู้สึกประทับใจมากที่สุด และมันมีผลต่อชีวิตของคุณอย่างไร?
 Help me study Design: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
+Answer and translate both question and answer, also indicating language : ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
 Help me study Fashion: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Địa điểm nào bạn đã từng đến mà bạn cảm thấy ấn tượng nhất, và điều gì làm cho nó trở nên đặc biệt?
-หนังสือหรือภาพยนตร์เรื่องไหนที่ทำให้คุณรู้สึกประทับใจมากที่สุด และมันมีผลต่อชีวิตของคุณอย่างไร?
+Answer and translate both question and answer, also indicating language : Địa điểm nào bạn đã từng đến mà bạn cảm thấy ấn tượng nhất, và điều gì làm cho nó trở nên đặc biệt?
+Answer and translate both question and answer, also indicating language : หนังสือหรือภาพยนตร์เรื่องไหนที่ทำให้คุณรู้สึกประทับใจมากที่สุด และมันมีผลต่อชีวิตของคุณอย่างไร?
 Help me study Photography: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 ¿Crees que la tecnología nos acerca o nos aleja más como sociedad?
 Help me study Animation: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
-Nếu bạn có thể có một siêu năng lực trong một ngày, bạn sẽ chọn năng lực nào và bạn sẽ làm gì với nó?
+Answer and translate both question and answer, also indicating language : ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
+Answer and translate both question and answer, also indicating language : Nếu bạn có thể có một siêu năng lực trong một ngày, bạn sẽ chọn năng lực nào và bạn sẽ làm gì với nó?
 ¿Cuáles son los principales desafíos éticos que enfrenta el desarrollo de la inteligencia artificial y cómo deberían abordarse?
 Help me study Special Effects: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
+Answer and translate both question and answer, also indicating language : Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
 Help me study Dentistry: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
+Answer and translate both question and answer, also indicating language : ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
 Help me study Martial Arts: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 Si pudieras tener un superpoder por un día, ¿cuál elegirías y qué harías con él?
-Nếu bạn có thể có một siêu năng lực trong một ngày, bạn sẽ chọn năng lực nào và bạn sẽ làm gì với nó?
+Answer and translate both question and answer, also indicating language : Nếu bạn có thể có một siêu năng lực trong một ngày, bạn sẽ chọn năng lực nào và bạn sẽ làm gì với nó?
 Help me study Sports: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Si unam diem superpotestatem habere posses, quam eliges et quid cum ea faceres?
+Answer and translate both question and answer, also indicating language : Si unam diem superpotestatem habere posses, quam eliges et quid cum ea faceres?
 Help me study javascript: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
-Cuốn sách hoặc bộ phim nào đã ảnh hưởng sâu sắc đến bạn và nó đã tác động đến cuộc sống của bạn như thế nào?
+Answer and translate both question and answer, also indicating language : Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
+Answer and translate both question and answer, also indicating language : Cuốn sách hoặc bộ phim nào đã ảnh hưởng sâu sắc đến bạn và nó đã tác động đến cuộc sống của bạn như thế nào?
 Help me study HTML: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-คุณคิดว่าเทคโนโลยีทำให้เรามีความใกล้ชิดกันมากขึ้นหรือทำให้เราห่างเหินกันมากขึ้นในสังคม?
+Answer and translate both question and answer, also indicating language : คุณคิดว่าเทคโนโลยีทำให้เรามีความใกล้ชิดกันมากขึ้นหรือทำให้เราห่างเหินกันมากขึ้นในสังคม?
 What SQL query would you use to select all columns from a table named "employees"?
 How can you filter records in a SQL query to only show results where the "salary" is greater than 50000?
 What is the SQL syntax to join two tables, "orders" and "customers," on a common column?
@@ -1313,9 +1311,9 @@ What SQL function would you use to concatenate two string columns in a query?
 How can you retrieve unique values from a column using SQL?
 What is the syntax for creating an index on a column in a SQL table to improve query performance?
 Help me study C Programming languaje: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
-ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
-Địa điểm nào bạn đã từng đến mà bạn cảm thấy ấn tượng nhất, và điều gì làm cho nó trở nên đặc biệt?
+Answer and translate both question and answer, also indicating language : ถ้าคุณมีพลังพิเศษได้หนึ่งวัน คุณจะเลือกพลังไหนและคุณจะทำอะไรด้วยมัน?
+Answer and translate both question and answer, also indicating language : ถ้าคุณสามารถทานข้าวกับบุคคลในประวัติศาสตร์ได้ คุณจะเลือกใครและทำไม?
+Answer and translate both question and answer, also indicating language : Địa điểm nào bạn đã từng đến mà bạn cảm thấy ấn tượng nhất, và điều gì làm cho nó trở nên đặc biệt?
 Help me study Perl: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
 What formula would you use to find the average of a range of numbers in Excel?
 How can you use the VLOOKUP function to search for a value in a table?
@@ -1335,65 +1333,65 @@ What formula would you use to round a number to a specified number of decimal pl
 If you want to avoid displaying an error message when a formula returns an error, which formula could help you manage that?
 Si unam diem superpotestatem habere posses, quam eliges et quid cum ea faceres?
 Help me study Maritime Law: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
-Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
+Answer and translate both question and answer, also indicating language : यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
+Answer and translate both question and answer, also indicating language : Nếu bạn có thể ăn tối với một nhân vật lịch sử nào đó, bạn sẽ chọn ai và tại sao?
 Help me study Captain's license study guide: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
+Answer and translate both question and answer, also indicating language : आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
 Help me study Private Pilot certificate: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
+Answer and translate both question and answer, also indicating language : क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
 Help me study Magic: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Denk je dat technologie ons meer bij elkaar brengt of ons van elkaar verwijdert?
+Answer and translate both question and answer, also indicating language : Denk je dat technologie ons meer bij elkaar brengt of ons van elkaar verwijdert?
 Help me study Scuba Diving: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
+Answer and translate both question and answer, also indicating language : Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
 Help me study Acting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Welk boek of welke film heeft de grootste indruk op je gemaakt en hoe heeft het je leven beïnvloed?
+Answer and translate both question and answer, also indicating language : Welk boek of welke film heeft de grootste indruk op je gemaakt en hoe heeft het je leven beïnvloed?
 Help me study Journalism: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
+Answer and translate both question and answer, also indicating language : अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
 Help me study Spanish: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
+Answer and translate both question and answer, also indicating language : यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
 Help me study French: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Si cum quocumque historico cenare possis, quem eligeres et cur?
+Answer and translate both question and answer, also indicating language : Si cum quocumque historico cenare possis, quem eligeres et cur?
 Help me study Japanese: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Als je voor één dag een superkracht zou kunnen hebben, welke zou je kiezen en wat zou je ermee doen?
+Answer and translate both question and answer, also indicating language : Als je voor één dag een superkracht zou kunnen hebben, welke zou je kiezen en wat zou je ermee doen?
 Help me study Web Development: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
+Answer and translate both question and answer, also indicating language : आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
 Help me study CNC: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
+Answer and translate both question and answer, also indicating language : Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
 Help me study Machining: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
+Answer and translate both question and answer, also indicating language : Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
 Help me study Pharmacy: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
+Answer and translate both question and answer, also indicating language : यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
 Help me study Nurseing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
+Answer and translate both question and answer, also indicating language : यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
 Help me study Painting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
+Answer and translate both question and answer, also indicating language : अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
 Help me study Writing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Credisne technologiam nos magis iuxta collocare aut magis separare?
+Answer and translate both question and answer, also indicating language : Credisne technologiam nos magis iuxta collocare aut magis separare?
 Help me study Marketing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Welk boek of welke film heeft de grootste indruk op je gemaakt en hoe heeft het je leven beïnvloed?
+Answer and translate both question and answer, also indicating language : Welk boek of welke film heeft de grootste indruk op je gemaakt en hoe heeft het je leven beïnvloed?
 Help me study Social Studies: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
+Answer and translate both question and answer, also indicating language : आपके जीवन में सबसे प्रेरणादायक व्यक्ति कौन है, और उन्होंने आपको किस तरह से प्रभावित किया है?
 Help me study Wheather: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Quod liber aut film te maxime impressit et quomodo vitam tuam affecit?
-Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
+Answer and translate both question and answer, also indicating language : Quod liber aut film te maxime impressit et quomodo vitam tuam affecit?
+Answer and translate both question and answer, also indicating language : Quod locum maximē mirabilem visitavisti, et quid illum tam speciale reddidit?
 Help me study Social Engeneक्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?ering: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
+Answer and translate both question and answer, also indicating language : क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
 Help me study Hacker: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
-Si unam diem superpotestatem habere posses, quam eliges et quid cum ea faceres?
+Answer and translate both question and answer, also indicating language : यदि आपको किसी एक समय में वापस जाने का मौका मिले, तो आप किस समय में जाना चाहेंगे और क्यों?
+Answer and translate both question and answer, also indicating language : Si unam diem superpotestatem habere posses, quam eliges et quid cum ea faceres?
 Help me study Pentesting: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
+Answer and translate both question and answer, also indicating language : अगर आपको एक दिन के लिए किसी भी जानवर के रूप में जीने का मौका मिले, तो आप किस जानवर को चुनेंगे और क्यों?
 Help me study Network Security: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Denk je dat technologie ons meer bij elkaar brengt of ons van elkaar verwijdert?
+Answer and translate both question and answer, also indicating language : Denk je dat technologie ons meer bij elkaar brengt of ons van elkaar verwijdert?
 Help me study Artificial Inteligence: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Quod liber aut film te maxime impressit et quomodo vitam tuam affecit?
-Si cum quocumque historico cenare possis, quem eligeres et cur?
+Answer and translate both question and answer, also indicating language : Quod liber aut film te maxime impressit et quomodo vitam tuam affecit?
+Answer and translate both question and answer, also indicating language : Si cum quocumque historico cenare possis, quem eligeres et cur?
 Help me study Communications: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
+Answer and translate both question and answer, also indicating language : यदि आपको एक नई भाषा सीखने का मौका मिले, तो आप कौन सी भाषा सीखना चाहेंगे और इसके पीछे का कारण क्या है?
 Help me study Banking: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Als je voor één dag een superkracht zou kunnen hebben, welke zou je kiezen en wat zou je ermee doen?
+Answer and translate both question and answer, also indicating language : Als je voor één dag een superkracht zou kunnen hebben, welke zou je kiezen en wat zou je ermee doen?
 Help me study Investing: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
-Credisne technologiam nos magis iuxta collocare aut magis separare?
+Answer and translate both question and answer, also indicating language : क्या आपको लगता है कि कला और संस्कृति समाज में महत्वपूर्ण भूमिका निभाते हैं? क्यों?
+Answer and translate both question and answer, also indicating language : Credisne technologiam nos magis iuxta collocare aut magis separare?
 Help me study Real State: write a sentence for me to fill in the blank, and I'll try to pick the correct option. Then you can rate me by adding a point to a counter and continue the questioning, always with same subject until I ask you to stop.
-Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
+Answer and translate both question and answer, also indicating language : Wat was de meest fascinerende plek die je ooit bezocht hebt en wat maakte het zo speciaal?
