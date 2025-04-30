@@ -126,8 +126,10 @@ soupsieve==2.3.2.post1
 SQLAlchemy==2.0.25
 sqlparse==0.4.4
 stack-data==0.5.1
-streamlit==1.31.0
-streamlit_shadcn_ui==0.1.18
+streamlit
+streamlit_shadcn_ui
+#streamlit==1.31.0
+#streamlit_shadcn_ui==0.1.18
 sympy==1.12
 tenacity==8.2.3
 terminado==0.16.0
