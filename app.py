@@ -16,7 +16,7 @@ class Prompt1:
     title: str
     name: str
 
-##### New
+# Define a function to Clean Markdown Characters from text to Audio 
 def clean_text(text):
     # Define replacement rules
     replacements = {
@@ -47,7 +47,6 @@ def clean_text(text):
     # Remove multiple spaces and extra line breaks
     text = re.sub(r'\s+', ' ', text).strip()
     return text
-####### New
 
 
 # Define a function to convert text to Audio using gTTS
@@ -373,20 +372,7 @@ def main():
             st.session_state.translation = clean_text(st.session_state.translation)
             convert_text_to_mp3(st.session_state.translation, supported_languages[target_language], Accent)
         
-        ####### Old code
-        #if  st.session_state.translation: 
-        #    nl = '  \nResponse :  \n  \n  ' 
-        #    st.session_state.translation = st.session_state.translation.replace('**', '  ')
-        #    st.session_state.translation = st.session_state.translation.replace('*', ' ')
-        #    st.session_state.translation = st.session_state.translation.replace('`', ' ')
-        #    st.session_state.translation = st.session_state.translation.replace('"', ' ')
-        #    st.session_state.translation = st.session_state.translation.replace("'", " ")     
-        #    st.session_state.translation = st.session_state.translation.replace("_", " ")   
-        #    st.session_state.translation = st.session_state.translation.replace("__", "  ")                 
-        #    st.session_state.translation = nl + st.session_state.translation
-        #    convert_text_to_mp3(st.session_state.translation, supported_languages[target_language], Accent)
-        ####### Old code
-
+        
         if "translation" not in st.session_state:
             st.session_state.translation = ""
         
@@ -394,7 +380,8 @@ def main():
             st.audio("translation.mp3", format="audio/mpeg",)
             container = st.container(border=True)
             with st.container(height= 600):
-                 st.write(llm_answer) 
+                 #st.write(llm_answer) 
+                 st.code(llm_answer, language="python", line_numbers=False, wrap_lines=True, height=550)
                  user_question = []
         
             
