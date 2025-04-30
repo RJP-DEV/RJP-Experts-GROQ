@@ -381,7 +381,7 @@ def main():
             container = st.container(border=True)
             with st.container(height= 600):
                  #st.write(llm_answer) 
-                 st.code(llm_answer, language="python", line_numbers=False, height=550)
+                 st.code(llm_answer, language="python", line_numbers=False)
                  user_question = []
         
             
