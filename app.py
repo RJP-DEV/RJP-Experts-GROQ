@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import os
+import re
 import random
 from groq import Groq
 from PIL import Image
@@ -385,7 +386,7 @@ def main():
         #    st.session_state.translation = nl + st.session_state.translation
         #    convert_text_to_mp3(st.session_state.translation, supported_languages[target_language], Accent)
         ####### Old code
-        
+
         if "translation" not in st.session_state:
             st.session_state.translation = ""
         
