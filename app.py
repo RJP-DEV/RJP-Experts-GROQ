@@ -220,13 +220,15 @@ def main():
     filtered_models = [ model for model in available_models  if ('whisper' not in model.id) and ('tts' not in model.id) and ('guard' not in model.id) ]
 
     # Prepare a dictionary of model metadata
-    models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
+    #models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
+    models = sorted({ model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }, key=lambda m: m["name"] )
+
 
     # -------------------------------------------------
     # 3️⃣ Sort by the "name" field
     # -------------------------------------------------
     # ---- Option A: a plain list of the sorted model dicts ----
-    models = sorted(models.values(), key=lambda m: m["name"])
+    #models = sorted(models.values(), key=lambda m: m["name"])
     
 
     # Display the Groq logo
