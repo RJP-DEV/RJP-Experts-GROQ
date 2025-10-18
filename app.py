@@ -222,6 +222,12 @@ def main():
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
 
+    # -------------------------------------------------
+    # 3️⃣ Sort by the "name" field
+    # -------------------------------------------------
+    # ---- Option A: a plain list of the sorted model dicts ----
+    models = sorted(models.values(), key=lambda m: m["name"])
+    
 
     # Display the Groq logo
     col1, col2 = st.columns([2, 1])  
