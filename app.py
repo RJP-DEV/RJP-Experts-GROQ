@@ -168,15 +168,15 @@ def reset_chat_on_model_change():
     uploaded_file = None
     base64_image = None
 
-def search_web(query):
-    params = {
-        "q": query,
-        "api_key": SERPAPI_KEY,
-        "engine": "google"
-    }
-    search = GoogleSearch(params)
-    results = search.get_dict()
-    return results.get("organic_results", [])
+#def search_web(query):
+#    params = {
+#        "q": query,
+#        "api_key": SERPAPI_KEY,
+#        "engine": "google"
+#    }
+#    search = GoogleSearch(params)
+#    results = search.get_dict()
+#    return results.get("organic_results", [])
 
 # Cache the model fetching function to improve performance
 @st.cache_data
@@ -190,9 +190,9 @@ def fetch_available_models():
 
 
     # Initialize API keys
-    SERPAPI_KEY  = st.secrets["SERPAPI_KEY"]
+    # SERPAPI_KEY  = st.secrets["SERPAPI_KEY"]
     # Get Groq API key
-    groq_api_key = st.secrets["key"]
+    # groq_api_key = st.secrets["key"]
 
 
     # Initialize Groq client
@@ -385,7 +385,7 @@ def main():
               st.session_state.target_lang = "Argentino2"  
               Accent = "com.ar" 
            else:
-              st.session_state.target_lang = detect_source_language(client, llm_answer)
+              st.session_state.target_lang = detect_source_language(client, model, llm_answer)
         
         target_language = st.session_state.target_lang
 
