@@ -1,6 +1,5 @@
 import streamlit as st
 import streamlit.components.v1 as components
-from streamlit_sortables import sort_items
 import os
 import re
 import random
@@ -219,10 +218,7 @@ def main():
            
     # Load available models and filter them
     available_models = fetch_available_models()    
-
-    sorted_models = sort_items(available_models)
-
-    filtered_models = [ model for model in sorted_models  if ('whisper' not in model.id) and ('tts' not in model.id) and ('guard' not in model.id) ]
+    filtered_models = [ model for model in available_models  if ('whisper' not in model.id) and ('tts' not in model.id) and ('guard' not in model.id) ]
 
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
