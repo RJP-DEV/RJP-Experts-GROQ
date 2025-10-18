@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
+from streamlit_sortables import sort_items
 import os
 import re
 import random
@@ -9,6 +10,7 @@ from dataclasses import dataclass
 from languages import supported_languages
 from Gaccents import AccentList
 from gtts import gTTS 
+
 # from serpapi import GoogleSearch
 
 @dataclass
@@ -217,14 +219,14 @@ def main():
            
     # Load available models and filter them
     available_models = fetch_available_models()
-    sorted_models = sorted(available_models())
-    available_models = sorted_models()
+    
     filtered_models = [ model for model in available_models  if ('whisper' not in model.id) and ('tts' not in model.id) and ('guard' not in model.id) ]
 
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
     
-    
+    sorted_models = sort_items(models)
+    models= sorted_models
 
     # Display the Groq logo
     col1, col2 = st.columns([2, 1])  
