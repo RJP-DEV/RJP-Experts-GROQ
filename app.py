@@ -218,16 +218,16 @@ def main():
     llm_answer = []
            
     # Load available models and filter them
-    available_models = fetch_available_models()
-    
-    filtered_models = [ model for model in available_models  if ('whisper' not in model.id) and ('tts' not in model.id) and ('guard' not in model.id) ]
+    available_models = fetch_available_models()    
+
+    sorted_models = sort_items(available_models)
+
+    filtered_models = [ model for model in sorted_models  if ('whisper' not in model.id) and ('tts' not in model.id) and ('guard' not in model.id) ]
 
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
     
-    sorted_models = sort_items(models)
-    models= sorted_models
-
+    
     # Display the Groq logo
     col1, col2 = st.columns([2, 1])  
     # The title and greeting message of the Streamlit application
