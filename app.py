@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from languages import supported_languages
 from Gaccents import AccentList
 from gtts import gTTS 
-from serpapi import GoogleSearch
+# from serpapi import GoogleSearch
 
 @dataclass
 class Prompt1:
