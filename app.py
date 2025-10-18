@@ -216,7 +216,9 @@ def main():
     llm_answer = []
            
     # Load available models and filter them
-    available_models = sorted(fetch_available_models())
+    available_models = fetch_available_models()
+    sorted_models = sorted(available_models())
+    available_models = sorted_models()
     filtered_models = [ model for model in available_models  if ('whisper' not in model.id) and ('tts' not in model.id) and ('guard' not in model.id) ]
 
     # Prepare a dictionary of model metadata
