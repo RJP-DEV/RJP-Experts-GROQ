@@ -9,6 +9,7 @@ from dataclasses import dataclass
 from languages import supported_languages
 from Gaccents import AccentList
 from gtts import gTTS 
+from serpapi import GoogleSearch
 
 @dataclass
 class Prompt1:
@@ -64,7 +65,7 @@ def convert_text_to_mp3(text: str, target_language_code: str, Accent: str) -> No
     return
    
 # Define a function to detect the language in the input user text and return language in proper case.
-def detect_source_language(client, text: str ) -> str:
+def detect_source_language(client, model, text: str ) -> str:
     """Detect the language of source text
     :type text: str
     :param text: Source text to detect language
@@ -75,9 +76,9 @@ def detect_source_language(client, text: str ) -> str:
     idioma= "In which language is the following text written in? :" +  text  
 
     response = client.chat.completions.create(
-        model="gemma2-9b-it",
+        model=model,
         messages=[ { "role": "system", "content": instruccion }, { "role": "user",   "content": idioma } ],
-        temperature=0
+        temperature=0.11
     )
     
     source_language = response.choices[0].message.content.strip()
@@ -167,6 +168,16 @@ def reset_chat_on_model_change():
     uploaded_file = None
     base64_image = None
 
+def search_web(query):
+    params = {
+        "q": query,
+        "api_key": SERPAPI_KEY,
+        "engine": "google"
+    }
+    search = GoogleSearch(params)
+    results = search.get_dict()
+    return results.get("organic_results", [])
+
 # Cache the model fetching function to improve performance
 @st.cache_data
 def fetch_available_models():
@@ -176,6 +187,13 @@ def fetch_available_models():
     """
     # Get Groq API key
     groq_api_key = st.secrets["key"]
+
+
+    # Initialize API keys
+    SERPAPI_KEY  = st.secrets["SERPAPI_KEY"]
+    # Get Groq API key
+    groq_api_key = st.secrets["key"]
+
 
     # Initialize Groq client
     client = Groq( api_key=groq_api_key )
@@ -199,7 +217,7 @@ def main():
            
     # Load available models and filter them
     available_models = fetch_available_models()
-    filtered_models = [ model for model in available_models  if ('whisper' not in model.id) and ('tts' not in model.id) ]
+    filtered_models = [ model for model in available_models  if ('whisper' not in model.id) and ('tts' not in model.id) and ('guard' not in model.id) ]
 
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }

@@ -40,7 +40,6 @@ httpx==0.26.0
 huggingface-hub==0.20.3
 idna==3.4
 importlib-metadata==7.0.1
-
 ipykernel==6.16.1
 ipython==8.5.0
 ipython-genutils==0.2.0
@@ -128,8 +127,6 @@ sqlparse==0.4.4
 stack-data==0.5.1
 streamlit
 streamlit_shadcn_ui
-#streamlit==1.31.0
-#streamlit_shadcn_ui==0.1.18
 sympy==1.12
 tenacity==8.2.3
 terminado==0.16.0
