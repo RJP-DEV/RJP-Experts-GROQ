@@ -126,6 +126,7 @@ SQLAlchemy==2.0.25
 sqlparse==0.4.4
 stack-data==0.5.1
 streamlit
+streamlit_sortables
 streamlit_shadcn_ui
 sympy==1.12
 tenacity==8.2.3
