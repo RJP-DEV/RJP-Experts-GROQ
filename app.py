@@ -323,7 +323,7 @@ def main():
     promptx = Prompt3.name
 
     # Add customization options Localization Accent in the sidebar
-    Selected_Accent=st.sidebar.selectbox('Localization Accent', AccentList)
+    Selected_Accent=st.sidebar.selectbox('Localization Accent', AccentList, index=1)
     
     #Accent=AccentList.get(Selected_Accent, "us" )
     Accent=AccentList.get(Selected_Accent)
