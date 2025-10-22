@@ -252,7 +252,7 @@ def main():
     model = st.sidebar.selectbox(
         'Select a Model',
           options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})",
-          index=0
+          index=3
     )
    
 
