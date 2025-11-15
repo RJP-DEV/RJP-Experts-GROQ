@@ -5,10 +5,11 @@ import re
 import random
 from groq import Groq
 from PIL import Image
+from gtts import gTTS 
 from dataclasses import dataclass
 from languages import supported_languages
 from Gaccents import AccentList
-from gtts import gTTS 
+
 
 # from serpapi import GoogleSearch
 
