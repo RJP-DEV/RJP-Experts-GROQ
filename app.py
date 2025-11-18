@@ -202,7 +202,9 @@ def fetch_available_models():
 
     try:
         models_response = client.models.list()
-        return models_response.data
+        sorted_models = sorted(models_response, key=lambda m: m.id)
+        return sorted_models.data
+      #  return models_response.data
     except Exception as e:
         st.error(f"Error fetching models: {e}")
         return []
