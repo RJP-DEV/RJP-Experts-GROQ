@@ -231,8 +231,8 @@ def main():
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
 
          
-    for model in available_models:
-        print(model)
+    #for model in available_models:
+    #    print(model)
     
     
     # Display the Groq logo
