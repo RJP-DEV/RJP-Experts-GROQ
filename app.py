@@ -201,13 +201,8 @@ def fetch_available_models():
     client = Groq( api_key=groq_api_key )
 
     try:
-        models_response = client.models.list()
-                
-        # Access the models data which is a list of Model objects
-        models_list = list(models_response) # Convert the iterator to a list
-
-        sorted_models = models_list.sort(key=lambda Model: Model.id, reverse=True)
-
+        sorted_models = client.models.list()
+                     
         return sorted_models.data
       
     except Exception as e:
@@ -231,7 +226,9 @@ def main():
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
 
-    for model in available_models:
+    sorted_models = models.sort(key=lambda model: model.id, reverse=True)
+     
+    for model in sorted_models:
         print(model)
     
     
