@@ -202,7 +202,7 @@ def fetch_available_models():
 
     try:
         models_response = client.models.list()
-        sorted_models = sorted(models_response, key=lambda m: m.id)
+        sorted_models = sorted(models_response, key=lambda m: m.owned_by)
         return sorted_models.data
       #  return models_response.data
     except Exception as e:
