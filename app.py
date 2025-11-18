@@ -203,8 +203,10 @@ def fetch_available_models():
     try:
         models_response = client.models.list()
                 
-        
-        sorted_models =  models_response.sort()
+        # Access the models data which is a list of Model objects
+        models_list = list(models_response) # Convert the iterator to a list
+
+        sorted_models = models_list.sort(key=lambda model: model.created, reverse=True)
 
         return sorted_models.data
       
