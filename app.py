@@ -204,7 +204,7 @@ def fetch_available_models():
         models_response = client.models.list()
                 
         
-        sorted_models = models_response
+        sorted_models =  models_response.sort()
 
         return sorted_models.data
       
