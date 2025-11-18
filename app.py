@@ -203,9 +203,8 @@ def fetch_available_models():
     try:
         models_response = client.models.list()
                 
-        print(client.models.list())
-
-        sorted_models = sorted(models_response, key=lambda model: model.id)
+        
+        sorted_models = models_response
 
         return sorted_models.data
       
