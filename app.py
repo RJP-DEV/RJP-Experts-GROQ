@@ -206,7 +206,7 @@ def fetch_available_models():
 
         models_list = client.models.list().data
         # Sort the list of model objects by their 'id' (model name)
-        models_list.sort(key=lambda x: x.created)
+        models_list.sort(key=lambda x: x.id)
         return models_list
       
     except Exception as e:
@@ -263,7 +263,7 @@ def main():
     model = st.sidebar.selectbox(
         'Select a Model',
           options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})",
-          index=4
+          index=1
     )
    
 
