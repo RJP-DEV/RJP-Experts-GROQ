@@ -201,9 +201,13 @@ def fetch_available_models():
     client = Groq( api_key=groq_api_key )
 
     try:
-        sorted_models = client.models.list()
-                     
-        return sorted_models.data
+        #sorted_models = client.models.list()
+        #return sorted_models.data
+
+        models_list = client.models.list().data
+        # Sort the list of model objects by their 'id' (model name)
+        models_list.sort(key=lambda x: x.id)
+        return models_list
       
     except Exception as e:
         st.error(f"Error fetching models: {e}")
@@ -226,9 +230,8 @@ def main():
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
 
-    sorted_models = models.sort(key=lambda model: model.id, reverse=True)
-     
-    for model in sorted_models:
+         
+    for model in available_models:
         print(model)
     
     
