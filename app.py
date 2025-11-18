@@ -202,6 +202,11 @@ def fetch_available_models():
 
     try:
         models_response = client.models.list()
+
+        sorted_models = sorted(models_response.data, key=lambda m: m.name)
+        for model in sorted_models:
+            print(model.name)
+
         return models_response.data
     except Exception as e:
         st.error(f"Error fetching models: {e}")
