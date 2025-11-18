@@ -206,7 +206,7 @@ def fetch_available_models():
 
         models_list = client.models.list().data
         # Sort the list of model objects by their 'id' (model name)
-        models_list.sort(key=lambda x: x.id)
+        models_list.sort(key=lambda x: x.created)
         return models_list
       
     except Exception as e:
