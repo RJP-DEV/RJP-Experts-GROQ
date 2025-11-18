@@ -201,26 +201,14 @@ def fetch_available_models():
     client = Groq( api_key=groq_api_key )
 
     try:
-        # models_response = client.models.list()
-        #####
-         
-        # Get the list of models
         models_response = client.models.list()
-        # Convert the response to a list if it's not already (it often returns an iterable/pageable object)
-        models = list(models_response)
-        # Sort the list of models by their 'id' attribute
-        # Assuming each model object has an 'id' attribute
-        sorted_models = sorted(models, key=lambda model: model.id)
-        # Print the ordered models (e.g., just their IDs)
-        for model in sorted_models:
-            print(model.id)
+                
+        print(client.models.list())
 
+        sorted_models = sorted(models_response, key=lambda model: model.id)
 
-
-        #####
-        #sorted_models = sorted(models_response, key=lambda model: model.id)
         return sorted_models.data
-      #  return models_response.data
+      
     except Exception as e:
         st.error(f"Error fetching models: {e}")
         return []
