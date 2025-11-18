@@ -202,9 +202,6 @@ def fetch_available_models():
 
     try:
         models_response = client.models.list()
-
-        print(models_response.data)
-
         return models_response.data
     except Exception as e:
         st.error(f"Error fetching models: {e}")
@@ -226,6 +223,9 @@ def main():
 
     # Prepare a dictionary of model metadata
     models = { model.id: { "name": model.id, "tokens": 4000, "developer": model.owned_by, } for model in filtered_models }
+
+    for model in available_models:
+        print(model)
     
     
     # Display the Groq logo
