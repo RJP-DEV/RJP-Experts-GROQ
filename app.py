@@ -260,7 +260,7 @@ def main():
     # Add customization options to the sidebar
     st.sidebar.title('Customization')
         
-    model = st.sidebar.selectbox('Select a Model', options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})", index=3 )
+    model = st.sidebar.selectbox('Select a Model', options=list(models.keys()), format_func=lambda x: f"{models[x]['name']} ({models[x]['developer']})", index=4 )
    
 
 
