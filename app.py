@@ -11,13 +11,15 @@ from languages import supported_languages
 from Gaccents import AccentList
 
 
-# from serpapi import GoogleSearch
+
 
 @dataclass
 class Prompt1:
     id: str
     title: str
     name: str
+
+
 
 # Define a function to Clean Markdown Characters from text to Audio 
 def clean_text(text):
@@ -166,19 +168,14 @@ def get_random_formula(file_path):
 # Define a function to clear messages when the model changes
 def reset_chat_on_model_change():
     st.session_state.messages = []
+# last addition    
+    st.session_state['user_question_history'] = []
+    st.session_state['chatbot_answer_history'] = []
+# end last addition    
     st.session_state.image_used = False
     uploaded_file = None
     base64_image = None
 
-#def search_web(query):
-#    params = {
-#        "q": query,
-#        "api_key": SERPAPI_KEY,
-#        "engine": "google"
-#    }
-#    search = GoogleSearch(params)
-#    results = search.get_dict()
-#    return results.get("organic_results", [])
 
 # Cache the model fetching function to improve performance
 @st.cache_data
@@ -189,12 +186,6 @@ def fetch_available_models():
     """
     # Get Groq API key
     groq_api_key = st.secrets["key"]
-
-
-    # Initialize API keys
-    # SERPAPI_KEY  = st.secrets["SERPAPI_KEY"]
-    # Get Groq API key
-    # groq_api_key = st.secrets["key"]
 
 
     # Initialize Groq client
@@ -245,7 +236,8 @@ def main():
         image = Image.open('groqcloud_darkmode.png')
         g_image = image.resize((100, 25))
         st.image(g_image)
-         
+
+    
     st.latex(get_random_formula('formulas.txt'))
     st.divider()
     st.caption("We are your friendly Artificial Intelligence Experts, Provided by Raul Perez Development Studio.")
@@ -336,7 +328,7 @@ def main():
     Accent=AccentList.get(Selected_Accent)
     
     # Add customization options conversational memory length in the sidebar
-    conversational_memory_length = st.sidebar.slider('Conversational memory:', 1, 10, value = 5)
+    conversational_memory_length = st.sidebar.slider('Conversational memory:', 1, 10, value = 2)
 
     # Add customization options temperature in the sidebar
     temperaturex = st.sidebar.slider('Temperature:', 0.00, 2.00, value = 0.50)
@@ -426,8 +418,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-random_prompt = get_random_prompt('starter_prompt.txt')
-print(random_prompt)
-
-
+#random_prompt = get_random_prompt('starter_prompt.txt')
+#print(random_prompt)
 
