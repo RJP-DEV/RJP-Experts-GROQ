@@ -105,8 +105,6 @@ def chat_with_groq(client,promptx,prompt,model,temperaturex):
     temperature=temperaturex,
     max_completion_tokens=1024,
     top_p=1,
-    stream=True,
-    stop=None,
     compound_custom={"tools":{"enabled_tools":["web_search","code_interpreter","visit_website"]}}
     )
   
