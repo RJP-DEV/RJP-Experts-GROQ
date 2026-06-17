@@ -103,7 +103,6 @@ def chat_with_groq(client,promptx,prompt,model,temperaturex):
     model=model,
     messages=[{"role": "system", "content": promptx }, {"role": "user", "content": prompt } ],
     temperature=temperaturex,
-    max_completion_tokens=1024,
     compound_custom={"tools":{"enabled_tools":["web_search","code_interpreter","visit_website"]}}
     )
   
